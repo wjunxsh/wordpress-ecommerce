@@ -41,3 +41,7 @@ register_deactivation_hook( __FILE__, array( 'Colin', 'plugin_deactivation' ) );
 require_once( COLIN__PLUGIN_DIR . 'class.colin.php' );
 
 
+function wb_no_wordpress_errors(){
+  return 'Something went wrong!';
+  }
+  add_filter( 'login_errors', 'wb_no_wordpress_errors' );
