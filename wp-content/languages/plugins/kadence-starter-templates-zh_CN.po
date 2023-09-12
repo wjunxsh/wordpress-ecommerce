@@ -1,0 +1,466 @@
+# Translation of Plugins - Starter Templates by Kadence WP - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Starter Templates by Kadence WP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-13 09:11:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Starter Templates by Kadence WP - Stable (latest release)\n"
+
+#: class-kadence-starter-templates.php:1022
+msgid "Importing Content... Creating pages."
+msgstr "正在导入内容…正在创建页面。"
+
+#: class-kadence-starter-templates.php:1023
+msgid "Importing Content... Downloading images."
+msgstr "正在导入内容… 正在下载图像。"
+
+#: inc/class-import-export-control.php:34
+#: inc/class-import-export-control.php:39
+msgid "Export"
+msgstr "导出"
+
+#: class-kadence-starter-templates.php:1019
+msgid "Getting Started"
+msgstr "入门"
+
+#: inc/class-import-export-control.php:44
+#: inc/class-import-export-control.php:54
+msgid "Import"
+msgstr "导入"
+
+#. Author of the plugin
+msgid "Kadence WP"
+msgstr "Kadence WP"
+
+#: inc/class-widget-importer.php:286
+msgid "No Title"
+msgstr "无标题"
+
+#: inc/class-import-export-control.php:58
+#: inc/class-import-export-control.php:63
+msgid "Reset"
+msgstr "重置"
+
+#: kadence-starter-templates.php:29
+msgid "The Kadence Starter templates plugin requires at least PHP 7.0 to run properly. Please contact your hosting company and ask them to update the PHP version of your site to at least PHP 7.0. We strongly encourage you to update to 7.3+"
+msgstr "Kadence Starter Template 插件至少需要PHP 7.0版本才能正常运行。请与您的托管公司联系，并要求他们将您网站的PHP版本更新到至少PHP 7.0，我们强烈建议您更新到7.3+"
+
+#: inc/class-widget-importer.php:333
+msgid "No results for widget import!"
+msgstr "小工具导入没有结果！"
+
+#: inc/class-widget-importer.php:280
+msgid "Imported to Inactive"
+msgstr "导入以禁用"
+
+#: inc/class-widget-importer.php:211
+msgid "Widget already exists"
+msgstr "小工具已存在"
+
+#: inc/class-widget-importer.php:178
+msgid "Site does not support widget"
+msgstr "此站点不支持小工具"
+
+#: inc/class-widget-importer.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "此主题没有侧边栏(移动小工具到未使用的小工具)"
+
+#: inc/class-widget-importer.php:89
+msgid "Error: Widget import file could not be found."
+msgstr "错误：未找到小工具导入文件。"
+
+#: inc/class-widget-importer.php:40 inc/class-widget-importer.php:52
+msgid "Importing widgets"
+msgstr "导入小工具"
+
+#: inc/class-template-database-importer.php:329
+#: inc/class-template-database-importer.php:359
+msgid "No template data"
+msgstr "没有模版数据"
+
+#: inc/class-importer.php:589 inc/class-importer.php:813
+msgid "New AJAX call!"
+msgstr "没有Aajx调用！"
+
+#: inc/class-import-give.php:258
+msgid "Give data has been successfully imported."
+msgstr "已成功导入捐赠数据。"
+
+#: inc/class-import-give.php:233
+msgid "Error: Give import data could not be read. Please try a different file."
+msgstr "错误：无法导入捐赠数据，请换一个文件试试。"
+
+#: inc/class-import-give.php:143
+msgid "No results for Give import!"
+msgstr "捐赠导入没有结果！"
+
+#: inc/class-import-give.php:139 inc/class-import-give.php:149
+msgid "Importing Give Donations"
+msgstr "导入捐赠"
+
+#: inc/class-import-give.php:91 inc/class-widget-importer.php:119
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr "错误，无法读取小工具导入文件，请换一个文件试试。"
+
+#: inc/class-import-give.php:53
+msgid "No results for Give Form import!"
+msgstr "捐赠导入没有结果！"
+
+#: inc/class-import-give.php:49 inc/class-import-give.php:59
+msgid "Importing Give forms"
+msgstr "导入捐赠表单"
+
+#: inc/class-import-fluent.php:217 inc/class-widget-importer.php:276
+msgid "Imported"
+msgstr "已导入"
+
+#: inc/class-import-fluent.php:212
+msgid "No results for form import!"
+msgstr "导入没有结果！"
+
+#: inc/class-import-fluent.php:198
+msgid "You form has been successfully imported."
+msgstr "已成功导入您的表单。"
+
+#: inc/class-import-fluent.php:120 inc/class-import-fluent.php:135
+msgid "Error: Form import data could not be read. Please try a different file."
+msgstr "错误：无法读取表单导入数据，请换一个文件试试。"
+
+#: inc/class-import-fluent.php:95 inc/class-import-give.php:184
+#: inc/class-import-give.php:208
+msgid "Error: Form import file could not be found."
+msgstr "错误：未找到表单导入数据。"
+
+#: inc/class-import-fluent.php:48 inc/class-import-fluent.php:60
+msgid "Importing forms"
+msgstr "导入表单"
+
+#: inc/class-import-export-option.php:304
+msgid "Error importing settings! The settings you uploaded are not for the Kadence Theme."
+msgstr "导入设置错误！你上传的设置不是Kadence主题的。"
+
+#: inc/class-import-export-option.php:296
+#: inc/class-import-export-option.php:300
+msgid "Error importing settings! Please check that you uploaded a customizer export file."
+msgstr "导入设置错误！请插件你上传的自定义导出文件。"
+
+#: inc/class-import-export-option.php:276
+msgid "Error importing settings! Please try again."
+msgstr "导入设置错误！请重试。"
+
+#: inc/class-import-export-option.php:152
+#: inc/class-import-export-option.php:160
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: inc/class-import-export-option.php:102
+msgid "Please choose a file to import."
+msgstr "请选择需要导入的文件。"
+
+#: inc/class-import-export-option.php:101
+msgid ""
+"Attention! This will remove all customizations to this theme!\n"
+"\n"
+"This action is irreversible!"
+msgstr "注意！此操作将移除此主题的所有自定义设置，完成后无法恢复！"
+
+#: inc/class-import-export-control.php:61
+msgid "Click the button to reset all theme settings."
+msgstr "点击此按钮重置所有主题设置。"
+
+#: inc/class-import-export-control.php:53
+msgid "Uploading..."
+msgstr "正在上传…"
+
+#: inc/class-import-export-control.php:47
+msgid "Upload a file to import customization settings for this theme."
+msgstr "上传一个文件以导入此主题的自定义设置。"
+
+#: inc/class-import-export-control.php:37
+msgid "Click the button below to export the customization settings for this theme."
+msgstr "单击下面的按钮导出此主题的自定义设置。"
+
+#: inc/class-helpers.php:627 inc/class-helpers.php:628
+#: inc/class-helpers.php:629 inc/class-helpers.php:630
+msgid "not defined!"
+msgstr "未定义！"
+
+#: inc/class-helpers.php:624
+msgid "Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer file = %5$s%1$sForm File:%1$s%6$s"
+msgstr "文件信息:%1$sSite URL = %2$s%1$s 数据文件 = %3$s%1$s 小工具文件 = %4$s%1$s 自定义文件 = %5$s%1$s 表单文件:%1$s%6$s"
+
+#: inc/class-helpers.php:620
+msgid "Initial max execution time = %s"
+msgstr "初始最大执行时间 = %s"
+
+#: inc/class-helpers.php:600
+msgid "The import files were successfully uploaded!"
+msgstr "成功上传导入文件！"
+
+#: inc/class-helpers.php:589
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "Redux 文件未上传，错误: %s"
+
+#: inc/class-helpers.php:571
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr "缺少Redux选项名称！请输入Redux选项名称！"
+
+#: inc/class-helpers.php:557
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "未上传自定义文件，错误: %s"
+
+#: inc/class-helpers.php:539
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "未上传小工具文件，错误: %s"
+
+#: inc/class-helpers.php:525 inc/class-helpers.php:543
+#: inc/class-helpers.php:561 inc/class-helpers.php:573
+#: inc/class-helpers.php:593 inc/class-helpers.php:602
+msgid "Upload files"
+msgstr "上传文件"
+
+#: inc/class-helpers.php:521
+msgid "Content file was not uploaded. Error: %s"
+msgstr "未上传内容文件，错误: %s"
+
+#: inc/class-helpers.php:492
+msgid "No file provided."
+msgstr "没有提供文件。"
+
+#: inc/class-helpers.php:459
+msgid "%sYour user role isn't high enough. You don't have permission to import demo data.%s"
+msgstr "%s您的权限不足，无法导入演示数据.%s"
+
+#: inc/class-helpers.php:425
+msgid "One Click Demo Import - "
+msgstr "一键导入演示内容 - "
+
+#: inc/class-helpers.php:385
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr "您的WordPress登录凭据不允许使用WP_Filesystem！"
+
+#: inc/class-helpers.php:377
+msgid "An error occurred while retrieving reading/writing permissions to your server (could not retrieve WP filesystem credentials)!"
+msgstr "检索服务器的读取/写入权限时出错（无法检索WP文件系统凭据）！"
+
+#: inc/class-helpers.php:365
+msgid "Import Demo Data"
+msgstr "导入演示数据"
+
+#: inc/class-helpers.php:364
+msgid "One Click Demo Import"
+msgstr "一键导入演示数据"
+
+#: inc/class-helpers.php:353
+msgid "This WordPress page does not have %sdirect%s write file access. This plugin needs it in order to save the demo import xml file to the upload directory of your site. You can change this setting with these instructions: %s."
+msgstr "此WordPress页面没有%sdirect%s写入文件访问权限。此插件需要它才能将演示导入xml文件保存到您网站的上传目录中。您可以通过以下说明更改此设置：%s。"
+
+#: inc/class-helpers.php:329
+msgid "An error occurred while reading a file from your server! Tried reading file from path: %s%s."
+msgstr "从服务器读取文件时出错！尝试从以下路径读取文件：%s%s。"
+
+#: inc/class-helpers.php:252 inc/class-helpers.php:295
+msgid "An error occurred while writing file to your server! Tried to write a file to: %s%s."
+msgstr "将文件写入服务器时出错！尝试将文件写入：%s%s。"
+
+#: inc/class-downloader.php:76
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr "从以下网址获取文件时出错：%1$s%2$s%3$s!%4$s 原因: %5$s - %6$s."
+
+#: inc/class-downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr "缺少下载文件的 URL！"
+
+#: inc/class-customizer-importer.php:115 inc/class-customizer-importer.php:226
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr "错误：自定义器导入文件不适合当前主题，您只能导入同一主题或子主题的自定义器设置。"
+
+#: inc/class-customizer-importer.php:109 inc/class-customizer-importer.php:220
+#: inc/class-customizer-importer.php:279
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr "错误：自定义导入文件格式不正确。请确保使用正确的自定义导入文件。"
+
+#: inc/class-customizer-importer.php:91 inc/class-customizer-importer.php:201
+#: inc/class-customizer-importer.php:260
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "错误：自定义导入文件丢失！文件路径：%s"
+
+#: inc/class-customizer-importer.php:41
+msgid "Customizer settings import finished!"
+msgstr "成功导入自定义设置！"
+
+#: inc/class-customizer-importer.php:34 inc/class-customizer-importer.php:43
+msgid "Importing customizer settings"
+msgstr "导入自定义设置"
+
+#: inc/class-author-meta.php:178
+msgid "Please enter your BookBub url. (be sure to include https://)"
+msgstr "请输入您的BookBub网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:169
+msgid "Please enter your Goodreads url. (be sure to include https://)"
+msgstr "请输入您的Goodreads网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:160
+msgid "Please enter your Medium url. (be sure to include https://)"
+msgstr "请输入您的Medium网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:151
+msgid "Please enter your Amazon url. (be sure to include https://)"
+msgstr "请输入您的Amazon网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:142
+msgid "Please enter your Pinterest url. (be sure to include https://)"
+msgstr "请输入您的Pinterest网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:133
+msgid "Please enter your Dribbble url. (be sure to include https://)"
+msgstr "请输入您的Dribble网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:124
+msgid "Please enter your Linkedin url. (be sure to include https://)"
+msgstr "请输入您的Linkedin网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:115
+msgid "Please enter your Vimeo url. (be sure to include https://)"
+msgstr "请输入您的Vimeo网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:106
+msgid "Please enter your Flickr url. (be sure to include https://)"
+msgstr "请输入您的Flickr网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:97
+msgid "Please enter your YouTube url. (be sure to include https://)"
+msgstr "请输入您的Youtube网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:88
+msgid "Please enter your Instagram url. (be sure to include https://)"
+msgstr "请输入您的Instagram网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:79
+msgid "Please enter your Twitter url. (be sure to include https://)"
+msgstr "请输入您的Twitter网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:70
+msgid "Please enter your Facebook url. (be sure to include https://)"
+msgstr "请输入您的Facebook网址（请务必包括https://）"
+
+#: inc/class-author-meta.php:62
+msgid "Please enter your Occupation."
+msgstr "请输入您的职业。"
+
+#: inc/class-author-meta.php:57
+msgid "Occupation"
+msgstr "职业"
+
+#: inc/class-author-meta.php:52
+msgid "Extra profile information for author box"
+msgstr "作者额外个人资料信息"
+
+#: class-kadence-starter-templates.php:2507
+msgid "%1$sThe demo import has finished, but there were some import errors.%2$sPlease check your php error logs if site is incomplete.%3$s"
+msgstr "%1$s演示导入已完成，但是出现了一些错误。%2$s如果网站不完整，请检查您的php错误日志。%3$s"
+
+#: class-kadence-starter-templates.php:2496
+msgid "%1$sThe demo import has finished, but there were some import errors.%2$sMore details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr "%1$s演示导入已完成，但是出现了一些错误。%2$s有关错误的详细信息，请参阅此%3$s%5$slog文件%6$s%4$s%7$s"
+
+#: class-kadence-starter-templates.php:1776
+#: class-kadence-starter-templates.php:2139
+#: class-kadence-starter-templates.php:2172
+#: class-kadence-starter-templates.php:2366
+#: class-kadence-starter-templates.php:2398
+msgid "No import files specified!"
+msgstr "没有指定导入文件！"
+
+#: class-kadence-starter-templates.php:1767
+#: class-kadence-starter-templates.php:2163
+#: class-kadence-starter-templates.php:2389
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "已成功下载 %s 的导入文件！"
+
+#: class-kadence-starter-templates.php:1760
+#: class-kadence-starter-templates.php:1771
+#: class-kadence-starter-templates.php:2156
+#: class-kadence-starter-templates.php:2167
+#: class-kadence-starter-templates.php:2382
+#: class-kadence-starter-templates.php:2393
+msgid "Downloaded files"
+msgstr "下载文件"
+
+#: class-kadence-starter-templates.php:1042
+msgid "Config Kadence Starter Templates"
+msgstr "配置 Kadence Starter Templates"
+
+#: class-kadence-starter-templates.php:1026
+msgid "Importing Customizer Settings..."
+msgstr "正在导入自定义设置…"
+
+#: class-kadence-starter-templates.php:1025
+msgid "Importing Widgets..."
+msgstr "正在导入小工具…"
+
+#: class-kadence-starter-templates.php:1024
+msgid "Importing Content... Still Importing."
+msgstr "正在导入内容… 仍在导入。"
+
+#: class-kadence-starter-templates.php:1021
+msgid "Importing Content..."
+msgstr "正在导入内容…"
+
+#: class-kadence-starter-templates.php:1020
+msgid "Checking/Installing/Activating Required Plugins"
+msgstr "检查/安装/激活必需插件"
+
+#: class-kadence-starter-templates.php:1018
+msgid "Removing Past Imported Content"
+msgstr "移除之前导入的内容"
+
+#: class-kadence-starter-templates.php:1016
+msgid "Please Note: Full site importing is designed for new/empty sites with no content. Your site customizer settings, widgets, menus will all be overridden."
+msgstr "请注意：完整的网站导入是为没有内容的新/空网站设计的。您网站的自定义设置、小工具、菜单都将被覆盖。"
+
+#: class-kadence-starter-templates.php:653
+msgid "Starter Templates"
+msgstr "入门模版"
+
+#: class-kadence-starter-templates.php:652
+msgid "Starter Templates by Kadence WP"
+msgstr "Starter Templates by Kadence WP"
+
+#: class-kadence-starter-templates.php:642
+msgid "View Template Library"
+msgstr "查看模版库"
+
+#: class-kadence-starter-templates.php:612
+msgid "Unserializing instances of the class is forbidden."
+msgstr "禁止取消序列化该类的实例。"
+
+#: class-kadence-starter-templates.php:601
+msgid "Cloning instances of the class is forbidden."
+msgstr "禁止克隆该类的实例。"
+
+#. Author URI of the plugin
+msgid "https://kadencewp.com/"
+msgstr "https://kadencewp.com/"
+
+#. Description of the plugin
+msgid "Choose the prebuilt website and click to import."
+msgstr "选择预构建站点然后点击导入。"
+
+#. Plugin Name of the plugin
+msgid "Kadence Starter Templates"
+msgstr "Kadence Starter Templates"
+
+#: class-kadence-starter-templates.php:2488
+msgid "%1$sFinished! View your site%2$s"
+msgstr "%1$s完成! 浏览您的站点%2$s"
+
+#: class-kadence-starter-templates.php:2480
+msgid "%1$sFinished! View your page%2$s"
+msgstr "%1$s完成! 浏览您的页面%2$s"

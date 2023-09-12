@@ -1,0 +1,5162 @@
+# Translation of Themes - Blocksy in Chinese (China)
+# This file is distributed under the same license as the Themes - Blocksy package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-15 17:24:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Blocksy\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions. Note: Blocksy is built with the latest web technologies in order to bring you the smoothest experience, that told, old browsers like IE 11 and below may not work as expected. We strongly recommend you to update/switch to a modern browser."
+msgstr "Blocksy 是一个使用最新的网络技术构建的快速而轻量级的 WordPress 主题。它是以古腾堡编辑器为基础构建的，并且具有很多使其可扩展和可定制的选项。您可以轻松地创建任何类型的网站，如商业机构、商店、企业、教育、餐厅、博客、作品集、登陆页等。它与流行的 WordPress 页面构建器一起工作，包括 Elementor、Beaver Builder、Visual Composer 和 Brizy，它的工作原理就像一个魅力。由于它是响应式和自适应的、翻译就绪、SEO优化、并内置 WooCommerce，您将体验到轻松的构建，甚至增加转化率。注意：Blocksy 采用了最新的网络技术，以给您带来最流畅的体验。也就是说，像 IE11 及以下的旧浏览器可能无法按预期工作。我们强烈建议您更新/切换到现代浏览器。"
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:147 woocommerce/cart/cart.php:195
+#: woocommerce/cart/mini-cart.php:53
+msgid "Remove %s from cart"
+msgstr "从购物车中删除 %s"
+
+#: admin/dashboard/plugins/config.php:28
+msgid "Build stunning lightbox galleries, masonry grids, custom grids with no more than a few clicks right from the WordPress dashboard."
+msgstr "只需在 WordPress 仪表盘中单击几下，即可构建令人惊叹的灯箱画廊、砌体网格、自定义网格。"
+
+#: inc/panel-builder/header/menu/options.php:135
+msgid "Collapse menu items in to a dropdown if there is no enough room in the row. "
+msgstr "如果行中没有足够的空间， 则将菜单项折叠到下拉列表中。 "
+
+#: inc/panel-builder/header/menu/options.php:131
+msgid "Collapse Non Fitting Items"
+msgstr "折叠不适应的项目"
+
+#. translators: 1: link to WP admin new post page open 2: link closing.
+#: template-parts/content-none.php:16
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr "准备好发布您的第一篇文章了吗？ %1$s从这里开始%2$s。"
+
+#. translators: 1: span opening 2: Post title 3: span closing.
+#: inc/single/content-helpers.php:270
+msgid "Edit%1$s \"%2$s\"%3$s"
+msgstr "编辑%1$s \"%2$s\"%3$s"
+
+#. translators: 1: span open 2: Name of current post. Only visible to screen
+#. readers 3: span closing
+#: inc/single/content-helpers.php:225 inc/template-tags.php:108
+msgid "Continue reading%1$s \"%2$s\"%3$s"
+msgstr "继续阅读%1$s \"%2$s\"%3$s"
+
+#: inc/panel-builder/header/button/options.php:97
+msgid "Set link to sponsored"
+msgstr "设置赞助链接"
+
+#. translators: 1: span opening 2: span closing 3: the number of results
+#: inc/components/hero/elements.php:195 inc/components/hero/elements.php:332
+msgid "%1$sSearch Results for%2$s %3$s"
+msgstr "%1$s%2$s %3$s 的搜索结果"
+
+#: inc/options/general/typography.php:121
+msgid "Pullquote"
+msgstr "引述"
+
+#: inc/options/general/typography.php:114
+msgid "Quote"
+msgstr "引用"
+
+#: inc/panel-builder/header/menu/options.php:653
+msgid "Please note, this option will affect only submenus on 3rd level and below."
+msgstr "请注意，此选项只会影响第 3 级及以下的子菜单。"
+
+#. translators: placeholder here means the actual URL.
+#: inc/panel-builder/header/button/options.php:258
+msgid "Add a custom %saria label%s attribute."
+msgstr "添加自定义 %s咏叹调标签%s 属性。"
+
+#: inc/panel-builder/header/button/options.php:251
+msgid "Custom Aria Label"
+msgstr "自定义咏叹调标签"
+
+#: inc/panel-builder/header/search/options.php:422
+msgid "Live Results"
+msgstr "实时结果"
+
+#: searchform.php:94
+msgid "Search for..."
+msgstr "搜索..."
+
+#: inc/options/general/form-elements.php:231
+msgid "Checkbox Border Radius"
+msgstr "选择框圆角半径"
+
+#: inc/options/general/comments-single.php:47
+msgid "Outside"
+msgstr "外部"
+
+#: inc/options/general/comments-single.php:46
+msgid "Inside"
+msgstr "内部"
+
+#: inc/options/general/comments-single.php:39
+msgid "Inputs Label Position"
+msgstr "输入框提示位置"
+
+#: inc/options/general/back-to-top.php:31
+msgid "Icon Source"
+msgstr "图标来源"
+
+#: inc/options/single-elements/author-box.php:268
+msgid "Author Bio Font Color"
+msgstr "作者简介字体颜色"
+
+#: inc/options/single-elements/author-box.php:262
+msgid "Author Bio Font"
+msgstr "作者简介字体"
+
+#: inc/options/single-elements/author-box.php:209
+msgid "Author Name Font"
+msgstr "作者姓名字体"
+
+#: inc/options/pages/page.php:104
+#: inc/options/posts/custom-post-type-single.php:155
+#: inc/options/posts/post.php:110
+msgid "This single page is overrided by a custom template, to edit it please access %sthis page%s."
+msgstr "此单个页面已被自定义模板覆盖，要对其进行编辑，请访问%s此页面%s。"
+
+#: inc/options/single-elements/post-nav.php:53
+msgid "Navigate through posts that are from the same taxonomy."
+msgstr "浏览来自相同分类的帖子。"
+
+#: inc/options/single-elements/post-nav.php:34
+msgid "Navigation Criteria"
+msgstr "导航条件"
+
+#: inc/options/posts/woo-categories.php:389
+msgid "Short Description Color"
+msgstr "简介颜色"
+
+#: inc/options/posts/woo-categories.php:382
+msgid "Short Description Font"
+msgstr "简介字体"
+
+#: inc/options/posts/woo-categories.php:240
+msgid "Short Description"
+msgstr "简介"
+
+#: inc/options/pages/search-page.php:50
+#: inc/panel-builder/header/search/options.php:445
+msgid "Live Results Product Price"
+msgstr "实时结果产品价格"
+
+#: inc/options/integrations/tutorlms-single.php:141
+msgid "Rating Font Color"
+msgstr "评级字体颜色"
+
+#: inc/options/integrations/tutorlms-single.php:129
+msgid "Rating Font"
+msgstr "评级字体"
+
+#: inc/options/integrations/tutorlms-single.php:97
+msgid "Course Actions Font Color"
+msgstr "课程操作字体颜色"
+
+#: inc/options/integrations/tutorlms-single.php:84
+msgid "Course Actions Font"
+msgstr "课程操作字体"
+
+#: inc/options/integrations/tutorlms-single.php:52
+msgid "Categories Font Color"
+msgstr "类别字体颜色"
+
+#: inc/options/integrations/tutorlms-single.php:39
+msgid "Categories Font"
+msgstr "类别字体"
+
+#: inc/options/general/performance.php:85
+msgid "Shop Archive Featured Image"
+msgstr "商店存档特色图片"
+
+#: inc/options/general/performance.php:78
+msgid "Single Product Image"
+msgstr "单品图片"
+
+#: inc/options/general/custom-post-types.php:68
+msgid "Course Single"
+msgstr "当然单"
+
+#: inc/options/general/custom-post-types.php:62
+msgid "Course Archive"
+msgstr "课程档案"
+
+#: inc/options/general/comments-single.php:64
+msgid "Above List"
+msgstr "以上列表"
+
+#: inc/options/general/comments-single.php:63
+msgid "Below List"
+msgstr "下面的列表"
+
+#: inc/options/general/comments-single.php:56
+msgid "Comment Form Position"
+msgstr "评论表单位置"
+
+#: inc/manager.php:139 inc/manager.php:145
+msgid "You got %s result. Please press Tab to select it."
+msgid_plural "You got %s results. Please press Tab to select one."
+msgstr[0] "找到 %s 个结果，请按 Tab 键选择。"
+
+#: inc/manager.php:138 searchform.php:123
+msgid "No results"
+msgstr "无结果"
+
+#: inc/options/general/performance.php:69
+msgid "Related Posts Featured Image"
+msgstr "相关文章特色图片"
+
+#: inc/options/general/performance.php:62
+msgid "Archives Featured Image"
+msgstr "档案特色图片"
+
+#: inc/options/general/performance.php:55
+msgid "Single Post/Page Featured Image"
+msgstr "单个文章/页面特色图片"
+
+#: inc/options/general/performance.php:48
+msgid "Post/Page Title Featured Image"
+msgstr "文章/页面标题特色图片"
+
+#: inc/options/general/performance.php:38
+msgid "Enable lazy loading to improve performance."
+msgstr "启用延迟加载以提高性能。"
+
+#: inc/options/single-elements/structure-design.php:88
+msgid "Content Area Border"
+msgstr "内容区域边框"
+
+#: inc/options/pages/author-page.php:47 inc/options/pages/search-page.php:76
+#: inc/options/posts/blog.php:72 inc/options/posts/categories.php:40
+msgid "This archive page is overrided by a custom template, to edit it please access %sthis page%s."
+msgstr "此存档页面已被自定义模板覆盖，要对其进行编辑，请访问 %s此页面%s。"
+
+#: inc/panel-builder/footer/copyright/options.php:14
+#: inc/panel-builder/footer/copyright/view.php:28
+msgid "Copyright &copy; {current_year} - WordPress Theme by {theme_author}"
+msgstr "版权所有 © {current_year} - {theme_author} 的 WordPress 主题"
+
+#: inc/options/single-elements/post-nav.php:225
+msgid "Thumbnail Border Radius"
+msgstr "缩略图边框半径"
+
+#: inc/options/posts/woo-general.php:576
+msgid "Badge Shape"
+msgstr "徽章形状"
+
+#: inc/components/breadcrumbs.php:528
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "主页"
+
+#: inc/panel-builder/header/middle-row/options.php:100
+msgid "Render Empty Row"
+msgstr "渲染空行"
+
+#: inc/options/single-elements/related-posts.php:256
+msgid "Posts Title Tag"
+msgstr "文章标题标签"
+
+#: inc/options/general/page-title.php:794
+msgid "Image Parallax Effect"
+msgstr "图片视差效果"
+
+#: inc/options/posts/woo-general.php:282
+msgid "Error Messages"
+msgstr "错误消息"
+
+#: inc/options/posts/woo-general.php:166
+msgid "Success Messages"
+msgstr "成功消息"
+
+#: inc/options/posts/woo-general.php:50
+msgid "Info Messages"
+msgstr "信息消息"
+
+#: inc/panel-builder/header/trigger/view.php:43
+msgid "Open off canvas"
+msgstr "打开画布"
+
+#: inc/panel-builder/header/cart/view.php:189
+msgid "Shopping cart"
+msgstr "购物车"
+
+#: inc/panel-builder/header/search/view.php:48
+msgid "Open search form"
+msgstr "打开搜索框"
+
+#: inc/panel-builder/header/offcanvas-logo/config.php:4
+msgid "Off Canvas Logo"
+msgstr "关闭帆布标志"
+
+#: inc/panel-builder/header/menu/view.php:123
+msgid "Header Menu"
+msgstr "页眉菜单"
+
+#: inc/panel-builder/header/button/options.php:245
+#: inc/panel-builder/header/logo/options.php:345
+msgid "Separate multiple classes with spaces."
+msgstr "多个类请用空格分开。"
+
+#: inc/panel-builder/header/button/options.php:240
+#: inc/panel-builder/header/logo/options.php:340
+msgid "CSS Class"
+msgstr "CSS 类"
+
+#: inc/options/single-elements/author-box.php:215
+msgid "Author Name Font Color"
+msgstr "作者姓名字体颜色"
+
+#: inc/options/single-elements/author-box.php:55
+msgid "Author Name Tag"
+msgstr "作者姓名标签"
+
+#: inc/css/typography.php:237 static/bundle/customizer-controls.js:2
+#: static/bundle/options.js:2
+#: static/js/options/options/typography/default-data.js:27
+#: static/js/options/options/typography/helpers.js:117
+#: static/bundle/customizer-controls.js:25506
+#: static/bundle/customizer-controls.js:25650 static/bundle/options.js:25495
+#: static/bundle/options.js:25639
+msgid "System Default"
+msgstr "系统默认"
+
+#: inc/options/posts/woo-general.php:372
+msgid "Single"
+msgstr "单身的"
+
+#: inc/options/posts/woo-general.php:360
+msgid "Show Stock Badge"
+msgstr "显示股票徽章"
+
+#: inc/components/woocommerce/common/stock-badge.php:31
+#: inc/options/posts/woo-general.php:393
+msgid "OUT OF STOCK"
+msgstr "缺货"
+
+#: inc/components/woocommerce/common/sale-flash.php:8
+msgid "SALE!"
+msgstr "销售！"
+
+#: inc/panel-builder/header/mobile-menu/options.php:314
+msgid "Container Margin"
+msgstr "容器边距"
+
+#: inc/panel-builder/header/mobile-menu/options.php:238
+msgid "Dropdown Font"
+msgstr "下拉字体"
+
+#: inc/panel-builder/header/mobile-menu/options.php:93
+msgid "Items Vertical Spacing"
+msgstr "项目垂直间距"
+
+#: inc/panel-builder/header/mobile-menu/options.php:76
+msgid "Dropdown Toggle Shape"
+msgstr "下拉切换形状"
+
+#: inc/panel-builder/header/mobile-menu/options.php:48
+msgid "Dropdown Toggle Icon"
+msgstr "下拉切换图标"
+
+#: inc/panel-builder/header/menu/options.php:632
+msgid "Top Offset (Sticky State)"
+msgstr "顶部偏移（粘性状态）"
+
+#: inc/panel-builder/header/menu/options.php:552
+msgid "Only Arrow"
+msgstr "只有箭头"
+
+#: inc/panel-builder/header/menu/options.php:551
+msgid "Entire Item"
+msgstr "整个项目"
+
+#: inc/panel-builder/header/menu/options.php:543
+msgid "Click Area"
+msgstr "点击区域"
+
+#: inc/panel-builder/header/menu/options.php:534
+msgid "Choose the interaction mode with the menu dropdown. "
+msgstr "使用下拉菜单选择交互模式。"
+
+#: inc/panel-builder/header/menu/options.php:532
+msgid "Click"
+msgstr "点击"
+
+#: inc/panel-builder/header/menu/options.php:524
+msgid "Interaction Type"
+msgstr "交互类型"
+
+#: inc/panel-builder/header/menu/options.php:485
+msgid "Items Border Radius"
+msgstr "项目圆角半径"
+
+#: inc/options/posts/woo-general.php:445
+msgid "Custom Quantity Input"
+msgstr "自定义数量输入"
+
+#: inc/manager.php:153
+msgid "Collapse dropdown menu"
+msgstr "折叠下拉菜单"
+
+#: inc/components/menus.php:80 inc/components/menus.php:93
+#: inc/components/menus.php:242 inc/manager.php:152
+msgid "Expand dropdown menu"
+msgstr "展开下拉菜单"
+
+#: inc/components/builder/header-elements.php:396
+msgid "Close cart drawer"
+msgstr "关闭购物车抽屉"
+
+#: inc/components/builder/header-elements.php:135
+msgid "Close drawer"
+msgstr "关闭抽屉"
+
+#: inc/panel-builder/header/button/options.php:233
+#: inc/panel-builder/header/text/options.php:142
+msgid "Logged Out"
+msgstr "注销登录"
+
+#: inc/panel-builder/header/button/options.php:232
+#: inc/panel-builder/header/text/options.php:141
+msgid "Logged In"
+msgstr "登录"
+
+#: inc/options/posts/woo-categories.php:194
+msgid "Video Thumbnail"
+msgstr "视频缩略图"
+
+#: inc/panel-builder/header/mobile-menu/config.php:21
+msgid "Mobile Menu 1"
+msgstr "移动端菜单 1"
+
+#: inc/panel-builder/header/cart/options.php:908
+#: inc/panel-builder/header/offcanvas/options.php:171
+#: inc/panel-builder/header/search/options.php:664
+msgid "Close Button Type"
+msgstr "关闭按钮类型"
+
+#: inc/options/single-elements/post-nav.php:205
+msgid "Thumbnail Overlay Color"
+msgstr "缩略图叠加颜色"
+
+#: inc/options/posts/woo-gallery.php:251
+msgid "Lightbox Button Background"
+msgstr "灯箱按钮背景"
+
+#: inc/options/posts/woo-gallery.php:220
+msgid "Lightbox Button Icon Color"
+msgstr "灯箱按钮图标颜色"
+
+#: inc/options/general/back-to-top.php:289
+msgid "Shape Border Radius"
+msgstr "形状圆角半径"
+
+#: inc/panel-builder/header/text/options.php:25
+msgid "Allow the item container to expand and fill in all the available space."
+msgstr "允许项目容器扩展并填充所有可用空间。"
+
+#: inc/panel-builder/header/text/options.php:24
+msgid "Stretch Container"
+msgstr "拉伸容器"
+
+#: inc/options/general/buttons.php:130
+msgid "Padding"
+msgstr "填充"
+
+#: admin/dashboard/plugins/config.php:34
+msgid "A better way to translate your WordPress site and go multilingual, directly from the front-end using a visual translation interface.s."
+msgstr "使用可视化翻译界面直接从前端翻译 WordPress 网站并使用多语言的更好方法。"
+
+#: inc/panel-builder/header/search/options.php:527
+msgid "Input Font Color"
+msgstr "输入字体颜色"
+
+#: inc/options/general/posts-listing.php:1215
+msgid "Card Overlay Color"
+msgstr "卡片叠加颜色"
+
+#: inc/options/general/posts-listing.php:513
+msgid "Card Min Height"
+msgstr "卡片最小高度"
+
+#: inc/panel-builder/header/button/options.php:115
+msgid "Popup Template"
+msgstr "弹出框模板"
+
+#: inc/panel-builder/header/button/options.php:76
+msgid "Link/URL"
+msgstr "链接/URL"
+
+#: inc/panel-builder/header/button/options.php:66
+msgid "Open Popup"
+msgstr "打开弹出窗口"
+
+#: inc/panel-builder/header/button/options.php:65
+msgid "Open Link"
+msgstr "打开链接"
+
+#: inc/panel-builder/header/button/options.php:54
+msgid "Click Behavior"
+msgstr "点击行为"
+
+#: inc/options/single-elements/related-posts.php:66
+msgid "Random"
+msgstr "随机"
+
+#: inc/options/single-elements/related-posts.php:65
+msgid "Most Commented"
+msgstr "最多留言"
+
+#: inc/options/single-elements/related-posts.php:64
+msgid "Recent"
+msgstr "最新"
+
+#: inc/options/single-elements/related-posts.php:58
+msgid "Sort by"
+msgstr "排序由"
+
+#: inc/panel-builder/header/mobile-menu/options.php:39
+msgid "This option will collapse/expand the sub menu items on click/touch."
+msgstr "此选项将在单击/触摸时折叠/展开子菜单项。"
+
+#: inc/panel-builder/header/mobile-menu/options.php:35
+msgid "Interactive Collapse"
+msgstr "互动式折叠"
+
+#: inc/options/posts/woo-general.php:565
+msgid "Sale & Stock Badge"
+msgstr "销售和库存徽章"
+
+#: inc/options/general/posts-listing.php:362
+msgid "Full Post"
+msgstr "全文"
+
+#: inc/panel-builder/footer/widget-area-6/config.php:4
+msgid "Widget Area 6"
+msgstr "小部件区域 6"
+
+#: inc/panel-builder/footer/widget-area-5/config.php:4
+msgid "Widget Area 5"
+msgstr "小部件区域 5"
+
+#: inc/panel-builder/footer/widget-area-4/config.php:4
+msgid "Widget Area 4"
+msgstr "小部件区域 4"
+
+#: inc/panel-builder/footer/widget-area-3/config.php:4
+msgid "Widget Area 3"
+msgstr "小部件区域 3"
+
+#: inc/panel-builder/footer/widget-area-2/config.php:4
+msgid "Widget Area 2"
+msgstr "小部件区域 2"
+
+#: inc/panel-builder/footer/widget-area-1/config.php:4
+msgid "Widget Area 1"
+msgstr "小部件区域 1"
+
+#: inc/options/general/meta.php:324 inc/options/single-elements/post-nav.php:42
+#: inc/options/single-elements/post-nav.php:52
+msgid "Taxonomy"
+msgstr "分类法"
+
+#: inc/options/general/layout.php:55
+msgid "This option applies only if the posts or pages are set to Narrow Width structure."
+msgstr "仅当文章或页面设置为窄宽度结构时，此选项才适用。"
+
+#: inc/options/general/layout.php:41
+msgid "Adjusts the spacing between the main content area and the header and footer."
+msgstr "调整主要内容区域与页眉和页脚之间的间距。"
+
+#: inc/options/general/content-elements.php:31
+msgid "Adjusts the spacing between the Gutenberg blocks."
+msgstr "调整古腾堡区块之间的间距。"
+
+#: inc/options/engagement/social-accounts.php:36
+msgid "Easily link your social media accounts and display them throughout your website, with the various elements provided in the customizer."
+msgstr "使用定制器中提供的各种元素轻松链接您的社交媒体帐户并在整个网站中显示它们。"
+
+#: inc/options/engagement/general.php:23
+msgid "Enable Schema.org markup features for your website. You can disable this option if you use a SEO plugin and let it do the work."
+msgstr "为您的网站启用 Schema.org 标记功能。如果您使用 SEO 插件来完成此工作，您可以禁用此选项。"
+
+#: inc/panel-builder/header/button/options.php:129
+msgid "Please go ahead and create a popup first."
+msgstr "请先创建一个弹出窗口。"
+
+#: inc/panel-builder/header/button/options.php:91
+msgid "Set link to nofollow"
+msgstr "将链接设置为nofollow"
+
+#: inc/panel-builder/header/button/options.php:128
+msgid "Popup"
+msgstr "弹出"
+
+#: inc/panel-builder/footer/widget-area-1/options.php:102
+msgid "Links Decoration"
+msgstr "链接装饰"
+
+#: inc/options/single-elements/related-posts.php:120
+msgid "Module Title Alignment"
+msgstr "模块标题对齐"
+
+#: inc/options/single-elements/post-share-box.php:285
+#: inc/panel-builder/footer/socials/options.php:59
+#: inc/panel-builder/header/socials/options.php:58
+msgid "Set links to nofollow"
+msgstr "将链接设置为nofollow"
+
+#: inc/options/single-elements/post-nav.php:151
+msgid "Module Visibility"
+msgstr "模块可见性"
+
+#: inc/options/single-elements/post-nav.php:131
+msgid "Title Visibility"
+msgstr "标题可见性"
+
+#: inc/options/posts/woo-single.php:301
+msgid "Sticky Gallery"
+msgstr "粘性画廊"
+
+#: inc/options/posts/woo-gallery.php:185
+msgid "Prev/Next Background"
+msgstr "上一个/下一个背景"
+
+#: inc/options/posts/woo-gallery.php:155
+msgid "Prev/Next Arrow"
+msgstr "上一个/下一个箭头"
+
+#: inc/options/posts/woo-categories.php:850
+msgid "Modal Backgrop"
+msgstr "模态背景"
+
+#: inc/options/posts/woo-categories.php:815
+msgid "Modal Shadow"
+msgstr "模态框阴影"
+
+#: inc/options/posts/woo-categories.php:794
+msgid "Description Color"
+msgstr "描述颜色"
+
+#: inc/options/posts/woo-categories.php:764
+msgid "Price Font"
+msgstr "价格字体"
+
+#: inc/options/posts/woo-categories.php:728
+msgid "Quick View Modal"
+msgstr "快速查看模态框"
+
+#: inc/options/posts/woo-categories.php:659
+msgid "Quick View Button"
+msgstr "“快速查看”按钮"
+
+#: inc/options/posts/woo-categories.php:635
+msgid "Card Border Radius"
+msgstr "卡片圆角半径"
+
+#: inc/options/posts/woo-categories.php:268
+msgid "Add to Cart Button"
+msgstr "“添加到购物车”按钮"
+
+#: inc/options/general/sidebar.php:208
+msgid "Last Widgets"
+msgstr "最后边的小部件"
+
+#: inc/options/general/sidebar.php:195
+msgid "Last X Widgets"
+msgstr "最后 X 个小部件"
+
+#: inc/options/general/sidebar.php:194
+msgid "Entire Sidebar"
+msgstr "整个侧边栏"
+
+#: inc/options/general/sidebar.php:187
+msgid "Stick Behavior"
+msgstr "黏附形式"
+
+#: inc/options/general/sidebar.php:176
+msgid "Sticky Top Offset"
+msgstr "粘性顶部偏移"
+
+#: inc/options/general/posts-listing.php:1462
+#: inc/options/single-elements/related-posts.php:174
+msgid "Number of posts"
+msgstr "文章数量"
+
+#: inc/options/general/posts-listing.php:1436
+#: inc/options/single-elements/related-posts.php:141
+msgid "Columns & Posts"
+msgstr "专栏和文章"
+
+#: inc/options/general/performance.php:26
+msgid "Enable this option if you want to remove WordPress emojis script in order to improve the performance."
+msgstr "如果您想移除 WordPress 表情符号脚本以提高性能，请启用此选项。"
+
+#: inc/options/general/performance.php:22
+msgid "Disable Emojis Script"
+msgstr "禁用表情符号脚本"
+
+#: inc/options/general/page-title.php:467
+#: inc/panel-builder/header/text/options.php:37
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: inc/components/social-box.php:633 inc/components/social-box.php:1480
+msgid "Facebook Messenger"
+msgstr "Facebook Messenger"
+
+#: admin/dashboard/plugins/config.php:22
+msgid "Toolset helps WordPress professionals build advanced dynamic sites without programming."
+msgstr "工具集可帮助 WordPress 专业人员无需编程即可构建高级动态网站。"
+
+#: admin/dashboard/plugins/config.php:15
+msgid "JetEngine is a dynamic content plugin that lets you build a complex websites fast and cost-effectively."
+msgstr "JetEngine 是一个动态内容插件，可让您快速且经济高效地构建复杂的网站。"
+
+#: inc/options/posts/woo-general.php:829
+msgid "Navigation Quick Links"
+msgstr "导航快速链接"
+
+#: inc/init.php:559
+msgid "Footer Widget Area "
+msgstr "页脚小部件区域"
+
+#: inc/panel-builder/header/cart/options.php:666
+msgid "Display the quantity input field inside the off-canvas cart panel."
+msgstr "在画布外的购物车面板内显示数量输入字段。"
+
+#: inc/components/woocommerce/common/account.php:98
+msgid "Log out"
+msgstr "注销登录"
+
+#: inc/options/posts/woo-gallery.php:107
+msgid "Image size used for the main image on single product pages."
+msgstr "用于单个产品页面上的主图片大小。"
+
+#: inc/options/posts/woo-general.php:1078
+msgid "I have read and agree to the website %s"
+msgstr "我已阅读并同意网站 %s"
+
+#: inc/options/posts/woo-general.php:1075
+msgid "Optionally add some text for the terms checkbox that customers must accept."
+msgstr "（可选）为客户必须接受的条款复选框添加一些文本。"
+
+#: inc/options/posts/woo-general.php:1074
+msgid "Terms and conditions"
+msgstr "条款和条件"
+
+#: inc/options/posts/woo-general.php:1061
+msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy]."
+msgstr "您的个人数据将用于处理您的订单、支持您在整个网站上的体验，以及我们在 [隐私政策] 中描述的其他目的。"
+
+#: inc/options/posts/woo-general.php:1059
+msgid "Optionally add some text about your store privacy policy to show during checkout."
+msgstr "（可选）添加一些关于您的商店隐私政策的文本以在结帐时显示。"
+
+#: inc/options/posts/woo-general.php:1058
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+#: inc/options/posts/woo-general.php:1046
+msgid "Terms And Conditions Page"
+msgstr "条款和条件页面"
+
+#: inc/options/posts/woo-general.php:1033
+msgid "Privacy Policy Page"
+msgstr "隐私政策页面"
+
+#: inc/options/posts/woo-general.php:1015
+msgid "Phone Field"
+msgstr "电话字段"
+
+#: inc/options/posts/woo-general.php:997
+msgid "Address Line 2 Field"
+msgstr "地址 2 字段"
+
+#: inc/options/posts/woo-general.php:988 inc/options/posts/woo-general.php:1006
+#: inc/options/posts/woo-general.php:1024
+msgid "Required"
+msgstr "必填"
+
+#: inc/options/posts/woo-general.php:987 inc/options/posts/woo-general.php:1005
+#: inc/options/posts/woo-general.php:1023
+msgid "Optional"
+msgstr "可选的"
+
+#: inc/options/posts/woo-general.php:986 inc/options/posts/woo-general.php:1004
+#: inc/options/posts/woo-general.php:1022
+msgid "Hidden"
+msgstr "隐藏"
+
+#: inc/options/posts/woo-general.php:979
+msgid "Company Name Field"
+msgstr "公司名称字段"
+
+#: inc/options/posts/woo-general.php:968
+msgid "Highlight Required Fields"
+msgstr "高亮显示必填字段"
+
+#: inc/options/posts/woo-general.php:958
+msgid "Coupon Form"
+msgstr "优惠券表单"
+
+#: inc/options/posts/woo-general.php:926
+msgid "Navigation Shadow"
+msgstr "导航阴影"
+
+#: inc/options/posts/woo-general.php:906
+msgid "Navigation Divider Color"
+msgstr "导航分隔线颜色"
+
+#: inc/options/posts/woo-general.php:876
+msgid "Navigation Background Color"
+msgstr "导航背景颜色"
+
+#: inc/options/posts/woo-general.php:846
+msgid "Navigation Text Color"
+msgstr "导航文本颜色"
+
+#: inc/options/posts/woo-general.php:819
+msgid "User Name"
+msgstr "用户名"
+
+#: inc/options/posts/woo-general.php:791
+msgid "User Avatar"
+msgstr "用户头像"
+
+#: inc/options/posts/woo-general.php:780
+msgid "Account Page"
+msgstr "账户页面"
+
+#: inc/options/posts/woo-general.php:43
+msgid "Messages"
+msgstr "消息"
+
+#: inc/options/posts/woo-general.php:434
+#: inc/panel-builder/header/cart/options.php:662
+msgid "Quantity Input"
+msgstr "数量输入"
+
+#: inc/options/posts/woo-general.php:23
+msgid "No page set"
+msgstr "没有设置页面"
+
+#: inc/options/customizer.php:33 static/bundle/customizer-controls.js:2
+#: static/js/customizer/components/ProOverlay.js:21
+#: static/js/customizer/components/ProOverlay.js:66
+#: static/bundle/customizer-controls.js:43409
+#: static/bundle/customizer-controls.js:43454
+msgid "View Pro Features"
+msgstr "查看专业版功能"
+
+#: inc/options/general/posts-listing.php:287
+#: inc/options/posts/woo-categories.php:177
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: inc/options/general/posts-listing.php:286
+#: inc/options/posts/woo-categories.php:176
+msgid "Zoom In"
+msgstr "放大"
+
+#: inc/options/general/form-elements.php:242
+msgid "Select Dropdown"
+msgstr "选择下拉菜单"
+
+#: searchform.php:96
+msgid "Search button"
+msgstr "搜索按钮"
+
+#: inc/options/general/page-title.php:614
+#: inc/options/single-elements/author-box.php:142
+#: inc/panel-builder/footer/socials/options.php:52
+#: inc/panel-builder/header/socials/options.php:52
+msgid "Open links in new tab"
+msgstr "在新标签页中打开链接"
+
+#: inc/integrations/elementor.php:87
+msgid "Theme Color Palette 8"
+msgstr "主题调色板 8"
+
+#: inc/integrations/elementor.php:81
+msgid "Theme Color Palette 7"
+msgstr "主题调色板 7"
+
+#: inc/integrations/elementor.php:75
+msgid "Theme Color Palette 6"
+msgstr "主题调色板 6"
+
+#: inc/integrations/elementor.php:69
+msgid "Theme Color Palette 5"
+msgstr "主题调色板 5"
+
+#: inc/integrations/elementor.php:63
+msgid "Theme Color Palette 4"
+msgstr "主题调色板 4"
+
+#: inc/integrations/elementor.php:57
+msgid "Theme Color Palette 3"
+msgstr "主题调色板 3"
+
+#: inc/integrations/elementor.php:51
+msgid "Theme Color Palette 2"
+msgstr "主题调色板 2"
+
+#: inc/integrations/elementor.php:45
+msgid "Theme Color Palette 1"
+msgstr "主题调色板 1"
+
+#: inc/panel-builder/header/search/options.php:618
+msgid "Search Button Color"
+msgstr "搜索按钮颜色"
+
+#: inc/panel-builder/header/search/options.php:587
+msgid "Search Icon Color"
+msgstr "搜索图标颜色"
+
+#: inc/panel-builder/footer/menu/options.php:38
+#: inc/panel-builder/footer/socials/options.php:198
+msgid "Items Direction"
+msgstr "项目方向"
+
+#: inc/panel-builder/footer/middle-row/options.php:696
+msgid "Columns Divider"
+msgstr "列分隔符"
+
+#: inc/panel-builder/footer/middle-row/options.php:388
+msgid "Widgets Spacing"
+msgstr "小部件间距"
+
+#: inc/panel-builder/footer/middle-row/options.php:28
+msgid "Columns"
+msgstr "列"
+
+#. translators: placeholder here means the actual URL.
+#: inc/panel-builder/footer/socials/options.php:37
+#: inc/panel-builder/header/socials/options.php:37
+msgid "Configure the social links in General ➝ %sSocial Network Accounts%s."
+msgstr "在 常规 ➝ %s社交网络账户%s 中配置社交链接。"
+
+#: inc/init.php:110
+msgid "Palette Color 8"
+msgstr "调色板颜色 8"
+
+#: inc/init.php:103
+msgid "Palette Color 7"
+msgstr "调色板颜色 7"
+
+#: inc/init.php:96
+msgid "Palette Color 6"
+msgstr "调色板颜色 6"
+
+#: inc/options/single-elements/related-posts.php:558
+msgid "Posts Meta Font Color"
+msgstr "帖子元信息字体颜色"
+
+#: inc/options/single-elements/post-nav.php:76
+msgid "Container Spacing"
+msgstr "容器间距"
+
+#: inc/options/posts/woo-gallery.php:23
+msgid "Product Gallery Width"
+msgstr "产品图库宽度"
+
+#: inc/options/posts/woo-gallery.php:5
+msgid "Gallery Options"
+msgstr "画廊选项"
+
+#: inc/options/posts/woo-product-tabs.php:171
+msgid "Active Tab Colors"
+msgstr "活动标签页颜色"
+
+#: inc/options/posts/woo-single.php:261
+msgid "Upsell Products Visibility"
+msgstr "追加销售产品可见性"
+
+#: inc/options/posts/woo-single.php:237
+msgid "Related Products Visibility"
+msgstr "相关产品可见性"
+
+#: inc/components/woocommerce/general.php:422
+#: inc/options/posts/woo-single.php:111
+msgid "Product Price"
+msgstr "产品价格"
+
+#: inc/options/general/content-elements.php:13
+msgid "Entry Content"
+msgstr "作品内容"
+
+#: inc/options/general/general.php:89
+msgid "Click this button if you want to reset all settings to their default values."
+msgstr "如果要将所有设置重置为其默认值，请单击此按钮。"
+
+#: inc/options/general/general.php:88 static/bundle/customizer-controls.js:2
+#: static/bundle/options.js:2
+#: static/js/options/options/ct-customizer-reset-options.js:18
+#: static/bundle/customizer-controls.js:16103 static/bundle/options.js:14207
+msgid "Reset Options"
+msgstr "重置选项"
+
+#: inc/options/general/general.php:79
+msgid "Manage Options"
+msgstr "管理选项"
+
+#: inc/options/general/meta.php:334
+#: inc/panel-builder/header/trigger/options.php:50
+msgid "Style"
+msgstr "样式"
+
+#: inc/options/general/meta.php:132
+msgid "Format"
+msgstr "格式"
+
+#: inc/options/general/sidebar.php:249
+msgid "Mobile Sidebar Position"
+msgstr "移动端侧边栏位置"
+
+#: inc/options/general/sidebar.php:230
+msgid "Sidebar Visibility"
+msgstr "侧边栏可见性"
+
+#. translators: %s entity of font color
+#: inc/options/general/page-title.php:1071
+msgid "%s Font Color"
+msgstr "%s 字体颜色"
+
+#. translators: %s entity of font
+#: inc/options/general/page-title.php:1059
+msgid "%s Font"
+msgstr "%s 字体"
+
+#: inc/options/general/page-title.php:1007
+#: inc/options/general/posts-listing.php:872
+msgid "Meta Button Background"
+msgstr "元信息按钮背景"
+
+#: inc/options/general/page-title.php:975
+#: inc/options/general/posts-listing.php:840
+msgid "Meta Button Font"
+msgstr "元信息按钮字体"
+
+#: inc/options/general/colors.php:725
+msgid "All Headings (H1 - H6)"
+msgstr "所有标题 (H1 - H6)"
+
+#: inc/options/general/colors.php:705
+msgid "Borders"
+msgstr "边框"
+
+#: inc/options/general/colors.php:675
+msgid "Text Selection"
+msgstr "选中的文本"
+
+#: inc/options/general/colors.php:645
+msgid "Links"
+msgstr "链接"
+
+#: inc/options/general/colors.php:624
+msgid "Base Text"
+msgstr "基础文本"
+
+#: inc/options/general/colors.php:18
+msgid "Global Color Palette"
+msgstr "全局调色板"
+
+#: inc/options/meta/default.php:75 inc/options/meta/page.php:74
+#: inc/options/meta/post.php:70
+msgid "Content Area Style Source"
+msgstr "内容区样式源"
+
+#: inc/panel-builder/header/cart/options.php:161
+msgid "Cart Total Font Color"
+msgstr "购物车总额字体颜色"
+
+#: inc/panel-builder/header/cart/options.php:150
+msgid "Cart Total Font"
+msgstr "购物车总额字体"
+
+#: inc/panel-builder/header/cart/options.php:114
+msgid "Cart Total Position"
+msgstr "购物车总额位置"
+
+#: inc/panel-builder/header/search/options.php:143
+#: inc/panel-builder/header/socials/options.php:219
+#: inc/panel-builder/header/trigger/options.php:157
+msgid "Label Font Color"
+msgstr "标签字体颜色"
+
+#: inc/panel-builder/footer/socials/options.php:255
+#: inc/panel-builder/header/search/options.php:132
+#: inc/panel-builder/header/socials/options.php:208
+#: inc/panel-builder/header/trigger/options.php:146
+msgid "Label Font"
+msgstr "标签字体"
+
+#: inc/panel-builder/header/search/options.php:88
+#: inc/panel-builder/header/trigger/options.php:99
+msgid "Label Position"
+msgstr "标签位置"
+
+#: inc/options/general/breadcrumbs.php:204
+msgid "Breadcrumbs Source"
+msgstr "面包屑来源"
+
+#: inc/options/general/breadcrumbs.php:40
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/options/general/breadcrumbs.php:36
+msgid "SeoPress"
+msgstr "SeoPress"
+
+#: inc/options/general/breadcrumbs.php:31
+msgid "Yoast"
+msgstr "Yoast"
+
+#: inc/options/general/breadcrumbs.php:21
+msgid "RankMath"
+msgstr "排名数学"
+
+#: inc/options/general/back-to-top.php:118
+#: inc/panel-builder/header/cart/options.php:57
+msgid "Type 6"
+msgstr "类型 6"
+
+#: inc/panel-builder/header/search/options.php:433
+msgid "Live Results Images"
+msgstr "实时结果图像"
+
+#: inc/panel-builder/header/search/options.php:414
+msgid "Placeholder Text"
+msgstr "占位文本"
+
+#: inc/options/pages/page.php:66
+msgid "Page %s"
+msgstr "页面 %s"
+
+#: inc/options/posts/custom-post-type-single.php:84
+msgid "%s %s"
+msgstr "%s %s"
+
+#: inc/options/posts/woo-gallery.php:130
+msgid "Zoom Effect"
+msgstr "缩放效果"
+
+#: inc/options/posts/woo-gallery.php:120
+msgid "Lightbox"
+msgstr "灯箱"
+
+#: inc/options/posts/woo-gallery.php:51
+#: inc/panel-builder/footer/middle-row/options.php:374
+msgid "Columns Spacing"
+msgstr "列间距"
+
+#: inc/options/posts/woo-single.php:33
+msgid "Product Gallery"
+msgstr "产品图库"
+
+#: inc/options/meta/default.php:187
+msgid "Disable %s %s"
+msgstr "禁用 %s %s"
+
+#: inc/options/general/page-title.php:1208
+msgid "Container Padding"
+msgstr "容器填充"
+
+#: inc/options/posts/woo-product-tabs.php:143
+msgid "Active Tab Border"
+msgstr "活动选项卡边框"
+
+#: inc/options/posts/woo-product-tabs.php:20
+msgid "Tabs Type"
+msgstr "选项卡类型"
+
+#: inc/options/posts/woo-product-tabs.php:5
+msgid "Product Tabs"
+msgstr "产品选项卡"
+
+#: inc/panel-builder/header/cart/options.php:794
+msgid "Products Font Color"
+msgstr "产品字体颜色"
+
+#: inc/panel-builder/header/cart/options.php:773
+msgid "Panel Heading Font Color"
+msgstr "面板标题字体颜色"
+
+#: inc/panel-builder/header/cart/options.php:724
+#: inc/panel-builder/header/cart/options.php:835
+msgid "Subtotal Font Color"
+msgstr "小计字体颜色"
+
+#: inc/panel-builder/header/cart/options.php:873
+#: inc/panel-builder/header/offcanvas/options.php:123
+msgid "Panel Backdrop"
+msgstr "面板背景"
+
+#: inc/options/single-elements/post-share-box.php:260
+msgid "Flipboard"
+msgstr "Flipboard"
+
+#: inc/options/posts/woo-add-to-cart.php:199
+msgid "View Cart Button"
+msgstr "查看购物车按钮"
+
+#: inc/options/posts/woo-add-to-cart.php:124
+msgid "Add To Cart Button"
+msgstr "加入购物车按钮"
+
+#: inc/options/posts/woo-add-to-cart.php:66
+#: inc/options/posts/woo-general.php:518
+msgid "Quantity Arrows Color"
+msgstr "数量箭头颜色"
+
+#: inc/options/posts/woo-general.php:487
+msgid "Quantity Main Color"
+msgstr "数量主色"
+
+#: inc/options/general/posts-listing.php:1135
+msgid "Card Divider"
+msgstr "卡片分隔器"
+
+#: inc/options/general/breadcrumbs.php:121
+msgid "Current Taxonomy Title"
+msgstr "当前分类标题"
+
+#: inc/panel-builder/header/cart/options.php:657
+msgid "Product Page"
+msgstr "产品页面"
+
+#: inc/panel-builder/header/cart/options.php:656
+msgid "Archive Page"
+msgstr "存档页面"
+
+#: inc/panel-builder/header/cart/options.php:650
+msgid "Automatically open the cart drawer after a product is added to cart."
+msgstr "将产品加入购物车后自动打开购物车抽屉。"
+
+#: inc/panel-builder/header/cart/options.php:643
+msgid "Open Cart Automatically On"
+msgstr "自动打开购物车"
+
+#: inc/panel-builder/header/menu/options.php:85
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: inc/panel-builder/header/menu/options.php:84
+msgid "Center to Sides"
+msgstr "中心到侧面"
+
+#: inc/panel-builder/header/menu/options.php:75
+msgid "Indicator Effect"
+msgstr "指示器效果"
+
+#: inc/panel-builder/footer/copyright/options.php:67
+#: inc/panel-builder/footer/menu/options.php:124
+#: inc/panel-builder/footer/socials/options.php:211
+#: inc/panel-builder/header/button/options.php:146
+#: inc/panel-builder/header/button/options.php:202
+#: inc/panel-builder/header/cart/options.php:1088
+#: inc/panel-builder/header/logo/options.php:320
+#: inc/panel-builder/header/mobile-menu/options.php:153
+#: inc/panel-builder/header/search/options.php:832
+#: inc/panel-builder/header/socials/options.php:168
+#: inc/panel-builder/header/text/options.php:111
+#: inc/panel-builder/header/text/options.php:347
+#: inc/panel-builder/header/trigger/options.php:604
+msgid "Element Visibility"
+msgstr "元素可见性"
+
+#: inc/options/single-elements/author-box.php:88
+msgid "Posts Count"
+msgstr "文章数"
+
+#: inc/options/posts/woo-single.php:11 inc/options/posts/woo-single.php:67
+msgid "Product Title"
+msgstr "产品标题"
+
+#: inc/options/posts/woo-general.php:741
+msgid "Out of Stock Badge"
+msgstr "缺货徽章"
+
+#: inc/options/general/pagination.php:92
+msgid "Arrows Visibility"
+msgstr "箭头可见性"
+
+#: inc/options/general/pagination.php:74
+msgid "Numbers Visibility"
+msgstr "数字可见性"
+
+#: inc/options/general/page-title.php:652
+msgid "Container Bottom Spacing"
+msgstr "容器底部间距"
+
+#: inc/options/integrations/tutorlms-archive.php:20
+#: inc/options/integrations/tutorlms-single.php:203
+msgid "Course Structure"
+msgstr "课程结构"
+
+#: inc/options/general/custom-post-types.php:130
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: inc/options/general/custom-post-types.php:57
+msgid "Tutor LMS"
+msgstr "TutorLMS"
+
+#: inc/integrations/custom-post-types.php:166
+#: inc/integrations/custom-post-types.php:173
+msgid "Tag"
+msgstr "标签"
+
+#: inc/integrations/custom-post-types.php:165
+#: inc/integrations/custom-post-types.php:172
+msgid "Category"
+msgstr "分类"
+
+#: inc/panel-builder/header/cart/options.php:83
+msgid "Cart Total Visibility"
+msgstr "购物车合计可见性"
+
+#: inc/panel-builder/footer/socials/options.php:141
+#: inc/panel-builder/header/search/options.php:57
+#: inc/panel-builder/header/socials/options.php:140
+#: inc/panel-builder/header/trigger/options.php:69
+msgid "Label Visibility"
+msgstr "标签可见度"
+
+#: inc/integrations/beaver-themer.php:30
+msgid "After Footer"
+msgstr "页脚之后"
+
+#: inc/integrations/beaver-themer.php:29
+msgid "Before Footer"
+msgstr "页脚之前"
+
+#: inc/integrations/beaver-themer.php:21
+msgid "After Content"
+msgstr "内容之后"
+
+#: inc/integrations/beaver-themer.php:20
+msgid "Bottom Content"
+msgstr "底部内容"
+
+#: inc/integrations/beaver-themer.php:19
+msgid "Top Content"
+msgstr "顶部内容"
+
+#: inc/integrations/beaver-themer.php:18
+msgid "Before Content"
+msgstr "内容之前"
+
+#: inc/integrations/beaver-themer.php:16
+msgid "Content"
+msgstr "内容"
+
+#: inc/integrations/beaver-themer.php:11
+msgid "After Header"
+msgstr "页眉之后"
+
+#: inc/integrations/beaver-themer.php:10
+msgid "Before Header"
+msgstr "页眉之前"
+
+#: inc/options/posts/woo-add-to-cart.php:36
+msgid "Quantity Color"
+msgstr "数量颜色"
+
+#: inc/options/posts/woo-add-to-cart.php:16
+msgid "Button Width"
+msgstr "按钮宽度"
+
+#: inc/options/posts/woo-add-to-cart.php:6
+msgid "Add to Cart"
+msgstr "加入购物车"
+
+#: inc/panel-builder/header/cart/options.php:889
+#: inc/panel-builder/header/offcanvas/options.php:149
+msgid "Panel Shadow"
+msgstr "面板阴影"
+
+#: inc/panel-builder/header/cart/options.php:857
+#: inc/panel-builder/header/offcanvas/options.php:103
+msgid "Panel Background"
+msgstr "面板背景"
+
+#: inc/options/posts/woo-gallery.php:48
+msgid "Thumbnails Spacing"
+msgstr "缩略图间距"
+
+#: inc/options/posts/woo-gallery.php:70
+msgid "Thumbnails Position"
+msgstr "缩略图位置"
+
+#: inc/panel-builder/header/mobile-menu/views/offcanvas.php:86
+msgid "Off Canvas Menu"
+msgstr "关闭画布菜单"
+
+#: inc/panel-builder/header/cart/options.php:614
+#: inc/panel-builder/header/offcanvas/options.php:39
+msgid "Panel Width"
+msgstr "面板宽度"
+
+#: inc/panel-builder/header/cart/options.php:583
+msgid "Dropdown"
+msgstr "下拉菜单"
+
+#: inc/panel-builder/header/cart/options.php:572
+msgid "Cart Drawer Type"
+msgstr "购物车抽屉类型"
+
+#: inc/panel-builder/header/cart/options.php:554
+msgid "Cart Drawer"
+msgstr "购物车抽屉"
+
+#: inc/components/social-box.php:464 inc/components/social-box.php:1440
+msgid "Apple Podcasts"
+msgstr "苹果播客"
+
+#: inc/options/general/back-to-top.php:169
+msgid "Side Offset"
+msgstr "侧边偏移"
+
+#: inc/helpers.php:299 inc/helpers.php:305
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: inc/panel-builder/header/logo/options.php:85
+msgid "Sticky State Shrink"
+msgstr "吸附状态收缩"
+
+#: inc/options/general/general.php:35
+msgid "Website Frame"
+msgstr "网站框架"
+
+#: inc/components/social-box.php:869 inc/components/social-box.php:1536
+msgid "Phone"
+msgstr "电话"
+
+#. translators: placeholder here means the actual URL.
+#: inc/panel-builder/header/menu/options.php:19
+msgid "Manage your menu items in the %sMenus screen%s."
+msgstr "在 %s菜单屏幕%s 中管理您的项目。"
+
+#: inc/options/meta/page.php:191
+msgid "Disable Page %s"
+msgstr "禁用页面 %s"
+
+#: inc/options/general/typography.php:149
+msgid "The font used if the chosen font isn't available."
+msgstr "如果所选字体不可用则使用的字体。"
+
+#: inc/options/general/typography.php:148
+msgid "Fallback Font Family"
+msgstr "后备字体系列"
+
+#: inc/options/single-elements/featured-image.php:90
+#: inc/options/single-elements/post-nav.php:111
+msgid "Image Visibility"
+msgstr "图像可见性"
+
+#: inc/panel-builder/header/menu/options.php:992
+msgid "Dropdown Border Radius"
+msgstr "下拉框圆角半径"
+
+#: inc/panel-builder/header/menu/options.php:974
+msgid "Dropdown Shadow"
+msgstr "下拉阴影"
+
+#: inc/panel-builder/header/menu/options.php:833
+#: inc/panel-builder/header/menu/options.php:863
+#: inc/panel-builder/header/menu/options.php:896
+#: inc/panel-builder/header/menu/options.php:926
+msgid "Items Background Color"
+msgstr "项目背景颜色"
+
+#: inc/panel-builder/header/menu/options.php:571
+msgid "Boxed Color"
+msgstr "盒状颜色"
+
+#: inc/panel-builder/header/menu/options.php:570
+msgid "Solid Color"
+msgstr "纯色"
+
+#: inc/panel-builder/header/menu/options.php:560
+msgid "Items Hover Effect"
+msgstr "项目悬停效果"
+
+#: inc/options/single-elements/structure-design.php:104
+msgid "Content Area Border Radius"
+msgstr "内容区圆角半径"
+
+#: inc/options/single-elements/structure-design.php:119
+msgid "Content Area Padding"
+msgstr "内容区域填充"
+
+#: inc/options/general/comments-single.php:30
+msgid "Website Input Field"
+msgstr "网站输入字段"
+
+#: inc/panel-builder/footer/middle-row/options.php:670
+#: inc/panel-builder/header/middle-row/options.php:382
+msgid "Bottom Border Width"
+msgstr "底部边框宽度"
+
+#: inc/panel-builder/footer/middle-row/options.php:629
+#: inc/panel-builder/header/middle-row/options.php:275
+msgid "Top Border Width"
+msgstr "顶部边框宽度"
+
+#: inc/panel-builder/header/middle-row/options.php:79
+msgid "Row Max Height"
+msgstr "行最大高度"
+
+#: inc/panel-builder/header/middle-row/options.php:62
+msgid "Sticky State Row Shrink"
+msgstr "吸附状态行收缩"
+
+#: inc/panel-builder/header/middle-row/options.php:52
+msgid "Row Min Height"
+msgstr "行最小高度"
+
+#: inc/panel-builder/footer/middle-row/options.php:442
+#: inc/panel-builder/footer/middle-row/options.php:638
+#: inc/panel-builder/footer/middle-row/options.php:679
+#: inc/panel-builder/header/middle-row/options.php:43
+#: inc/panel-builder/header/middle-row/options.php:284
+#: inc/panel-builder/header/middle-row/options.php:391
+msgid "Full Width"
+msgstr "全宽"
+
+#: inc/panel-builder/header/middle-row/config.php:4
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:18
+#: static/js/customizer/sync/builder.js:125
+#: static/bundle/customizer-controls.js:5255 static/bundle/options.js:16122
+#: static/bundle/sync.min.js:9063
+msgid "Main Row"
+msgstr "主要行"
+
+#: inc/panel-builder/header/logo/options.php:237
+msgid "Logo Image Position"
+msgstr "标志图像位置"
+
+#: inc/panel-builder/header/logo/options.php:146
+msgid "Site Title Visibility"
+msgstr "网站标题可见性"
+
+#: inc/panel-builder/header/logo/options.php:65
+#: inc/panel-builder/header/logo/options.php:106
+#: inc/panel-builder/header/offcanvas-logo/options.php:19
+msgid "Logo Height"
+msgstr "标志高度"
+
+#: inc/panel-builder/header/logo/options.php:47
+msgid "Sticky State Logo"
+msgstr "吸附状态标志"
+
+#: inc/panel-builder/header/logo/options.php:27 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:107 static/bundle/options.js:37710
+msgid "Transparent State Logo"
+msgstr "透明状态标志"
+
+#: inc/panel-builder/header/button/options.php:296
+#: inc/panel-builder/header/button/options.php:481
+#: inc/panel-builder/header/cart/options.php:180
+#: inc/panel-builder/header/cart/options.php:306
+#: inc/panel-builder/header/cart/options.php:431
+#: inc/panel-builder/header/logo/options.php:393
+#: inc/panel-builder/header/logo/options.php:539
+#: inc/panel-builder/header/menu/options.php:184
+#: inc/panel-builder/header/menu/options.php:405
+#: inc/panel-builder/header/menu/options.php:700
+#: inc/panel-builder/header/menu/options.php:853
+#: inc/panel-builder/header/middle-row/options.php:140
+#: inc/panel-builder/header/middle-row/options.php:208
+#: inc/panel-builder/header/middle-row/options.php:315
+#: inc/panel-builder/header/middle-row/options.php:421
+#: inc/panel-builder/header/mobile-menu/options.php:375
+#: inc/panel-builder/header/search/options.php:162
+#: inc/panel-builder/header/search/options.php:287
+#: inc/panel-builder/header/socials/options.php:242
+#: inc/panel-builder/header/socials/options.php:368
+#: inc/panel-builder/header/socials/options.php:512
+#: inc/panel-builder/header/text/options.php:185
+#: inc/panel-builder/header/trigger/options.php:176
+#: inc/panel-builder/header/trigger/options.php:302
+#: inc/panel-builder/header/trigger/options.php:435
+msgid "Sticky State"
+msgstr "吸附状态"
+
+#: inc/panel-builder/header/button/options.php:287
+#: inc/panel-builder/header/button/options.php:472
+#: inc/panel-builder/header/cart/options.php:171
+#: inc/panel-builder/header/cart/options.php:297
+#: inc/panel-builder/header/cart/options.php:421
+#: inc/panel-builder/header/logo/options.php:384
+#: inc/panel-builder/header/logo/options.php:530
+#: inc/panel-builder/header/menu/options.php:175
+#: inc/panel-builder/header/menu/options.php:395
+#: inc/panel-builder/header/menu/options.php:691
+#: inc/panel-builder/header/menu/options.php:844
+#: inc/panel-builder/header/middle-row/options.php:132
+#: inc/panel-builder/header/middle-row/options.php:200
+#: inc/panel-builder/header/middle-row/options.php:307
+#: inc/panel-builder/header/middle-row/options.php:413
+#: inc/panel-builder/header/mobile-menu/options.php:366
+#: inc/panel-builder/header/search/options.php:153
+#: inc/panel-builder/header/search/options.php:279
+#: inc/panel-builder/header/socials/options.php:232
+#: inc/panel-builder/header/socials/options.php:358
+#: inc/panel-builder/header/socials/options.php:501
+#: inc/panel-builder/header/text/options.php:176
+#: inc/panel-builder/header/trigger/options.php:167
+#: inc/panel-builder/header/trigger/options.php:293
+#: inc/panel-builder/header/trigger/options.php:425
+msgid "Transparent State"
+msgstr "透明状态"
+
+#: inc/panel-builder/header/button/options.php:282
+#: inc/panel-builder/header/button/options.php:467
+#: inc/panel-builder/header/cart/options.php:166
+#: inc/panel-builder/header/cart/options.php:292
+#: inc/panel-builder/header/cart/options.php:413
+#: inc/panel-builder/header/logo/options.php:379
+#: inc/panel-builder/header/logo/options.php:525
+#: inc/panel-builder/header/menu/options.php:170
+#: inc/panel-builder/header/menu/options.php:389
+#: inc/panel-builder/header/menu/options.php:686
+#: inc/panel-builder/header/menu/options.php:839
+#: inc/panel-builder/header/middle-row/options.php:127
+#: inc/panel-builder/header/middle-row/options.php:195
+#: inc/panel-builder/header/middle-row/options.php:302
+#: inc/panel-builder/header/middle-row/options.php:408
+#: inc/panel-builder/header/mobile-menu/options.php:361
+#: inc/panel-builder/header/search/options.php:148
+#: inc/panel-builder/header/search/options.php:274
+#: inc/panel-builder/header/socials/options.php:224
+#: inc/panel-builder/header/socials/options.php:352
+#: inc/panel-builder/header/socials/options.php:492
+#: inc/panel-builder/header/text/options.php:171
+#: inc/panel-builder/header/trigger/options.php:162
+#: inc/panel-builder/header/trigger/options.php:288
+#: inc/panel-builder/header/trigger/options.php:419
+msgid "Default State"
+msgstr "默认状态"
+
+#: inc/options/general/page-title.php:795
+msgid "Choose for which devices you want to enable the parallax effect."
+msgstr "选择您想要启用视差效果的设备。"
+
+#: inc/options/general/page-title.php:742
+msgid "Featured"
+msgstr "特色"
+
+#: inc/options/meta/blog.php:12 inc/options/meta/default.php:233
+#: inc/options/meta/page.php:207 inc/options/meta/post.php:229
+msgid "Disable Footer"
+msgstr "禁用页脚"
+
+#: inc/options/meta/blog.php:6 inc/options/meta/default.php:227
+#: inc/options/meta/page.php:201 inc/options/meta/post.php:223
+msgid "Disable Header"
+msgstr "禁用页眉"
+
+#: inc/components/social-box.php:82
+#: inc/options/single-elements/post-share-box.php:136
+msgid "Share your love"
+msgstr "分享你的喜爱"
+
+#: inc/options/posts/woo-general.php:605
+msgid "Sale Badge Value"
+msgstr "销售徽章的值"
+
+#: inc/options/customizer.php:169
+msgid "Product Archives"
+msgstr "产品档案"
+
+#: inc/options/posts/woo-categories.php:175
+msgid "Swap Images"
+msgstr "交换图片"
+
+#: inc/options/posts/woo-categories.php:166
+msgid "Image Hover Effect"
+msgstr "图像悬停效果"
+
+#: inc/options/posts/woo-general.php:1174
+msgid "Notice Background Color"
+msgstr "通知背景色"
+
+#: inc/options/posts/woo-general.php:1152
+msgid "Notice Font Color"
+msgstr "通知字体颜色"
+
+#: inc/options/posts/woo-general.php:1132
+msgid "Notice Position"
+msgstr "通知位置"
+
+#: admin/dashboard/plugins/config.php:46
+msgid "The most advanced frontend drag & drop page builder. Create high-end, pixel perfect websites at record speeds. Any theme, any page, any design."
+msgstr "最先进的前端拖放页面生成器。以创纪录的速度创建高端, 像素完美的网站。任何主题, 任何页面, 任何设计。"
+
+#: admin/dashboard/plugins/config.php:58
+msgid "Drag & Drop online form builder that helps you create beautiful contact forms with just a few clicks."
+msgstr "拖放在线表单生成器, 帮助您创建漂亮的联系表单, 只需几次点击。"
+
+#: admin/dashboard/plugins/config.php:52
+msgid "Capture, organize and engage web visitors with free forms, live chat, CRM (contact management), email marketing, and analytics."
+msgstr "利用免费的表单, 实时聊天, CRM(联系人管理), 电子邮件营销和分析, 捕捉, 组织和吸引网络访问者。"
+
+#: admin/dashboard/plugins/config.php:8
+msgid "A Library of Page Builder Gutenberg Blocks which will reimagine the way you use the WordPress Block Editor."
+msgstr "网页生成器古腾堡块的一个库, 它将重新想象你使用 WordPress 块编辑器的方式。"
+
+#: inc/panel-builder/footer/socials/config.php:4
+#: inc/panel-builder/header/socials/config.php:4
+msgid "Socials"
+msgstr "社交活动"
+
+#: inc/options/posts/custom-post-type-single.php:65
+msgid "%s Elements"
+msgstr "%s 元素"
+
+#. translators: placeholder here means the actual URL.
+#: inc/options/meta/default.php:146 inc/options/meta/page.php:145
+#: inc/options/meta/post.php:144 inc/options/single-elements/structure.php:117
+msgid "You can customize the global spacing value in General ➝ Layout ➝ %sContent Area Spacing%s."
+msgstr "你可以定制全局间距值在 常规 ➝ 布局 ➝%s内容区间距%s。"
+
+#: inc/options/meta/default.php:139 inc/options/meta/page.php:138
+#: inc/options/meta/post.php:137 inc/options/single-elements/structure.php:110
+msgid "Only Bottom"
+msgstr "只在底部"
+
+#: inc/options/meta/default.php:136 inc/options/meta/page.php:135
+#: inc/options/meta/post.php:134 inc/options/single-elements/structure.php:107
+msgid "Only Top"
+msgstr "只在顶部"
+
+#: inc/options/meta/default.php:133 inc/options/meta/page.php:132
+#: inc/options/meta/post.php:131 inc/options/single-elements/structure.php:104
+msgid "Top & Bottom"
+msgstr "顶部和底部"
+
+#: inc/options/meta/default.php:123 inc/options/meta/page.php:122
+#: inc/options/meta/post.php:121
+msgid "You can customize the spacing value in general settings panel."
+msgstr "您可以自定义间距值在常规设置面板。"
+
+#: inc/options/meta/default.php:105 inc/options/meta/page.php:104
+#: inc/options/meta/post.php:104 inc/options/single-elements/structure.php:94
+msgid "Content Area Vertical Spacing"
+msgstr "内容区垂直间距"
+
+#: inc/options/general/breadcrumbs.php:111
+msgid "Current Page/Post Title"
+msgstr "当前页面/文章标题"
+
+#: inc/options/general/breadcrumbs.php:98
+msgid "Home Page Text"
+msgstr "主页文字"
+
+#: inc/options/general/back-to-top.php:55
+#: inc/options/general/breadcrumbs.php:85
+msgid "Icon"
+msgstr "图标"
+
+#: inc/options/general/breadcrumbs.php:79
+msgid "Home Item"
+msgstr "首页项目"
+
+#: inc/options/general/breadcrumbs.php:50
+msgid "Separator"
+msgstr "分隔器"
+
+#: inc/options/general/page-title.php:735
+msgid "Container Background Image"
+msgstr "容器背景图片"
+
+#: inc/options/general/meta.php:320
+msgid "Taxonomies"
+msgstr "分类"
+
+#: woocommerce/cart/cart.php:221
+msgid "Update cart"
+msgstr "更新购物车"
+
+#: woocommerce/cart/cart.php:216
+msgid "Apply coupon"
+msgstr "应用优惠"
+
+#: woocommerce/cart/cart.php:216
+msgid "Coupon code"
+msgstr "优惠码"
+
+#: woocommerce/cart/cart.php:216
+msgid "Coupon:"
+msgstr "优惠:"
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr "可缺货"
+
+#: woocommerce/cart/cart.php:185
+msgid "Remove product"
+msgstr "移除产品"
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:70
+msgid "Product"
+msgstr "产品"
+
+#: inc/options/single-elements/featured-image.php:57
+msgid "Full"
+msgstr "完整"
+
+#: inc/helpers.php:297
+msgid "Medium Large"
+msgstr "中大型"
+
+#: inc/options/single-elements/related-posts.php:449
+msgid "Module Title Font Color"
+msgstr "模块标题字体颜色"
+
+#: inc/options/single-elements/related-posts.php:360
+msgid "Location"
+msgstr "位置"
+
+#: inc/options/single-elements/related-posts.php:91
+msgid "Module Title Tag"
+msgstr "模块标题标签"
+
+#: inc/options/single-elements/post-share-box.php:118
+#: inc/options/single-elements/related-posts.php:83
+msgid "Module Title"
+msgstr "模块名称"
+
+#. translators: %s: Author's display name.
+#: inc/components/post-meta.php:203
+msgid "Posts by %s"
+msgstr "由 %s 发布"
+
+#: inc/options/integrations/tutorlms-archive.php:12
+#: inc/options/integrations/tutorlms-single.php:195
+#: inc/options/posts/custom-post-type-archive.php:9
+#: inc/options/posts/custom-post-type-single.php:24
+msgid "%s Title"
+msgstr "%s 标题"
+
+#: inc/options/posts/woo-categories.php:54 inc/options/posts/woo-single.php:205
+msgid "Columns & Rows"
+msgstr "列和行"
+
+#: inc/options/posts/woo-categories.php:18
+msgid "Shop Settings"
+msgstr "商店设置"
+
+#: inc/options/general/custom-post-types.php:100
+msgid "Single %s"
+msgstr "%s 详情页"
+
+#: inc/options/general/custom-post-types.php:38
+#: inc/options/general/custom-post-types.php:44
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: inc/options/general/custom-post-types.php:15
+#: inc/options/general/custom-post-types.php:21
+msgid "bbPress"
+msgstr "bbPress"
+
+#: inc/options/general/meta.php:405 static/bundle/customizer-controls.js:2
+#: static/bundle/options.js:2 static/js/options/options/ct-border.js:47
+#: static/bundle/customizer-controls.js:14996 static/bundle/options.js:13100
+msgid "none"
+msgstr "无"
+
+#: inc/options/general/meta.php:392
+msgid "Icons"
+msgstr "图标"
+
+#: inc/options/general/meta.php:391
+msgid "Labels"
+msgstr "标签"
+
+#: inc/options/general/meta.php:385
+msgid "Items Style"
+msgstr "项目样式"
+
+#: inc/components/post-meta.php:82 inc/components/post-meta.php:654
+#: inc/options/general/meta.php:357
+#: static/js/customizer/sync/helpers/entry-meta.js:74
+#: static/bundle/sync.min.js:10003
+msgid "In"
+msgstr "在"
+
+#: inc/options/general/meta.php:184
+msgid "Author Avatar"
+msgstr "作者头像"
+
+#. translators: The interpolations addes a html link around the word.
+#: inc/options/general/meta.php:158
+msgid "Date format %sinstructions%s."
+msgstr "日期格式%s说明%s。"
+
+#. translators: The interpolations addes a html link around the word.
+#: inc/options/general/colors.php:23
+msgid "Learn more about palettes and colors %shere%s."
+msgstr "%s在这里%s了解更多关于调色板和颜色。"
+
+#: inc/components/breadcrumbs.php:400
+msgid "No title"
+msgstr "无标题"
+
+#: inc/components/breadcrumbs.php:174
+msgid "Searching for:"
+msgstr "搜索:"
+
+#: inc/components/breadcrumbs.php:13
+msgid "404 Not found"
+msgstr "404 未找到"
+
+#: inc/components/breadcrumbs.php:12 inc/options/general/posts-listing.php:14
+#: inc/options/posts/blog.php:20
+msgid "Blog"
+msgstr "博客"
+
+#. translators: placeholder here means the actual URL.
+#: inc/options/general/posts-listing.php:1520
+#: inc/options/posts/woo-categories.php:897
+#: inc/options/single-elements/structure-design.php:36
+msgid "Please note, by default this option is inherited from Colors ➝ %sSite Background%s."
+msgstr "请注意, 默认情况下这个选项是继承自 颜色 ➝ %s站点背景%s。"
+
+#: inc/options/general/breadcrumbs.php:152
+#: inc/options/general/page-title.php:1111
+msgid "Breadcrumbs Font Color"
+msgstr "面包屑字体颜色"
+
+#: inc/options/general/breadcrumbs.php:140
+#: inc/options/general/page-title.php:1103
+msgid "Breadcrumbs Font"
+msgstr "面包屑字体"
+
+#: inc/options/general/page-title.php:589
+msgid "Social Channels"
+msgstr "社交频道"
+
+#: inc/options/general/page-title.php:526
+msgid "Author Meta"
+msgstr "作者元数据"
+
+#: inc/options/general/page-title.php:325
+msgid "Name & Avatar"
+msgstr "名字与头像"
+
+#: inc/options/general/page-title.php:286
+#: inc/options/general/page-title.php:422
+#: inc/options/general/page-title.php:487
+#: inc/options/general/page-title.php:573
+#: inc/options/general/page-title.php:599
+msgid "Top Spacing"
+msgstr "顶部间距"
+
+#: inc/options/general/page-title.php:106
+msgid "Subtitle"
+msgstr "副标题"
+
+#: inc/options/general/page-title.php:94
+msgid "Bio"
+msgstr "个人简历"
+
+#: inc/options/posts/woo-single.php:308
+msgid "Sticky Summary"
+msgstr "吸附概要"
+
+#: inc/options/general/page-title.php:781 inc/options/posts/woo-gallery.php:106
+#: inc/options/single-elements/featured-image.php:29
+#: inc/options/single-elements/post-nav.php:92
+#: inc/options/single-elements/related-posts.php:231
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-ratio.js:68
+#: static/bundle/customizer-controls.js:19545 static/bundle/options.js:19534
+msgid "Image Size"
+msgstr "图像大小"
+
+#: inc/options/posts/woo-categories.php:128
+msgid "Image height will be automatically calculated based on the image ratio."
+msgstr "图像高度将根据图像比率自动计算。"
+
+#: inc/helpers.php:295
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: inc/components/woocommerce/common/account.php:98
+msgid "Account"
+msgstr "账户"
+
+#: inc/panel-builder/header/search/options.php:390
+msgid "Icon Margin"
+msgstr "图标边距"
+
+#: inc/components/woocommerce-integration.php:109
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce 侧边栏"
+
+#: inc/panel-builder/header/trigger/options.php:446
+#: inc/panel-builder/header/trigger/options.php:486
+#: inc/panel-builder/header/trigger/options.php:524
+msgid "Trigger Border Color"
+msgstr "触发器边框颜色"
+
+#: inc/panel-builder/header/search/options.php:102
+#: inc/panel-builder/header/trigger/options.php:113
+msgid "Label Text"
+msgstr "标签文本"
+
+#: inc/options/posts/woo-single.php:200
+msgid "Related & Upsells"
+msgstr "相关与追加销售"
+
+#: inc/options/posts/woo-general.php:423
+msgid "Inactive"
+msgstr "未活动"
+
+#: inc/options/posts/woo-categories.php:482
+#: inc/options/posts/woo-categories.php:555
+msgid "Button Text Color"
+msgstr "按钮文本颜色"
+
+#: inc/options/general/posts-listing.php:1443
+#: inc/options/single-elements/related-posts.php:159
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-woocommerce-columns-and-rows.js:49
+#: static/bundle/customizer-controls.js:29880 static/bundle/options.js:29869
+msgid "Number of columns"
+msgstr "列数"
+
+#: inc/options/single-elements/related-posts.php:330
+msgid "Separate or unify the related posts module from or with the entry content area."
+msgstr "将相关的文章模块与入口内容区域分开或统一。"
+
+#: inc/options/general/content-elements.php:28
+msgid "Spacious"
+msgstr "宽敞"
+
+#: inc/options/general/content-elements.php:27
+msgid "Comfortable"
+msgstr "舒适"
+
+#: inc/options/general/content-elements.php:26
+msgid "Compact"
+msgstr "紧凑"
+
+#: inc/options/general/content-elements.php:19
+msgid "Content Spacing"
+msgstr "内容间隔"
+
+#: inc/options/general/comments-single.php:85
+#: inc/options/single-elements/related-posts.php:333
+msgid "Contained"
+msgstr "包含"
+
+#: inc/options/general/comments-single.php:84
+#: inc/options/single-elements/related-posts.php:332
+msgid "Separated"
+msgstr "分开"
+
+#: inc/options/general/comments-single.php:82
+msgid "Separate or unify the comments module from or with the entry content area."
+msgstr "将评论模块与条目内容区域分开或统一。"
+
+#: inc/options/general/comments-single.php:77
+#: inc/options/single-elements/related-posts.php:325
+msgid "Module Placement"
+msgstr "模块位置"
+
+#: inc/options/general/breadcrumbs.php:185
+#: inc/options/general/page-title.php:1144 inc/options/general/sidebar.php:368
+#: inc/options/single-elements/author-box.php:302
+#: inc/panel-builder/footer/copyright/options.php:139
+#: inc/panel-builder/footer/middle-row/options.php:582
+#: inc/panel-builder/footer/widget-area-1/options.php:94
+#: inc/panel-builder/header/cart/options.php:716
+#: inc/panel-builder/header/cart/options.php:827
+#: inc/panel-builder/header/text/options.php:229
+#: inc/panel-builder/header/text/options.php:269
+#: inc/panel-builder/header/text/options.php:308
+msgid "Link Hover"
+msgstr "链接悬停"
+
+#: inc/options/general/breadcrumbs.php:179
+#: inc/options/general/page-title.php:1138 inc/options/general/sidebar.php:363
+#: inc/options/single-elements/author-box.php:296
+#: inc/panel-builder/footer/copyright/options.php:133
+#: inc/panel-builder/footer/middle-row/options.php:576
+#: inc/panel-builder/footer/widget-area-1/options.php:89
+#: inc/panel-builder/header/cart/options.php:710
+#: inc/panel-builder/header/cart/options.php:822
+#: inc/panel-builder/header/text/options.php:223
+#: inc/panel-builder/header/text/options.php:264
+#: inc/panel-builder/header/text/options.php:303
+msgid "Link Initial"
+msgstr "链接初始"
+
+#: inc/options/general/page-title.php:372
+msgid "Category Label"
+msgstr "分类标签"
+
+#: inc/components/social-box.php:620 inc/components/social-box.php:1476
+msgid "Facebook Group"
+msgstr "Facebook 群组"
+
+#: inc/options/general/page-title.php:541
+msgid "Joined Date"
+msgstr "加入日期"
+
+#: inc/init.php:541
+msgid "Main Sidebar"
+msgstr "主边栏"
+
+#: inc/single/comments.php:229 static/bundle/customizer-controls.js:2
+#: static/bundle/options.js:2 static/js/customizer/sync/builder.js:110
+#: static/js/options/options/ct-image-uploader.js:369
+#: static/bundle/customizer-controls.js:18124 static/bundle/options.js:18113
+#: static/bundle/sync.min.js:9048
+msgid "Edit"
+msgstr "编辑"
+
+#: inc/options/general/page-title.php:1342
+msgid "Options will appear here only if you will set Custom in Page Title option."
+msgstr "选项将出现在这里, 只有你将设置自定义页标题选项。"
+
+#: inc/options/general/page-title.php:1282
+msgid "By default these options are inherited from Customizer options."
+msgstr "默认情况下, 这些选项是从定制程序选项继承的。"
+
+#: inc/options/general/comments-single.php:126
+#: inc/options/single-elements/related-posts.php:410
+msgid "Container Max Width"
+msgstr "容器最大宽度"
+
+#: inc/options/general/comments-single.php:110
+#: inc/options/single-elements/related-posts.php:393
+msgid "Normal"
+msgstr "常规"
+
+#: inc/options/general/comments-single.php:109
+#: inc/options/general/page-title.php:726
+#: inc/options/single-elements/related-posts.php:394
+msgid "Narrow"
+msgstr "更窄"
+
+#: inc/options/general/comments-single.php:103
+#: inc/options/single-elements/related-posts.php:386
+#: inc/panel-builder/header/middle-row/options.php:32
+msgid "Container Structure"
+msgstr "容器结构"
+
+#: inc/panel-builder/footer/options.php:5
+msgid "Enable reveal effect on"
+msgstr "启用显示效果在"
+
+#: inc/panel-builder/footer/socials/options.php:121
+#: inc/panel-builder/header/socials/options.php:120
+msgid "Shape Fill Type"
+msgstr "形状填充类型"
+
+#: inc/panel-builder/footer/socials/options.php:102
+#: inc/panel-builder/header/socials/options.php:101
+msgid "Icons Shape Type"
+msgstr "图标形状类型"
+
+#: inc/options/general/page-title.php:687
+#: inc/options/general/posts-listing.php:640
+#: inc/panel-builder/footer/copyright/options.php:47
+#: inc/panel-builder/footer/menu/options.php:105
+#: inc/panel-builder/footer/middle-row/options.php:415
+#: inc/panel-builder/footer/socials/options.php:181
+#: inc/panel-builder/footer/widget-area-1/options.php:39
+#: inc/panel-builder/header/button/options.php:186
+#: inc/panel-builder/header/logo/options.php:304
+#: inc/panel-builder/header/offcanvas/options.php:63
+#: inc/panel-builder/header/text/options.php:95
+msgid "Vertical Alignment"
+msgstr "垂直对齐方式"
+
+#: inc/options/general/page-title.php:633
+#: inc/options/general/page-title.php:671
+#: inc/options/general/posts-listing.php:587
+#: inc/options/posts/woo-product-tabs.php:41
+#: inc/panel-builder/footer/copyright/options.php:31
+#: inc/panel-builder/footer/menu/options.php:84
+#: inc/panel-builder/footer/socials/options.php:165
+#: inc/panel-builder/footer/widget-area-1/options.php:23
+#: inc/panel-builder/header/button/options.php:169
+#: inc/panel-builder/header/logo/options.php:288
+#: inc/panel-builder/header/mobile-menu/options.php:135
+#: inc/panel-builder/header/offcanvas/options.php:79
+#: inc/panel-builder/header/text/options.php:78
+msgid "Horizontal Alignment"
+msgstr "水平对齐方式"
+
+#: inc/integrations/elementor.php:162
+msgid "Full Width Section"
+msgstr "全宽章节"
+
+#: inc/options/general/sidebar.php:117
+msgid "Widget Title Tag"
+msgstr "小工具标题标签"
+
+#: inc/options/meta/default.php:221 inc/options/meta/post.php:217
+msgid "Disable Related Posts"
+msgstr "禁用相关文章"
+
+#: inc/options/meta/default.php:210 inc/options/meta/post.php:199
+msgid "Disable Posts Navigation"
+msgstr "禁用文章导航"
+
+#: inc/options/meta/default.php:204 inc/options/meta/post.php:193
+msgid "Disable Author Box"
+msgstr "禁用作者框"
+
+#: inc/options/meta/default.php:198 inc/options/meta/page.php:182
+#: inc/options/meta/post.php:187
+msgid "Disable Share Box"
+msgstr "禁用共享框"
+
+#: inc/options/meta/post.php:181
+msgid "Disable Post Tags"
+msgstr "禁用文章标签"
+
+#: inc/options/meta/default.php:178 inc/options/meta/page.php:176
+#: inc/options/meta/post.php:175
+msgid "Disable Featured Image"
+msgstr "禁用特色图片"
+
+#: inc/options/general/sidebar.php:336
+#: inc/panel-builder/footer/middle-row/options.php:548
+msgid "Widgets Font Color"
+msgstr "小工具字体颜色"
+
+#: inc/options/general/sidebar.php:327
+#: inc/panel-builder/footer/middle-row/options.php:539
+msgid "Widgets Font"
+msgstr "小工具字体"
+
+#: inc/options/general/page-title.php:386
+msgid "Author avatar"
+msgstr "作者头像"
+
+#: inc/options/general/page-title.php:217
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/customizer/panels-builder/columns/AvailableItems.js:74
+#: static/js/customizer/panels-builder/placements/AvailableItems.js:78
+#: static/bundle/customizer-controls.js:6007
+#: static/bundle/customizer-controls.js:17106 static/bundle/options.js:15210
+#: static/bundle/options.js:16874
+msgid "Elements"
+msgstr "元素"
+
+#: inc/panel-builder/footer/copyright/options.php:16
+msgid "You can insert some arbitrary HTML code tags: {current_year}, {site_title} and {theme_author}"
+msgstr "你可以插入一些任意的HTML代码标签: {current_year}, {site_title} 和 {theme_author}"
+
+#: inc/panel-builder/footer/copyright/options.php:10
+msgid "Copyright Text"
+msgstr "版权文本"
+
+#: inc/panel-builder/footer/copyright/config.php:3
+msgid "Copyright"
+msgstr "版权"
+
+#: inc/panel-builder/footer/options.php:69
+msgid "Please note, you can also change the background color for each row individually."
+msgstr "请注意, 您还可以单独更改每一行的背景颜色。"
+
+#: inc/panel-builder/footer/options.php:57
+msgid "Footer Background"
+msgstr "页脚背景图像"
+
+#: inc/panel-builder/footer/options.php:9
+msgid "Enables a nice reveal effect as you scroll down."
+msgstr "向下滚动时启用良好的显示效果。"
+
+#: inc/options/general/sidebar.php:280
+#: inc/panel-builder/footer/middle-row/options.php:491
+msgid "Widgets Title Font Color"
+msgstr "小工具标题字体颜色"
+
+#: inc/options/general/sidebar.php:272
+#: inc/panel-builder/footer/middle-row/options.php:483
+msgid "Widgets Title Font"
+msgstr "小工具标题字体"
+
+#: inc/panel-builder/footer/middle-row/options.php:650
+msgid "Row Bottom Divider"
+msgstr "行底部分隔器"
+
+#: inc/panel-builder/footer/middle-row/options.php:609
+msgid "Row Top Divider"
+msgstr "行顶部分隔器"
+
+#: inc/panel-builder/footer/middle-row/options.php:596
+msgid "Row Background"
+msgstr "行背景"
+
+#: inc/panel-builder/footer/middle-row/options.php:451
+msgid "Row Visibility"
+msgstr "行可见性"
+
+#: inc/panel-builder/footer/middle-row/options.php:399
+msgid "Row Vertical Spacing"
+msgstr "行垂直间距"
+
+#: inc/panel-builder/footer/middle-row/options.php:92
+#: inc/panel-builder/footer/middle-row/options.php:104
+#: inc/panel-builder/footer/middle-row/options.php:155
+#: inc/panel-builder/footer/middle-row/options.php:167
+#: inc/panel-builder/footer/middle-row/options.php:218
+#: inc/panel-builder/footer/middle-row/options.php:230
+#: inc/panel-builder/footer/middle-row/options.php:281
+#: inc/panel-builder/footer/middle-row/options.php:293
+#: inc/panel-builder/footer/middle-row/options.php:344
+#: inc/panel-builder/footer/middle-row/options.php:356
+msgid "Two Columns"
+msgstr "两栏"
+
+#: inc/panel-builder/footer/middle-row/options.php:87
+#: inc/panel-builder/footer/middle-row/options.php:99
+#: inc/panel-builder/footer/middle-row/options.php:150
+#: inc/panel-builder/footer/middle-row/options.php:162
+#: inc/panel-builder/footer/middle-row/options.php:213
+#: inc/panel-builder/footer/middle-row/options.php:225
+#: inc/panel-builder/footer/middle-row/options.php:276
+#: inc/panel-builder/footer/middle-row/options.php:288
+#: inc/panel-builder/footer/middle-row/options.php:339
+#: inc/panel-builder/footer/middle-row/options.php:351
+msgid "Stacked"
+msgstr "堆叠"
+
+#: inc/panel-builder/footer/middle-row/options.php:51
+#: inc/panel-builder/footer/middle-row/options.php:118
+#: inc/panel-builder/footer/middle-row/options.php:181
+#: inc/panel-builder/footer/middle-row/options.php:244
+#: inc/panel-builder/footer/middle-row/options.php:307
+msgid "Columns Layout"
+msgstr "列布局"
+
+#: inc/options/general/general.php:53
+msgid "Frame Color"
+msgstr "框架颜色"
+
+#: inc/options/general/general.php:43
+msgid "Frame Size"
+msgstr "框架大小"
+
+#: inc/options/general/layout.php:67
+msgid "This option will apply only to those elements that have a wide alignment option."
+msgstr "此选项将仅适用于具有宽对齐选项的元素。"
+
+#: inc/options/posts/woo-categories.php:687
+#: inc/options/posts/woo-categories.php:719
+#: inc/panel-builder/header/menu/options.php:887
+#: inc/panel-builder/header/menu/options.php:918
+#: inc/panel-builder/header/menu/options.php:948
+msgid "Hover/Active"
+msgstr "悬停/活动"
+
+#: inc/options/general/buttons.php:13 inc/options/general/typography.php:104
+msgid "Buttons"
+msgstr "按钮"
+
+#: inc/options/general/page-title.php:542 inc/single/single-helpers.php:269
+#: inc/single/single-helpers.php:388
+msgid "Articles"
+msgstr "文章"
+
+#: inc/single/single-helpers.php:265
+msgid "Joined"
+msgstr "已加入"
+
+#: inc/init.php:472
+msgid "Header Menu 1"
+msgstr "页眉菜单1"
+
+#: inc/options/general/posts-listing.php:1107
+msgid "Card bottom divider"
+msgstr "卡片底部分隔器"
+
+#: inc/options/customizer.php:91
+msgid "Performance"
+msgstr "性能"
+
+#. translators: placeholder here means the actual URL.
+#: inc/panel-builder/footer/menu/options.php:19
+#: inc/panel-builder/header/mobile-menu/options.php:15
+msgid "Manage your menus in the %sMenus screen%s."
+msgstr "在 %s菜单屏幕%s 中管理您的菜单。"
+
+#: inc/components/images.php:494
+msgid "Default image"
+msgstr "默认图片"
+
+#: inc/components/gallery.php:271 inc/components/gallery.php:282
+msgid "Slide %s"
+msgstr "幻灯片 %s"
+
+#: inc/components/pagination.php:66
+msgid "No more products to load"
+msgstr "没有更多的产品加载"
+
+#: inc/panel-builder/header/search/options.php:460
+msgid "Search Through Criteria"
+msgstr "搜索标准"
+
+#: inc/options/posts/woo-add-to-cart.php:161
+#: inc/options/posts/woo-add-to-cart.php:234
+#: inc/options/posts/woo-categories.php:515
+#: inc/options/posts/woo-general.php:135 inc/options/posts/woo-general.php:251
+#: inc/options/posts/woo-general.php:363
+msgid "Button Background Color"
+msgstr "按钮背景颜色"
+
+#: inc/options/general/back-to-top.php:113
+#: inc/options/general/content-elements.php:51
+#: inc/panel-builder/header/cart/options.php:52
+msgid "Type 5"
+msgstr "类型 5"
+
+#: inc/options/general/content-elements.php:39
+msgid "Links Type"
+msgstr "链接类型"
+
+#: inc/options/general/posts-listing.php:1097
+msgid "Featured Image Radius"
+msgstr "特色图片圆角半径"
+
+#: inc/options/posts/woo-categories.php:631
+#: inc/options/single-elements/related-posts.php:589
+msgid "Image Border Radius"
+msgstr "图片圆角半径"
+
+#: inc/options/posts/woo-general.php:1122
+msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
+msgstr "这是一个用于测试的演示商店 - 没有订单能完成哦。"
+
+#: inc/options/posts/woo-general.php:1104
+msgid "Store Notice"
+msgstr "商店通告"
+
+#: inc/options/posts/woo-categories.php:162
+msgid "Height"
+msgstr "高度"
+
+#: inc/options/posts/woo-categories.php:149
+#: inc/panel-builder/header/menu/options.php:604
+msgid "Width"
+msgstr "宽"
+
+#: inc/options/posts/categories.php:17
+msgid "Categories Elements"
+msgstr "分类元素"
+
+#: inc/options/pages/search-page.php:35 inc/options/posts/blog.php:42
+#: inc/options/posts/custom-post-type-archive.php:38
+#: inc/options/posts/woo-categories.php:950
+#: inc/options/posts/woo-single.php:291
+msgid "Functionality Options"
+msgstr "功能选项"
+
+#: inc/options/posts/woo-single.php:63
+msgid "Product Elements"
+msgstr "产品元素"
+
+#: inc/options/single-elements/related-posts.php:498
+msgid "Posts Title Font Color"
+msgstr "文章标题字体颜色"
+
+#: inc/options/general/posts-listing.php:339
+msgid "Boundless Image"
+msgstr "无限图像"
+
+#: inc/options/single-elements/structure-design.php:69
+msgid "Content Area Shadow"
+msgstr "内容区域阴影"
+
+#: inc/options/general/pagination.php:176
+msgid "Accent"
+msgstr "强调"
+
+#: inc/options/general/pagination.php:169
+msgid "Text Active"
+msgstr "文本活动"
+
+#: inc/options/general/pagination.php:163 inc/options/general/sidebar.php:357
+#: inc/panel-builder/footer/middle-row/options.php:570
+#: inc/panel-builder/header/cart/options.php:705
+#: inc/panel-builder/header/cart/options.php:786
+#: inc/panel-builder/header/cart/options.php:816
+#: inc/panel-builder/header/cart/options.php:849
+#: inc/panel-builder/header/text/options.php:217
+#: inc/panel-builder/header/text/options.php:259
+#: inc/panel-builder/header/text/options.php:298 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:141 static/bundle/options.js:37744
+msgid "Text Initial"
+msgstr "文本首字母"
+
+#: inc/options/posts/woo-general.php:54 inc/options/posts/woo-general.php:170
+#: inc/options/posts/woo-general.php:286
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: inc/options/general/page-title.php:1069
+msgid "Excerpt Font Color"
+msgstr "摘要字体颜色"
+
+#: inc/options/general/page-title.php:1057
+#: inc/options/general/posts-listing.php:756
+msgid "Excerpt Font"
+msgstr "摘要字体"
+
+#: inc/options/general/page-title.php:940
+#: inc/options/general/posts-listing.php:805
+msgid "Meta Font Color"
+msgstr "元信息字体颜色"
+
+#: inc/panel-builder/header/menu/options.php:646
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/box-shadow/box-shadow-modal.js:117
+#: static/bundle/customizer-controls.js:15199 static/bundle/options.js:13303
+msgid "Horizontal Offset"
+msgstr "水平偏移"
+
+#: inc/options/general/buttons.php:110 inc/options/general/sidebar.php:414
+#: inc/options/posts/woo-product-tabs.php:193
+#: inc/options/single-elements/author-box.php:460
+#: inc/options/single-elements/post-share-box.php:482
+#: inc/panel-builder/header/cart/options.php:918
+#: inc/panel-builder/header/mobile-menu/options.php:85
+#: inc/panel-builder/header/offcanvas/options.php:181
+#: inc/panel-builder/header/search/options.php:674
+msgid "Border"
+msgstr "边界"
+
+#: inc/panel-builder/header/menu/options.php:614
+msgid "Top Offset"
+msgstr "顶部偏移"
+
+#: inc/options/general/posts-listing.php:1266
+#: inc/options/posts/woo-categories.php:608
+msgid "Card Shadow"
+msgstr "卡片阴影"
+
+#: inc/options/general/back-to-top.php:158
+msgid "Bottom Offset"
+msgstr "底部偏移"
+
+#. translators: % refers to the number of reviews, when more than 1
+#: inc/components/post-meta.php:367
+msgid "% Reviews"
+msgstr "% 评论"
+
+#. translators: text for one review
+#: inc/components/post-meta.php:365
+msgid "1 Review"
+msgstr "1 评价"
+
+#. translators: text for one review
+#: inc/components/post-meta.php:359
+msgid "1 Comment"
+msgstr "一条评论"
+
+#: inc/manager.php:135
+msgid "More"
+msgstr "更多"
+
+#: inc/options/general/back-to-top.php:307 inc/options/general/sidebar.php:461
+#: inc/options/single-elements/author-box.php:441
+#: inc/panel-builder/footer/options.php:31
+#: inc/panel-builder/header/middle-row/options.php:403
+#: inc/panel-builder/header/middle-row/options.php:430
+#: inc/panel-builder/header/middle-row/options.php:448
+#: inc/panel-builder/header/middle-row/options.php:466
+msgid "Shadow"
+msgstr "阴影"
+
+#: inc/single/comments.php:237
+msgid "Reply"
+msgstr "回复"
+
+#: inc/components/builder/builder-footer-renderer.php:345
+#: inc/components/builder/builder-header-renderer.php:399
+msgid "Item %s not registered or doesn't have a view.php file."
+msgstr "项目 %s 未注册或没有 view.php 文件。"
+
+#: inc/init.php:474 inc/panel-builder/header/mobile-menu/config.php:4
+#: inc/panel-builder/header/mobile-menu/views/inline.php:62
+msgid "Mobile Menu"
+msgstr "移动设备菜单"
+
+#: inc/panel-builder/header/cart/config.php:4
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/panel-builder/header/cart/options.php:75
+msgid "Icon Badge"
+msgstr "图标徽章"
+
+#: inc/options/posts/woo-general.php:952
+msgid "Checkout Page"
+msgstr "结算页面"
+
+#: inc/panel-builder/header/text/config.php:4
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/panel-builder/header/text/options.php:13
+msgid "You can add here some arbitrary HTML code."
+msgstr "您可以在此处添加一些任意的 HTML 代码。"
+
+#: inc/panel-builder/footer/socials/options.php:348
+#: inc/panel-builder/header/socials/options.php:483
+#: inc/panel-builder/header/socials/options.php:529
+#: inc/panel-builder/header/socials/options.php:568
+#: inc/panel-builder/header/socials/options.php:607
+msgid "Icons Border Color"
+msgstr "图标边框颜色"
+
+#: inc/options/single-elements/author-box.php:348
+#: inc/panel-builder/footer/socials/options.php:344
+#: inc/panel-builder/header/socials/options.php:479
+#: inc/panel-builder/header/socials/options.php:525
+#: inc/panel-builder/header/socials/options.php:564
+#: inc/panel-builder/header/socials/options.php:603
+msgid "Icons Background Color"
+msgstr "图标背景色"
+
+#: inc/panel-builder/footer/socials/options.php:128
+#: inc/panel-builder/header/socials/options.php:127
+#: inc/panel-builder/header/trigger/options.php:60
+msgid "Solid"
+msgstr "立方体"
+
+#: inc/panel-builder/footer/socials/options.php:110
+#: inc/panel-builder/header/socials/options.php:109
+msgid "Rounded"
+msgstr "圆角"
+
+#: inc/options/single-elements/post-share-box.php:85
+#: inc/panel-builder/footer/socials/options.php:97
+#: inc/panel-builder/header/socials/options.php:96
+msgid "Official"
+msgstr "官方"
+
+#: inc/options/general/back-to-top.php:38 inc/options/general/meta.php:140
+#: inc/options/general/page-title.php:744
+#: inc/options/general/page-title.php:1270
+#: inc/options/general/page-title.php:1311 inc/options/meta/default.php:81
+#: inc/options/meta/default.php:112 inc/options/meta/page.php:80
+#: inc/options/meta/page.php:111 inc/options/meta/post.php:76
+#: inc/options/meta/post.php:110 inc/options/posts/woo-general.php:613
+#: inc/options/single-elements/post-share-box.php:84
+#: inc/panel-builder/footer/socials/options.php:96
+#: inc/panel-builder/header/socials/options.php:95
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/backend/woo-variation.js:39
+#: static/js/options/options/ct-ratio.js:130
+#: static/js/options/options/ct-ratio.js:283
+#: static/js/options/options/ct-slider.js:95
+#: static/js/options/options/ct-slider.js:120
+#: static/js/options/options/ct-typography.js:151
+#: static/bundle/customizer-controls.js:19607
+#: static/bundle/customizer-controls.js:19760
+#: static/bundle/customizer-controls.js:24702
+#: static/bundle/customizer-controls.js:24727
+#: static/bundle/customizer-controls.js:29431 static/bundle/options.js:19596
+#: static/bundle/options.js:19749 static/bundle/options.js:24691
+#: static/bundle/options.js:24716 static/bundle/options.js:29420
+#: static/bundle/options.js:37550
+msgid "Custom"
+msgstr "自定义"
+
+#: inc/options/single-elements/post-share-box.php:314
+#: inc/panel-builder/footer/socials/options.php:78
+#: inc/panel-builder/header/socials/options.php:77
+msgid "Icons Spacing"
+msgstr "图标间距"
+
+#: inc/panel-builder/footer/socials/options.php:68
+#: inc/panel-builder/header/socials/options.php:67
+msgid "Icons Size"
+msgstr "图标大小"
+
+#: inc/panel-builder/header/button/options.php:222
+#: inc/panel-builder/header/text/options.php:131
+msgid "User Visibility"
+msgstr "用户可见性"
+
+#: inc/options/posts/woo-categories.php:834
+#: inc/panel-builder/header/search/options.php:649
+msgid "Modal Background"
+msgstr "模态背景"
+
+#: inc/options/pages/search-page.php:39
+msgid "Live results"
+msgstr "实时结果"
+
+#: inc/options/general/back-to-top.php:147
+#: inc/options/single-elements/post-share-box.php:294
+#: inc/panel-builder/header/cart/options.php:65
+#: inc/panel-builder/header/cart/options.php:1035
+#: inc/panel-builder/header/offcanvas/options.php:302
+#: inc/panel-builder/header/search/options.php:47
+#: inc/panel-builder/header/search/options.php:790
+#: inc/panel-builder/header/trigger/options.php:38
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: inc/panel-builder/header/trigger/config.php:4
+msgid "Trigger"
+msgstr "触发器"
+
+#: inc/options/general/meta.php:342
+#: inc/panel-builder/header/button/config.php:4
+msgid "Button"
+msgstr "按钮"
+
+#: inc/options/general/buttons.php:34 inc/options/general/posts-listing.php:277
+msgid "Hover Effect"
+msgstr "悬停效果"
+
+#: inc/options/general/posts-listing.php:298
+#: inc/panel-builder/header/button/options.php:29
+msgid "Size"
+msgstr "尺寸"
+
+#: inc/panel-builder/header/button/options.php:22
+msgid "Ghost"
+msgstr "幽灵"
+
+#: inc/panel-builder/header/cart/options.php:638
+#: inc/panel-builder/header/offcanvas/options.php:34
+msgid "Right Side"
+msgstr "右侧"
+
+#: inc/panel-builder/header/cart/options.php:637
+#: inc/panel-builder/header/offcanvas/options.php:33
+msgid "Left Side"
+msgstr "左侧"
+
+#: inc/panel-builder/header/cart/options.php:629
+#: inc/panel-builder/header/offcanvas/options.php:27
+msgid "Reveal From"
+msgstr "显示从"
+
+#: inc/panel-builder/header/offcanvas/options.php:17
+msgid "Side Panel"
+msgstr "侧边面板"
+
+#: inc/panel-builder/header/offcanvas/options.php:10
+msgid "Reveal as"
+msgstr "显示为"
+
+#: inc/options/general/buttons.php:24
+msgid "Min Height"
+msgstr "最小高度"
+
+#: inc/panel-builder/header/menu-secondary/config.php:4
+msgid "Menu 2"
+msgstr "菜单 2"
+
+#: inc/panel-builder/header/menu/config.php:4
+msgid "Menu 1"
+msgstr "菜单 1"
+
+#: inc/panel-builder/footer/copyright/options.php:147
+#: inc/panel-builder/footer/menu/options.php:204
+#: inc/panel-builder/footer/socials/options.php:385
+#: inc/panel-builder/footer/widget-area-1/options.php:116
+#: inc/panel-builder/header/button/options.php:593
+#: inc/panel-builder/header/cart/options.php:536
+#: inc/panel-builder/header/logo/options.php:623
+#: inc/panel-builder/header/menu/options.php:498
+#: inc/panel-builder/header/mobile-menu/options.php:506
+#: inc/panel-builder/header/offcanvas-logo/options.php:37
+#: inc/panel-builder/header/socials/options.php:644
+#: inc/panel-builder/header/text/options.php:322
+#: inc/panel-builder/header/trigger/options.php:585
+msgid "Margin"
+msgstr "边距"
+
+#: inc/panel-builder/header/menu/options.php:383
+#: inc/panel-builder/header/menu/options.php:416
+#: inc/panel-builder/header/menu/options.php:437
+#: inc/panel-builder/header/menu/options.php:457
+msgid "Active Indicator Color"
+msgstr "活动指示器颜色"
+
+#: inc/panel-builder/footer/menu/options.php:71
+#: inc/panel-builder/header/menu/options.php:126
+#: inc/panel-builder/header/mobile-menu/options.php:129
+msgid "Enabling this option will make the menu to stretch and fit the width of its parent column. "
+msgstr "启用此选项将使菜单拉伸并适合其上级列的宽度"
+
+#: inc/panel-builder/footer/menu/options.php:67
+#: inc/panel-builder/header/menu/options.php:122
+#: inc/panel-builder/header/mobile-menu/options.php:125
+msgid "Stretch Menu"
+msgstr "拉伸菜单"
+
+#: inc/panel-builder/header/menu/options.php:109
+msgid "Items Height"
+msgstr "项目高度"
+
+#: inc/panel-builder/footer/menu/options.php:15
+#: inc/panel-builder/header/menu/options.php:15
+#: inc/panel-builder/header/mobile-menu/options.php:11
+msgid "Select menu..."
+msgstr "选择菜单..."
+
+#: inc/panel-builder/footer/menu/options.php:9
+#: inc/panel-builder/header/menu/options.php:9
+#: inc/panel-builder/header/mobile-menu/options.php:5
+msgid "Select Menu"
+msgstr "选择菜单"
+
+#: inc/helpers.php:73
+msgid "You don't have a menu yet, please create one here &rarr;"
+msgstr "您还没有菜单, 请在此处创建一个 &rarr;"
+
+#: inc/options/general/posts-listing.php:1250
+msgid "Card Border"
+msgstr "卡片边框"
+
+#: inc/options/general/page-title.php:927
+#: inc/options/general/posts-listing.php:791
+msgid "Meta Font"
+msgstr "元信息字体"
+
+#: inc/options/general/meta.php:286
+msgid "Updated Date"
+msgstr "更新日期"
+
+#: inc/options/general/meta.php:251
+msgid "Published Date"
+msgstr "发布日期"
+
+#: admin/notices/templates.php:40
+msgid "We strongly recommend you to activate the"
+msgstr "我们强烈建议您激活"
+
+#: admin/notices/templates.php:38 static/bundle/274.b2841b7778b85d53b946.js:1
+#: static/js/notification/Notification.js:65
+#: static/bundle/274.b2841b7778b85d53b946.js:65
+msgid "Thanks for installing Blocksy, you rock!"
+msgstr "谢谢安装 Blocksy, 你太棒了!"
+
+#: inc/options/single-elements/post-share-box.php:250
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/options/single-elements/post-share-box.php:240
+msgid "Viber"
+msgstr "Viber"
+
+#: inc/options/single-elements/post-share-box.php:200
+msgid "Hacker News"
+msgstr "黑客新闻"
+
+#: header.php:34
+msgid "Skip to content"
+msgstr "跳过内容"
+
+#: inc/options/general/meta.php:172 inc/options/general/page-title.php:534
+msgid "Meta Elements"
+msgstr "元要素"
+
+#: inc/panel-builder/header/offcanvas/config.php:4
+msgid "Offcanvas"
+msgstr "Offcanvas"
+
+#: inc/panel-builder/footer/bottom-row/config.php:4
+#: inc/panel-builder/header/bottom-row/config.php:4
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:19
+#: static/js/customizer/sync/builder.js:133
+#: static/bundle/customizer-controls.js:5256
+#: static/bundle/customizer-controls.js:16489 static/bundle/options.js:14593
+#: static/bundle/options.js:16123 static/bundle/sync.min.js:9071
+msgid "Bottom Row"
+msgstr "底部行"
+
+#: inc/panel-builder/footer/middle-row/config.php:4
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/bundle/customizer-controls.js:16488 static/bundle/options.js:14592
+msgid "Middle Row"
+msgstr "中间行"
+
+#: inc/panel-builder/footer/top-row/config.php:4
+#: inc/panel-builder/header/top-row/config.php:4
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:17
+#: static/js/customizer/sync/builder.js:117
+#: static/bundle/customizer-controls.js:5254
+#: static/bundle/customizer-controls.js:16487 static/bundle/options.js:14591
+#: static/bundle/options.js:16121 static/bundle/sync.min.js:9055
+msgid "Top Row"
+msgstr "顶部行"
+
+#: woocommerce/content-widget-reviews.php:48
+msgid "by %s"
+msgstr "作者 %s"
+
+#: inc/components/pagination.php:170
+msgid "Next"
+msgstr "下一个"
+
+#: inc/components/pagination.php:168
+msgid "Prev"
+msgstr "上一个"
+
+#: inc/init.php:89
+msgid "Palette Color 5"
+msgstr "调色板颜色 5"
+
+#: inc/init.php:82
+msgid "Palette Color 4"
+msgstr "调色板颜色 4"
+
+#: inc/init.php:75
+msgid "Palette Color 3"
+msgstr "调色板颜色 3"
+
+#: inc/init.php:68
+msgid "Palette Color 2"
+msgstr "调色板颜色 2"
+
+#: inc/init.php:61
+msgid "Palette Color 1"
+msgstr "调色板颜色 1"
+
+#: inc/panel-builder/header/search/options.php:4
+msgid "Posts"
+msgstr "文章"
+
+#: inc/panel-builder/header/search/options.php:461
+msgid "Chose in which post types do you want to perform searches."
+msgstr "选择要在哪个文章类型中执行搜索。"
+
+#: inc/panel-builder/header/logo/options.php:520
+#: inc/panel-builder/header/logo/options.php:549
+#: inc/panel-builder/header/logo/options.php:571
+#: inc/panel-builder/header/logo/options.php:592
+msgid "Site Tagline Color"
+msgstr "网站标语颜色"
+
+#: inc/panel-builder/header/logo/options.php:510
+msgid "Site Tagline Font"
+msgstr "网站标语字体"
+
+#: inc/panel-builder/header/logo/options.php:374
+#: inc/panel-builder/header/logo/options.php:403
+#: inc/panel-builder/header/logo/options.php:434
+#: inc/panel-builder/header/logo/options.php:464 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:116 static/bundle/options.js:37719
+msgid "Site Title Color"
+msgstr "网站标题颜色"
+
+#: inc/panel-builder/header/logo/options.php:194
+msgid "Site Tagline Visibility"
+msgstr "网站标语可见性"
+
+#: inc/panel-builder/header/logo/options.php:174
+msgid "Site Tagline"
+msgstr "站点副标题"
+
+#: inc/options/general/comments-single.php:181
+#: inc/options/general/page-title.php:1193
+#: inc/options/single-elements/related-posts.php:629
+msgid "Container Background"
+msgstr "容器背景"
+
+#: inc/options/meta/default.php:25 inc/options/meta/post.php:20
+#: inc/options/posts/post.php:13
+msgid "Post Structure"
+msgstr "文章结构"
+
+#: inc/options/posts/blog.php:14
+msgid "Blog Title"
+msgstr "博客标题"
+
+#: inc/options/general/meta.php:212 inc/options/general/meta.php:262
+#: inc/options/general/meta.php:297 inc/options/general/meta.php:354
+#: inc/options/general/pagination.php:58
+#: inc/panel-builder/header/button/options.php:46
+msgid "Label"
+msgstr "标签"
+
+#: inc/options/posts/woo-categories.php:127
+#: inc/options/single-elements/featured-image.php:48
+msgid "Image Width"
+msgstr "图像宽度"
+
+#: inc/options/single-elements/featured-image.php:80
+msgid "Below Title"
+msgstr "标题下面"
+
+#: inc/options/single-elements/featured-image.php:79
+msgid "Above Title"
+msgstr "标题上面"
+
+#: inc/options/single-elements/featured-image.php:72
+msgid "Image Location"
+msgstr "图像位置"
+
+#: inc/options/single-elements/structure-design.php:54
+msgid "Content Area Background"
+msgstr "内容区域背景"
+
+#: inc/options/general/posts-listing.php:1505
+#: inc/options/posts/woo-categories.php:882
+#: inc/options/single-elements/structure-design.php:21
+msgid "Page Background"
+msgstr "页面背景"
+
+#: inc/options/meta/default.php:97 inc/options/meta/page.php:96
+#: inc/options/meta/post.php:92
+#: inc/options/single-elements/featured-image.php:56
+#: inc/options/single-elements/structure.php:85
+msgid "Wide"
+msgstr "宽阔"
+
+#: inc/options/meta/default.php:90 inc/options/meta/page.php:89
+#: inc/options/meta/post.php:85 inc/options/single-elements/structure.php:77
+msgid "Content Area Style"
+msgstr "内容区域风格"
+
+#: inc/options/general/page-title.php:1269
+#: inc/options/general/page-title.php:1310 inc/options/meta/default.php:80
+#: inc/options/meta/default.php:111 inc/options/meta/page.php:79
+#: inc/options/meta/page.php:110 inc/options/meta/post.php:75
+#: inc/options/meta/post.php:109
+#: inc/panel-builder/footer/widget-area-1/options.php:110
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/ImagePicker.js:118
+#: static/js/options/options/ct-border.js:45
+#: static/js/options/options/ct-box-shadow.js:65
+#: static/bundle/customizer-controls.js:14403
+#: static/bundle/customizer-controls.js:14994
+#: static/bundle/customizer-controls.js:15400 static/bundle/options.js:12507
+#: static/bundle/options.js:13098 static/bundle/options.js:13504
+msgid "Inherit"
+msgstr "继承"
+
+#: inc/options/general/posts-listing.php:68
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/ImagePicker.js:92
+#: static/bundle/customizer-controls.js:14377 static/bundle/options.js:12481
+msgid "Cover"
+msgstr "覆盖"
+
+#: inc/options/posts/woo-categories.php:109
+#: inc/options/posts/woo-gallery.php:95 static/bundle/customizer-controls.js:2
+#: static/bundle/options.js:2
+#: static/js/options/options/background/BackgroundModal.js:64
+#: static/js/options/options/background/BackgroundModal.js:107
+#: static/js/options/options/ct-background.js:164
+#: static/bundle/customizer-controls.js:14618
+#: static/bundle/customizer-controls.js:14661
+#: static/bundle/customizer-controls.js:14896 static/bundle/options.js:12722
+#: static/bundle/options.js:12765 static/bundle/options.js:13000
+msgid "Image"
+msgstr "图片"
+
+#: inc/options/general/posts-listing.php:917
+#: inc/options/general/posts-listing.php:963
+#: inc/options/general/posts-listing.php:1009
+#: inc/options/posts/woo-add-to-cart.php:130
+#: inc/options/posts/woo-add-to-cart.php:203
+#: inc/options/posts/woo-general.php:105 inc/options/posts/woo-general.php:221
+#: inc/options/posts/woo-general.php:335
+msgid "Button Font Color"
+msgstr "按钮字体颜色"
+
+#: inc/options/general/back-to-top.php:179
+msgid "Alignment"
+msgstr "对齐"
+
+#: inc/options/general/posts-listing.php:415
+msgid "Show Arrow"
+msgstr "显示箭头"
+
+#: inc/options/general/posts-listing.php:396
+#: inc/panel-builder/footer/socials/options.php:129
+#: inc/panel-builder/header/socials/options.php:128
+#: inc/panel-builder/header/trigger/options.php:59
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/box-shadow/box-shadow-modal.js:227
+#: static/bundle/customizer-controls.js:15309 static/bundle/options.js:13413
+msgid "Outline"
+msgstr "大纲"
+
+#: inc/options/general/posts-listing.php:386
+msgid "Read More Button"
+msgstr "继续阅读按钮"
+
+#: inc/options/single-elements/author-box.php:315
+#: inc/options/single-elements/post-share-box.php:77
+#: inc/options/single-elements/post-share-box.php:448
+#: inc/options/single-elements/post-share-box.php:508
+#: inc/panel-builder/footer/socials/options.php:89
+#: inc/panel-builder/footer/socials/options.php:302
+#: inc/panel-builder/header/socials/options.php:88
+#: inc/panel-builder/header/socials/options.php:346
+#: inc/panel-builder/header/socials/options.php:379
+#: inc/panel-builder/header/socials/options.php:412
+#: inc/panel-builder/header/socials/options.php:443
+msgid "Icons Color"
+msgstr "图标颜色"
+
+#: inc/panel-builder/header/cart/options.php:124
+#: inc/panel-builder/header/logo/options.php:247
+#: inc/panel-builder/header/search/options.php:96
+#: inc/panel-builder/header/trigger/options.php:107
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-spacing.js:94
+#: static/bundle/customizer-controls.js:25310 static/bundle/options.js:25299
+msgid "Right"
+msgstr "右"
+
+#: inc/panel-builder/header/cart/options.php:123
+#: inc/panel-builder/header/logo/options.php:246
+#: inc/panel-builder/header/search/options.php:95
+#: inc/panel-builder/header/trigger/options.php:106
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-spacing.js:93
+#: static/bundle/customizer-controls.js:25309 static/bundle/options.js:25298
+msgid "Left"
+msgstr "左"
+
+#: inc/options/general/typography.php:17
+msgid "Base Font"
+msgstr "基本字体"
+
+#: inc/panel-builder/header/logo/options.php:126
+#: inc/panel-builder/header/logo/options.php:363
+msgid "Site Title"
+msgstr "站点标题"
+
+#. translators: placeholder here is the link URL.
+#: inc/options/single-elements/author-box.php:111
+msgid "You can set the author social channels %shere%s."
+msgstr "您可以%s在此处%s设置作者的社交频道。"
+
+#: inc/options/customizer.php:85
+msgid "Typography"
+msgstr "字体样式"
+
+#: inc/options/general/content-elements.php:25
+#: inc/options/general/page-title.php:745
+#: inc/options/general/posts-listing.php:285
+#: inc/options/posts/woo-categories.php:174
+#: inc/panel-builder/footer/socials/options.php:109
+#: inc/panel-builder/footer/widget-area-1/options.php:109
+#: inc/panel-builder/header/socials/options.php:108
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-border.js:75
+#: static/js/options/options/ct-box-shadow.js:68
+#: static/bundle/customizer-controls.js:15024
+#: static/bundle/customizer-controls.js:15403 static/bundle/options.js:13128
+#: static/bundle/options.js:13507
+msgid "None"
+msgstr "无"
+
+#: inc/options/general/pagination.php:264
+#: inc/options/general/posts-listing.php:459
+#: inc/options/general/sidebar.php:438
+msgid "Divider"
+msgstr "分割线"
+
+#: inc/options/general/typography.php:132
+msgid "Preformatted"
+msgstr "预格式化"
+
+#: inc/options/general/colors.php:857 inc/options/general/typography.php:88
+msgid "Heading 6 (H6)"
+msgstr "标题6 (H6)"
+
+#: inc/options/general/colors.php:835 inc/options/general/typography.php:77
+msgid "Heading 5 (H5)"
+msgstr "标题5 (H5)"
+
+#: inc/options/general/colors.php:813 inc/options/general/typography.php:66
+msgid "Heading 4 (H4)"
+msgstr "标题4 (H4)"
+
+#: inc/options/general/colors.php:791 inc/options/general/typography.php:55
+msgid "Heading 3 (H3)"
+msgstr "标题3 (H3)"
+
+#: inc/options/general/colors.php:769 inc/options/general/typography.php:44
+msgid "Heading 2 (H2)"
+msgstr "标题2 (H2)"
+
+#: inc/options/general/colors.php:747 inc/options/general/typography.php:33
+msgid "Heading 1 (H1)"
+msgstr "标题1 (H1)"
+
+#: inc/options/general/posts-listing.php:1355
+msgid "Gutenberg"
+msgstr "古腾堡"
+
+#: inc/options/general/posts-listing.php:1350
+msgid "Enhanced Grid"
+msgstr "增强网格"
+
+#: inc/options/general/page-title.php:850
+#: inc/options/general/posts-listing.php:673
+#: inc/options/integrations/tutorlms-single.php:8
+#: inc/options/posts/woo-categories.php:335
+#: inc/options/posts/woo-categories.php:733
+msgid "Title Font"
+msgstr "标题字体"
+
+#: inc/options/posts/woo-product-tabs.php:68
+#: inc/options/posts/woo-single.php:79 inc/options/posts/woo-single.php:117
+#: inc/panel-builder/footer/copyright/options.php:95
+#: inc/panel-builder/footer/menu/options.php:153
+#: inc/panel-builder/header/menu/options.php:148
+#: inc/panel-builder/header/menu/options.php:665
+#: inc/panel-builder/header/mobile-menu/options.php:189
+#: inc/panel-builder/header/mobile-menu/options.php:338
+#: inc/panel-builder/header/search/options.php:486
+#: inc/panel-builder/header/text/options.php:156
+msgid "Font"
+msgstr "字体"
+
+#: inc/single/comments.php:73
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr "将我的姓名, 邮箱地址和网站信息保存在此浏览器中, 以便下次发表评论。"
+
+#: inc/options/single-elements/post-share-box.php:230
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/options/single-elements/post-share-box.php:210
+msgid "VKontakte"
+msgstr "VKontakte"
+
+#: admin/dashboard/plugins/config.php:40
+msgid "A new and innovative way of building WordPress pages visually. No designer or developer skills required. The only tools you'll need to master are clicks and drags."
+msgstr "一种新的、创新的可视化构建 WordPress 页面的方法。不需要设计师或开发人员的技能。您唯一需要掌握的工具就是点击和拖动。"
+
+#: admin/dashboard/api.php:55
+msgid "Theme"
+msgstr "主题"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "已关闭评论。"
+
+#: comments.php:73
+msgid "Newer Comments &rarr;"
+msgstr "最新评论 &rarr;"
+
+#: comments.php:69
+msgid "&larr; Older Comments"
+msgstr "&larr; 较早评论"
+
+#: comments.php:64
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#. translators: % refers to the number of comments, when more than 1
+#: comments.php:36 inc/components/post-meta.php:361
+msgid "% Comments"
+msgstr "% 评论"
+
+#: comments.php:36
+msgid "One comment"
+msgstr "一条评论"
+
+#: comments.php:36
+msgid "No comments yet"
+msgstr "暂时没有评论"
+
+#: inc/single/comments.php:56
+msgid "Add Comment"
+msgstr "添加评论"
+
+#: inc/components/social-box.php:882 inc/components/social-box.php:1468
+#: inc/components/woocommerce/single/review-form.php:14
+#: inc/options/single-elements/post-share-box.php:270
+#: inc/single/comments.php:127
+msgid "Email"
+msgstr "邮箱"
+
+#: inc/components/woocommerce/single/review-form.php:13
+#: inc/single/comments.php:120
+msgid "Name"
+msgstr "名称"
+
+#: inc/single/comments.php:43
+msgid "Cancel Reply"
+msgstr "取消回复"
+
+#: inc/single/comments.php:42
+msgid "Leave a Reply"
+msgstr "留下评论"
+
+#. translators: %s are the opening and closing of the html tags
+#: inc/components/hero/elements.php:344
+msgid "%sSorry, but nothing matched your search terms. Please try again with some different keywords.%s"
+msgstr "%s抱歉, 但没有与您的搜索字词匹配的内容。 请使用其他不同的关键字再试一次。%s"
+
+#: inc/single/comments.php:253
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#. translators: 1: date, 2: time
+#: inc/single/comments.php:222
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#. translators: post title
+#: inc/template-tags.php:313
+msgid "Next %s"
+msgstr "下一页 %s"
+
+#. translators: post title
+#: inc/template-tags.php:288
+msgid "Previous %s"
+msgstr "上一页 %s"
+
+#: inc/components/social-box.php:594 inc/components/social-box.php:1524
+#: inc/options/single-elements/post-share-box.php:220
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: inc/options/single-elements/post-share-box.php:190
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer/init.php:60
+msgid "Core"
+msgstr "核心"
+
+#: inc/options/customizer.php:156
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/manager.php:134
+msgid "Show more"
+msgstr "显示更多"
+
+#: inc/components/woocommerce-integration.php:111 inc/init.php:543
+msgid "Add widgets here."
+msgstr "在此添加小工具。"
+
+#: inc/components/post-meta.php:74 inc/components/post-meta.php:638
+#: inc/components/post-meta.php:646 inc/options/general/meta.php:265
+#: inc/options/general/meta.php:300
+msgid "On"
+msgstr "在"
+
+#: inc/components/post-meta.php:64 inc/components/post-meta.php:630
+#: inc/options/general/meta.php:215
+msgid "By"
+msgstr "来自"
+
+#. translators: placeholder here is the actual PHP version.
+#: inc/php-fallback.php:16 inc/php-fallback.php:28 inc/php-fallback.php:42
+msgid "Blocksy requires at least PHP version 5.7.0. You are running version %s. Please upgrade and try again."
+msgstr "Blocksy 至少需要 PHP 5.7.0 版本。您正在运行版本 %s。请升级后重试。"
+
+#: inc/options/engagement/general.php:20
+msgid "Schema.org Markup"
+msgstr "Schema.org 标记"
+
+#: inc/options/customizer.php:216
+msgid "Extensions"
+msgstr "扩展"
+
+#: inc/options/general/form-elements.php:13
+msgid "Form Elements"
+msgstr "表单元素"
+
+#: inc/options/general/pagination.php:13
+msgid "Pagination"
+msgstr "页码"
+
+#: inc/options/engagement/social-accounts.php:28
+#: inc/options/engagement/social-accounts.php:34
+msgid "Social Network Accounts"
+msgstr "社交网络帐户"
+
+#: inc/options/engagement/general.php:5
+msgid "Visitor Engagement"
+msgstr "访客统计"
+
+#: inc/options/customizer.php:177
+msgid "Single Product"
+msgstr "产品详情页"
+
+#: inc/options/posts/woo-general.php:669
+msgid "Archive"
+msgstr "档案"
+
+#: inc/options/customizer.php:139 inc/options/pages/author-page.php:18
+msgid "Author Page"
+msgstr "作者页面"
+
+#: inc/options/customizer.php:103
+msgid "Blog Posts"
+msgstr "博客文章"
+
+#: inc/options/customizer.php:98
+msgid "Post types"
+msgstr "文章类型"
+
+#: inc/integrations/beaver-themer.php:27 inc/options/customizer.php:67
+msgid "Footer"
+msgstr "页脚"
+
+#: inc/options/general/layout.php:13
+msgid "Layout"
+msgstr "布局"
+
+#: inc/manager.php:136
+msgid "Search results"
+msgstr "搜索结果"
+
+#: inc/options/posts/woo-single.php:317
+msgid "AJAX Add To Cart"
+msgstr "异步方式加入购物车"
+
+#: inc/options/posts/woo-single.php:174
+msgid "Product Meta"
+msgstr "产品元数据"
+
+#: inc/options/posts/woo-gallery.php:78
+#: inc/panel-builder/footer/menu/options.php:46
+#: inc/panel-builder/footer/socials/options.php:206
+msgid "Vertical"
+msgstr "垂直"
+
+#: inc/options/posts/woo-gallery.php:77
+#: inc/panel-builder/footer/menu/options.php:45
+#: inc/panel-builder/footer/socials/options.php:205
+msgid "Horizontal"
+msgstr "水平"
+
+#: inc/options/general/breadcrumbs.php:199
+#: inc/options/general/page-title.php:275
+msgid "Breadcrumbs"
+msgstr "面包屑"
+
+#: inc/options/posts/woo-categories.php:924
+msgid "Shop Results Count"
+msgstr "商店结果数"
+
+#: inc/options/posts/woo-categories.php:914
+msgid "Shop Sort"
+msgstr "店铺排序"
+
+#: inc/options/meta/default.php:217 inc/options/meta/page.php:172
+#: inc/options/meta/post.php:213 inc/options/pages/author-page.php:24
+#: inc/options/pages/page.php:51 inc/options/pages/search-page.php:24
+#: inc/options/posts/blog.php:26
+#: inc/options/posts/custom-post-type-archive.php:23
+#: inc/options/posts/custom-post-type-single.php:120
+#: inc/options/posts/post.php:75 inc/options/posts/woo-categories.php:910
+#: inc/options/posts/woo-single.php:192
+msgid "Page Elements"
+msgstr "页面元素"
+
+#: inc/options/posts/woo-categories.php:414
+#: inc/options/posts/woo-categories.php:772
+msgid "Price Color"
+msgstr "价格颜色"
+
+#: inc/options/posts/woo-categories.php:442
+msgid "Categories Color"
+msgstr "分类颜色"
+
+#: inc/options/integrations/tutorlms-single.php:162
+#: inc/options/posts/woo-general.php:400
+msgid "Star Rating Color"
+msgstr "星级颜色"
+
+#: inc/options/posts/woo-categories.php:229
+msgid "Product Categories"
+msgstr "产品类别"
+
+#: inc/options/posts/woo-categories.php:218
+#: inc/options/posts/woo-general.php:710 inc/options/posts/woo-single.php:154
+msgid "Sale Badge"
+msgstr "销售徽章"
+
+#: inc/options/posts/woo-categories.php:207
+#: inc/options/posts/woo-general.php:394 inc/options/posts/woo-single.php:164
+msgid "Star Rating"
+msgstr "星级"
+
+#: inc/options/posts/woo-categories.php:1019
+msgid "Sort by price (desc)"
+msgstr "按价格排序 (降序)"
+
+#: inc/options/posts/woo-categories.php:1018
+msgid "Sort by price (asc)"
+msgstr "按价格排序 (升序)"
+
+#: inc/options/posts/woo-categories.php:1017
+msgid "Sort by most recent"
+msgstr "按最新排序"
+
+#: inc/options/posts/woo-categories.php:1016
+msgid "Average rating"
+msgstr "平均评分"
+
+#: inc/options/posts/woo-categories.php:1015
+msgid "Popularity (sales)"
+msgstr "人气 (销售)"
+
+#: inc/options/posts/woo-categories.php:1014
+msgid "Default sorting (custom ordering + name)"
+msgstr "默认排序 (自定义排序+名称)"
+
+#: inc/options/posts/woo-categories.php:1006
+msgid "How should products be sorted in the catalog by default?"
+msgstr "在默认情况下, 产品应该如何在目录页面中排序?"
+
+#: inc/options/posts/woo-categories.php:1001
+msgid "Default product sorting"
+msgstr "默认产品排序"
+
+#: inc/options/posts/woo-categories.php:995
+msgid "Show subcategories & products"
+msgstr "显示子类别和产品"
+
+#: inc/options/posts/woo-categories.php:994
+msgid "Show subcategories"
+msgstr "显示子类别"
+
+#: inc/options/posts/woo-categories.php:990
+msgid "Choose what to display on product category pages."
+msgstr "选择在产品分类页面显示什么。"
+
+#: inc/options/posts/woo-categories.php:981
+msgid "Category display"
+msgstr "分类显示"
+
+#: inc/options/posts/woo-categories.php:975
+msgid "Show categories & products"
+msgstr "显示品类及产品"
+
+#: inc/options/posts/woo-categories.php:974
+msgid "Show categories"
+msgstr "显示分类"
+
+#: inc/options/posts/woo-categories.php:970
+msgid "Choose what to display on the main shop page."
+msgstr "选择要在主商店页面上显示的内容。"
+
+#: inc/options/posts/woo-categories.php:965
+#: inc/options/posts/woo-categories.php:973
+#: inc/options/posts/woo-categories.php:985
+#: inc/options/posts/woo-categories.php:993
+msgid "Show products"
+msgstr "显示产品"
+
+#: inc/options/posts/woo-categories.php:961
+msgid "Shop page display"
+msgstr "店铺页面显示"
+
+#: inc/options/posts/woo-categories.php:954
+msgid "Product Catalog"
+msgstr "产品目录"
+
+#: inc/options/general/posts-listing.php:1395
+msgid "Number of Posts"
+msgstr "文章数量"
+
+#: inc/options/single-elements/related-posts.php:368
+msgid "After Comments"
+msgstr "评论之后"
+
+#: inc/options/single-elements/related-posts.php:367
+msgid "Before Comments"
+msgstr "评论之前"
+
+#: inc/options/single-elements/related-posts.php:36
+msgid "Related Criteria"
+msgstr "相关的标准"
+
+#: inc/options/single-elements/related-posts.php:19
+#: inc/options/single-elements/related-posts.php:86 inc/template-tags.php:441
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: inc/options/meta/default.php:8 inc/options/meta/post.php:6
+#: inc/options/posts/post.php:7
+msgid "Post Title"
+msgstr "文章标题"
+
+#: inc/options/single-elements/post-nav.php:19
+msgid "Posts Navigation"
+msgstr "文章导航"
+
+#: inc/options/single-elements/author-box.php:26
+msgid "Box Type"
+msgstr "盒子类型"
+
+#: inc/options/single-elements/author-box.php:11
+msgid "Author Box"
+msgstr "作者盒子"
+
+#: inc/options/single-elements/post-share-box.php:361
+msgid "Bottom Box Spacing"
+msgstr "底部盒子间距"
+
+#: inc/options/single-elements/post-share-box.php:335
+msgid "Top Box Spacing"
+msgstr "顶部盒子间距"
+
+#: inc/options/single-elements/post-share-box.php:146
+msgid "Share Networks"
+msgstr "共享网络"
+
+#: inc/options/general/sidebar.php:257 inc/options/posts/woo-general.php:1139
+#: inc/options/single-elements/post-share-box.php:113
+#: inc/panel-builder/header/cart/options.php:125
+#: inc/panel-builder/header/search/options.php:97
+#: inc/panel-builder/header/trigger/options.php:108
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-spacing.js:92
+#: static/bundle/customizer-controls.js:25308 static/bundle/options.js:25297
+msgid "Bottom"
+msgstr "底部"
+
+#: inc/options/general/sidebar.php:256 inc/options/posts/woo-general.php:1138
+#: inc/options/single-elements/post-share-box.php:112
+#: inc/panel-builder/header/logo/options.php:248
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-spacing.js:91
+#: static/bundle/customizer-controls.js:25307 static/bundle/options.js:25296
+msgid "Top"
+msgstr "顶部"
+
+#: inc/options/single-elements/post-share-box.php:97
+msgid "Box Location"
+msgstr "盒子位置"
+
+#: inc/options/single-elements/post-share-box.php:578
+#: inc/options/single-elements/post-share-box.php:592
+msgid "Share Box"
+msgstr "分享盒子"
+
+#: inc/options/posts/post.php:51
+msgid "Post Tags"
+msgstr "文章标签"
+
+#: inc/options/meta/default.php:174 inc/options/meta/post.php:171
+#: inc/options/posts/post.php:41
+msgid "Post Elements"
+msgstr "文章元素"
+
+#: inc/options/general/sidebar-particular.php:30
+msgid "Sidebar Position"
+msgstr "侧边栏位置"
+
+#: inc/options/customizer.php:73 inc/options/general/sidebar-particular.php:20
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: inc/init.php:473
+msgid "Header Menu 2"
+msgstr "页眉菜单 2"
+
+#: inc/components/social-box.php:581 inc/components/social-box.php:1612
+msgid "VK"
+msgstr "VK"
+
+#: inc/options/single-elements/post-share-box.php:170
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/panel-builder/header/text/options.php:12
+#: inc/panel-builder/header/text/view.php:46
+msgid "Sample text"
+msgstr "样本文字"
+
+#: inc/options/single-elements/author-box.php:106
+msgid "Social Icons"
+msgstr "社交图标"
+
+#: inc/init.php:471 inc/panel-builder/footer/menu/config.php:4
+#: inc/panel-builder/footer/menu/view.php:86
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: inc/options/customizer.php:145
+msgid "Search Page"
+msgstr "搜索页"
+
+#: inc/options/customizer.php:133 inc/panel-builder/header/search/options.php:5
+#: inc/single/content-helpers.php:280
+msgid "Pages"
+msgstr "页面"
+
+#: inc/options/customizer.php:109
+msgid "Single Post"
+msgstr "文章详情页"
+
+#: inc/options/general/general.php:108
+msgid "Color scheme"
+msgstr "配色方案"
+
+#: inc/options/general/layout.php:59
+msgid "Wide Alignment Offset"
+msgstr "宽阔调整偏移"
+
+#: inc/options/general/layout.php:49
+msgid "Narrow Container Max Width"
+msgstr "狭窄容器的最大宽度"
+
+#: inc/options/general/layout.php:28
+msgid "Content Area Spacing"
+msgstr "内容区域间距"
+
+#: inc/options/general/layout.php:19
+msgid "Maximum Site Width"
+msgstr "最大网站宽度"
+
+#: inc/options/general/sidebar.php:90
+#: inc/options/single-elements/author-box.php:161
+#: inc/options/single-elements/related-posts.php:614
+msgid "Container Inner Spacing"
+msgstr "容器内间距"
+
+#: inc/options/general/back-to-top.php:253
+msgid "Shape Background Color"
+msgstr "形状背景颜色"
+
+#: inc/options/general/back-to-top.php:142
+msgid "Circle"
+msgstr "圆形"
+
+#: inc/options/general/back-to-top.php:141
+#: inc/panel-builder/footer/socials/options.php:111
+#: inc/panel-builder/header/socials/options.php:110
+msgid "Square"
+msgstr "正方形"
+
+#: inc/options/general/back-to-top.php:133
+msgid "Button Shape"
+msgstr "按钮形状"
+
+#: inc/options/general/back-to-top.php:19
+msgid "Scroll to Top"
+msgstr "滚动到顶部"
+
+#: inc/panel-builder/header/menu/options.php:587
+msgid "Reveal Effect"
+msgstr "显示效果"
+
+#: inc/options/general/page-title.php:859
+#: inc/options/general/posts-listing.php:686
+#: inc/options/integrations/tutorlms-single.php:17
+msgid "Title Font Color"
+msgstr "标题字体颜色"
+
+#: inc/options/general/sidebar.php:161
+msgid "Sticky Sidebar"
+msgstr "吸附侧边栏"
+
+#: inc/options/general/sidebar.php:147
+msgid "Separate Widgets"
+msgstr "分隔小工具"
+
+#: inc/options/general/sidebar.php:107
+msgid "Widgets Vertical Spacing"
+msgstr "小工具垂直间距"
+
+#: inc/options/general/sidebar.php:64
+msgid "Sidebar Gap"
+msgstr "侧边栏间隙"
+
+#: inc/options/general/sidebar.php:53
+msgid "Sidebar Width"
+msgstr "侧边栏宽度"
+
+#: inc/options/general/page-title.php:1173
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/ImagePicker.js:183
+#: static/bundle/customizer-controls.js:14468 static/bundle/options.js:12572
+msgid "Image Overlay Color"
+msgstr "图像叠加颜色"
+
+#: inc/options/general/page-title.php:765
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/ImagePicker.js:28
+#: static/bundle/customizer-controls.js:14313 static/bundle/options.js:12417
+msgid "Change Image"
+msgstr "更改图像"
+
+#: inc/options/general/page-title.php:764
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:112
+#: static/js/options/options/background/ImagePicker.js:27
+#: static/bundle/customizer-controls.js:14312 static/bundle/options.js:12416
+#: static/bundle/options.js:37715
+msgid "Select Image"
+msgstr "选择图像"
+
+#: inc/options/general/page-title.php:759
+msgid "Custom Image"
+msgstr "自定义图像"
+
+#: inc/options/general/page-title.php:821
+msgid "Container Min Height"
+msgstr "容器的最小高度"
+
+#: inc/components/hero/elements.php:363
+msgid "This is where you can add new products to your store."
+msgstr "这就是您可以添加新产品到商铺的地方。"
+
+#: inc/options/general/page-title.php:91
+msgid "Description"
+msgstr "描述"
+
+#: inc/components/breadcrumbs.php:10 inc/components/hero/elements.php:212
+#: inc/options/general/breadcrumbs.php:101
+#: inc/options/general/page-title.php:115
+#: inc/options/general/page-title.php:360
+#: admin/dashboard/static/bundle/main.js:2
+#: admin/dashboard/static/js/Navigation.js:24
+#: admin/dashboard/static/bundle/main.js:4032
+msgid "Home"
+msgstr "首页"
+
+#: inc/components/hero/elements.php:212
+#: inc/panel-builder/header/search/options.php:6
+msgid "Products"
+msgstr "产品"
+
+#: inc/options/posts/woo-categories.php:292
+#: inc/options/single-elements/post-share-box.php:386
+#: inc/panel-builder/header/logo/options.php:266
+#: inc/panel-builder/header/text/options.php:57
+msgid "Content Alignment"
+msgstr "内容对齐"
+
+#: inc/options/general/page-title.php:188
+msgid "Type"
+msgstr "类型"
+
+#: inc/options/general/buttons.php:145
+#: inc/options/general/form-elements.php:185
+#: inc/options/general/pagination.php:279
+#: inc/options/general/posts-listing.php:1285
+#: inc/options/general/sidebar.php:480
+#: inc/options/single-elements/author-box.php:476
+#: inc/panel-builder/header/button/options.php:584
+#: inc/panel-builder/header/cart/options.php:1051
+#: inc/panel-builder/header/middle-row/options.php:491
+#: inc/panel-builder/header/offcanvas/options.php:318
+#: inc/panel-builder/header/search/options.php:806
+#: inc/panel-builder/header/trigger/options.php:570
+msgid "Border Radius"
+msgstr "圆角半径"
+
+#: inc/panel-builder/header/button/options.php:83
+msgid "Open in new tab"
+msgstr "在新标签页打开"
+
+#: inc/panel-builder/header/button/options.php:50
+#: inc/panel-builder/header/button/view.php:74
+#: admin/dashboard/static/bundle/main.js:2
+#: admin/dashboard/static/js/components/SinglePremiumPlugin.js:109
+#: admin/dashboard/static/bundle/main.js:4518
+msgid "Download"
+msgstr "下载"
+
+#: inc/helpers.php:298 inc/panel-builder/header/button/options.php:40
+msgid "Large"
+msgstr "大"
+
+#: inc/helpers.php:296 inc/panel-builder/header/button/options.php:39
+msgid "Medium"
+msgstr "中"
+
+#: inc/panel-builder/header/button/options.php:38
+msgid "Small"
+msgstr "小"
+
+#: inc/options/general/breadcrumbs.php:84
+#: inc/options/general/breadcrumbs.php:173 inc/options/general/colors.php:693
+#: inc/options/general/page-title.php:1132
+#: inc/options/general/posts-listing.php:405
+#: inc/options/posts/woo-general.php:727 inc/options/posts/woo-general.php:758
+#: inc/options/single-elements/author-box.php:290
+#: inc/panel-builder/header/cart/options.php:465
+#: inc/panel-builder/header/cart/options.php:496
+#: inc/panel-builder/header/cart/options.php:526
+msgid "Text"
+msgstr "文本"
+
+#: inc/options/general/colors.php:698 inc/options/general/posts-listing.php:395
+#: inc/options/posts/woo-general.php:733 inc/options/posts/woo-general.php:763
+#: inc/options/posts/woo-product-tabs.php:188
+#: inc/panel-builder/header/cart/options.php:459
+#: inc/panel-builder/header/cart/options.php:491
+#: inc/panel-builder/header/cart/options.php:521
+#: inc/panel-builder/header/cart/options.php:919
+#: inc/panel-builder/header/middle-row/options.php:122
+#: inc/panel-builder/header/middle-row/options.php:149
+#: inc/panel-builder/header/middle-row/options.php:158
+#: inc/panel-builder/header/middle-row/options.php:173
+#: inc/panel-builder/header/offcanvas/options.php:182
+#: inc/panel-builder/header/search/options.php:675
+msgid "Background"
+msgstr "背景"
+
+#: inc/panel-builder/header/cart/options.php:407
+#: inc/panel-builder/header/cart/options.php:442
+#: inc/panel-builder/header/cart/options.php:473
+#: inc/panel-builder/header/cart/options.php:503
+msgid "Badge Color"
+msgstr "徽章颜色"
+
+#: inc/components/builder/header-elements.php:394
+msgid "Shopping Cart"
+msgstr "购物车"
+
+#: inc/options/pages/search-page.php:18
+#: inc/panel-builder/header/search/options.php:405
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: inc/components/builder/header-elements.php:193
+#: inc/panel-builder/header/search/config.php:4
+#: inc/panel-builder/header/search/options.php:106
+#: inc/panel-builder/header/search/options.php:417
+#: inc/panel-builder/header/search/view.php:23
+#: woocommerce/product-searchform.php:28
+msgid "Search"
+msgstr "搜索"
+
+#: inc/options/general/back-to-top.php:224
+#: inc/options/posts/woo-categories.php:663
+#: inc/panel-builder/header/cart/options.php:287
+#: inc/panel-builder/header/cart/options.php:315
+#: inc/panel-builder/header/cart/options.php:345
+#: inc/panel-builder/header/cart/options.php:374
+#: inc/panel-builder/header/cart/options.php:925
+#: inc/panel-builder/header/offcanvas/options.php:188
+#: inc/panel-builder/header/search/options.php:269
+#: inc/panel-builder/header/search/options.php:296
+#: inc/panel-builder/header/search/options.php:328
+#: inc/panel-builder/header/search/options.php:358
+#: inc/panel-builder/header/search/options.php:681
+#: inc/panel-builder/header/trigger/options.php:283
+#: inc/panel-builder/header/trigger/options.php:312
+#: inc/panel-builder/header/trigger/options.php:343
+#: inc/panel-builder/header/trigger/options.php:372
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: inc/panel-builder/header/cart/options.php:588
+msgid "Off Canvas"
+msgstr "Off Canvas"
+
+#: inc/panel-builder/header/offcanvas/options.php:16
+msgid "Modal"
+msgstr "模态"
+
+#: inc/panel-builder/header/cart/options.php:598
+msgid "Dropdown Top Offset"
+msgstr "下拉顶部偏移量"
+
+#: inc/panel-builder/header/menu/options.php:598
+msgid "Opacity"
+msgstr "不透明度"
+
+#: inc/panel-builder/header/menu/options.php:597
+msgid "Inner Reveal"
+msgstr "内部显示"
+
+#: inc/panel-builder/header/menu/options.php:515
+msgid "Dropdown Options"
+msgstr "下拉选项"
+
+#: inc/components/menus.php:490 inc/integrations/custom-post-types.php:192
+#: inc/options/general/back-to-top.php:37
+#: inc/options/general/breadcrumbs.php:12 inc/options/general/meta.php:139
+#: inc/options/general/meta.php:341 inc/options/general/page-title.php:725
+#: inc/options/posts/woo-general.php:612
+#: inc/options/single-elements/featured-image.php:55
+#: inc/options/single-elements/post-nav.php:41
+#: inc/options/single-elements/related-posts.php:63
+#: inc/panel-builder/footer/middle-row/options.php:441
+#: inc/panel-builder/footer/middle-row/options.php:637
+#: inc/panel-builder/footer/middle-row/options.php:678
+#: inc/panel-builder/header/button/options.php:17
+#: inc/panel-builder/header/button/options.php:37
+#: inc/panel-builder/header/menu/options.php:83
+#: inc/panel-builder/header/menu/options.php:596
+#: inc/panel-builder/header/middle-row/options.php:41
+#: inc/panel-builder/header/middle-row/options.php:283
+#: inc/panel-builder/header/middle-row/options.php:390
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/backend/woo-variation.js:38
+#: static/js/options/components/InputWithOnlyNumbers.js:13
+#: static/js/options/options/typography/helpers.js:67
+#: static/js/options/options/typography/helpers.js:121
+#: static/bundle/customizer-controls.js:12464
+#: static/bundle/customizer-controls.js:25600
+#: static/bundle/customizer-controls.js:25654 static/bundle/options.js:10540
+#: static/bundle/options.js:25589 static/bundle/options.js:25643
+#: static/bundle/options.js:37549
+msgid "Default"
+msgstr "默认"
+
+#: inc/options/general/meta.php:399
+#: inc/panel-builder/header/menu/options.php:959
+#: inc/panel-builder/header/mobile-menu/options.php:299
+msgid "Items Divider"
+msgstr "项目分隔器"
+
+#: inc/panel-builder/footer/menu/options.php:51
+#: inc/panel-builder/header/menu/options.php:94
+#: inc/panel-builder/header/menu/options.php:577
+#: inc/panel-builder/header/mobile-menu/options.php:112
+msgid "Items Spacing"
+msgstr "项目间距"
+
+#: inc/options/general/back-to-top.php:108
+#: inc/options/general/content-elements.php:50
+#: inc/options/general/sidebar.php:46
+#: inc/panel-builder/header/cart/options.php:47
+#: inc/panel-builder/header/menu/options.php:64
+msgid "Type 4"
+msgstr "类型 4"
+
+#: inc/options/general/back-to-top.php:103
+#: inc/options/general/breadcrumbs.php:69
+#: inc/options/general/content-elements.php:49
+#: inc/options/general/sidebar.php:40 inc/options/posts/woo-general.php:598
+#: inc/panel-builder/header/cart/options.php:42
+#: inc/panel-builder/header/menu/options.php:59
+#: inc/panel-builder/header/mobile-menu/options.php:70
+#: inc/panel-builder/header/trigger/options.php:32
+msgid "Type 3"
+msgstr "类型 3"
+
+#: inc/panel-builder/header/cart/options.php:7
+#: inc/panel-builder/header/menu/options.php:30
+msgid "Top Level Options"
+msgstr "顶级选项"
+
+#: inc/panel-builder/header/trigger/options.php:117
+#: inc/panel-builder/header/trigger/view.php:10
+msgid "Menu"
+msgstr "菜单"
+
+#: inc/panel-builder/header/logo/config.php:4
+#: inc/panel-builder/header/logo/options.php:10
+#: inc/panel-builder/header/offcanvas-logo/options.php:11
+msgid "Logo"
+msgstr "标识"
+
+#: inc/panel-builder/header/middle-row/options.php:297
+#: inc/panel-builder/header/middle-row/options.php:324
+#: inc/panel-builder/header/middle-row/options.php:339
+#: inc/panel-builder/header/middle-row/options.php:354
+msgid "Bottom Border"
+msgstr "底部边框"
+
+#: inc/panel-builder/header/middle-row/options.php:190
+#: inc/panel-builder/header/middle-row/options.php:217
+#: inc/panel-builder/header/middle-row/options.php:231
+#: inc/panel-builder/header/middle-row/options.php:246
+msgid "Top Border"
+msgstr "顶部边框"
+
+#: inc/options/general/back-to-top.php:98
+#: inc/options/general/breadcrumbs.php:64
+#: inc/options/general/content-elements.php:48
+#: inc/options/general/page-title.php:204 inc/options/general/sidebar.php:35
+#: inc/options/posts/woo-categories.php:41
+#: inc/options/posts/woo-general.php:471 inc/options/posts/woo-general.php:593
+#: inc/options/posts/woo-product-tabs.php:28
+#: inc/options/single-elements/author-box.php:49
+#: inc/options/single-elements/post-share-box.php:64
+#: inc/panel-builder/header/cart/options.php:37
+#: inc/panel-builder/header/menu/options.php:54
+#: inc/panel-builder/header/mobile-menu/options.php:65
+#: inc/panel-builder/header/trigger/options.php:27
+msgid "Type 2"
+msgstr "类型 2"
+
+#: inc/options/general/back-to-top.php:93
+#: inc/options/general/breadcrumbs.php:59
+#: inc/options/general/content-elements.php:47
+#: inc/options/general/page-title.php:199 inc/options/general/sidebar.php:30
+#: inc/options/posts/woo-categories.php:36
+#: inc/options/posts/woo-general.php:470 inc/options/posts/woo-general.php:588
+#: inc/options/posts/woo-product-tabs.php:27
+#: inc/options/single-elements/author-box.php:44
+#: inc/options/single-elements/post-share-box.php:59
+#: inc/panel-builder/header/cart/options.php:32
+#: inc/panel-builder/header/menu/options.php:49
+#: inc/panel-builder/header/mobile-menu/options.php:60
+#: inc/panel-builder/header/trigger/options.php:22
+msgid "Type 1"
+msgstr "类型 1"
+
+#: inc/options/customizer.php:50
+msgid "General Options"
+msgstr "常规选项"
+
+#: inc/options/general/back-to-top.php:209
+#: inc/options/general/page-title.php:309
+#: inc/options/general/page-title.php:512
+#: inc/options/general/page-title.php:808 inc/options/general/pagination.php:85
+#: inc/options/general/pagination.php:104 inc/options/general/sidebar.php:242
+#: inc/options/posts/woo-single.php:250 inc/options/posts/woo-single.php:274
+#: inc/options/single-elements/author-box.php:193
+#: inc/options/single-elements/featured-image.php:102
+#: inc/options/single-elements/post-nav.php:124
+#: inc/options/single-elements/post-nav.php:144
+#: inc/options/single-elements/post-nav.php:162
+#: inc/options/single-elements/post-share-box.php:422
+#: inc/options/single-elements/related-posts.php:434
+#: inc/panel-builder/footer/copyright/options.php:79
+#: inc/panel-builder/footer/menu/options.php:137
+#: inc/panel-builder/footer/middle-row/options.php:463
+#: inc/panel-builder/footer/options.php:19
+#: inc/panel-builder/footer/socials/options.php:153
+#: inc/panel-builder/footer/socials/options.php:224
+#: inc/panel-builder/header/button/options.php:213
+#: inc/panel-builder/header/cart/options.php:96
+#: inc/panel-builder/header/logo/options.php:160
+#: inc/panel-builder/header/logo/options.php:207
+#: inc/panel-builder/header/logo/options.php:331
+#: inc/panel-builder/header/search/options.php:70
+#: inc/panel-builder/header/socials/options.php:152
+#: inc/panel-builder/header/text/options.php:122
+#: inc/panel-builder/header/trigger/options.php:81
+msgid "Desktop"
+msgstr "台式机"
+
+#: inc/options/general/back-to-top.php:197
+#: inc/options/general/page-title.php:298
+#: inc/options/general/page-title.php:501
+#: inc/options/single-elements/author-box.php:181
+#: inc/options/single-elements/post-share-box.php:410
+#: inc/options/single-elements/related-posts.php:421
+msgid "Visibility"
+msgstr "能见度"
+
+#: inc/options/general/back-to-top.php:211
+#: inc/options/general/page-title.php:311
+#: inc/options/general/page-title.php:514
+#: inc/options/general/page-title.php:810 inc/options/general/pagination.php:87
+#: inc/options/general/pagination.php:106 inc/options/general/sidebar.php:244
+#: inc/options/posts/woo-single.php:252 inc/options/posts/woo-single.php:276
+#: inc/options/single-elements/author-box.php:195
+#: inc/options/single-elements/featured-image.php:104
+#: inc/options/single-elements/post-nav.php:126
+#: inc/options/single-elements/post-nav.php:146
+#: inc/options/single-elements/post-nav.php:164
+#: inc/options/single-elements/post-share-box.php:424
+#: inc/options/single-elements/related-posts.php:436
+#: inc/panel-builder/footer/copyright/options.php:81
+#: inc/panel-builder/footer/menu/options.php:139
+#: inc/panel-builder/footer/middle-row/options.php:465
+#: inc/panel-builder/footer/options.php:21
+#: inc/panel-builder/footer/socials/options.php:155
+#: inc/panel-builder/footer/socials/options.php:226
+#: inc/panel-builder/header/button/options.php:158
+#: inc/panel-builder/header/button/options.php:215
+#: inc/panel-builder/header/cart/options.php:98
+#: inc/panel-builder/header/cart/options.php:1100
+#: inc/panel-builder/header/logo/options.php:162
+#: inc/panel-builder/header/logo/options.php:209
+#: inc/panel-builder/header/logo/options.php:333
+#: inc/panel-builder/header/mobile-menu/options.php:166
+#: inc/panel-builder/header/search/options.php:72
+#: inc/panel-builder/header/search/options.php:844
+#: inc/panel-builder/header/socials/options.php:154
+#: inc/panel-builder/header/socials/options.php:180
+#: inc/panel-builder/header/text/options.php:124
+#: inc/panel-builder/header/text/options.php:359
+#: inc/panel-builder/header/trigger/options.php:83
+#: inc/panel-builder/header/trigger/options.php:617
+msgid "Mobile"
+msgstr "移动设备"
+
+#: inc/options/general/back-to-top.php:210
+#: inc/options/general/page-title.php:310
+#: inc/options/general/page-title.php:513
+#: inc/options/general/page-title.php:809 inc/options/general/pagination.php:86
+#: inc/options/general/pagination.php:105 inc/options/general/sidebar.php:243
+#: inc/options/posts/woo-single.php:251 inc/options/posts/woo-single.php:275
+#: inc/options/single-elements/author-box.php:194
+#: inc/options/single-elements/featured-image.php:103
+#: inc/options/single-elements/post-nav.php:125
+#: inc/options/single-elements/post-nav.php:145
+#: inc/options/single-elements/post-nav.php:163
+#: inc/options/single-elements/post-share-box.php:423
+#: inc/options/single-elements/related-posts.php:435
+#: inc/panel-builder/footer/copyright/options.php:80
+#: inc/panel-builder/footer/menu/options.php:138
+#: inc/panel-builder/footer/middle-row/options.php:464
+#: inc/panel-builder/footer/options.php:20
+#: inc/panel-builder/footer/socials/options.php:154
+#: inc/panel-builder/footer/socials/options.php:225
+#: inc/panel-builder/header/button/options.php:157
+#: inc/panel-builder/header/button/options.php:214
+#: inc/panel-builder/header/cart/options.php:97
+#: inc/panel-builder/header/cart/options.php:1099
+#: inc/panel-builder/header/logo/options.php:161
+#: inc/panel-builder/header/logo/options.php:208
+#: inc/panel-builder/header/logo/options.php:332
+#: inc/panel-builder/header/mobile-menu/options.php:165
+#: inc/panel-builder/header/search/options.php:71
+#: inc/panel-builder/header/search/options.php:843
+#: inc/panel-builder/header/socials/options.php:153
+#: inc/panel-builder/header/socials/options.php:179
+#: inc/panel-builder/header/text/options.php:123
+#: inc/panel-builder/header/text/options.php:358
+#: inc/panel-builder/header/trigger/options.php:82
+#: inc/panel-builder/header/trigger/options.php:616
+msgid "Tablet"
+msgstr "平板电脑"
+
+#: inc/options/general/page-title.php:718
+#: inc/panel-builder/footer/middle-row/options.php:434
+msgid "Container Width"
+msgstr "容器宽度"
+
+#: inc/options/general/posts-listing.php:571
+msgid "Card Inner Spacing"
+msgstr "卡片内间距"
+
+#: inc/options/general/posts-listing.php:1234
+#: inc/options/posts/woo-categories.php:586
+msgid "Card Background Color"
+msgstr "卡片背景颜色"
+
+#: inc/options/general/posts-listing.php:762
+msgid "Excerpt Color"
+msgstr "摘要颜色"
+
+#: inc/options/posts/woo-categories.php:344
+#: inc/options/posts/woo-categories.php:741
+msgid "Title Color"
+msgstr "标题颜色"
+
+#: inc/options/general/posts-listing.php:526
+#: inc/options/posts/woo-categories.php:310
+msgid "Cards Gap"
+msgstr "卡片间距"
+
+#: inc/options/general/meta.php:194 inc/options/general/page-title.php:399
+#: inc/options/posts/woo-general.php:806
+msgid "Avatar Size"
+msgstr "头像大小"
+
+#: inc/options/general/meta.php:343
+#: inc/panel-builder/footer/widget-area-1/options.php:111
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/typography/FontOptions.js:234
+#: static/bundle/customizer-controls.js:28752 static/bundle/options.js:28741
+msgid "Underline"
+msgstr "强调"
+
+#: inc/options/general/comments-single.php:15 inc/options/general/meta.php:235
+#: inc/options/general/page-title.php:543 inc/single/single-helpers.php:273
+msgid "Comments"
+msgstr "评论"
+
+#: inc/options/customizer.php:118 inc/options/posts/categories.php:11
+msgid "Categories"
+msgstr "分类"
+
+#: inc/options/general/meta.php:181
+msgid "Author"
+msgstr "作者"
+
+#: inc/options/general/page-title.php:526
+#: inc/options/general/posts-listing.php:426
+msgid "Post Meta"
+msgstr "文章元数据"
+
+#: inc/options/general/posts-listing.php:372
+#: inc/options/posts/woo-categories.php:256
+msgid "Length"
+msgstr "长度"
+
+#: inc/options/general/page-title.php:102
+#: inc/options/general/posts-listing.php:353
+#: inc/options/general/posts-listing.php:361
+msgid "Excerpt"
+msgstr "摘要"
+
+#: inc/options/general/posts-listing.php:265
+#: inc/options/single-elements/featured-image.php:21
+#: inc/options/single-elements/related-posts.php:223
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-ratio.js:61
+#: static/bundle/customizer-controls.js:19538 static/bundle/options.js:19527
+msgid "Image Ratio"
+msgstr "图片比例"
+
+#: inc/options/general/posts-listing.php:245
+#: inc/options/single-elements/featured-image.php:11
+#: inc/options/single-elements/related-posts.php:205
+msgid "Featured Image"
+msgstr "特色缩略图"
+
+#: inc/options/general/page-title.php:329
+#: inc/options/general/posts-listing.php:221
+msgid "Heading tag"
+msgstr "标题标签"
+
+#: inc/options/general/posts-listing.php:88
+msgid "Card Elements"
+msgstr "卡片元素"
+
+#: inc/options/general/posts-listing.php:67 inc/options/meta/default.php:98
+#: inc/options/meta/page.php:97 inc/options/meta/post.php:93
+#: inc/options/single-elements/structure.php:86
+#: inc/panel-builder/header/middle-row/options.php:42
+msgid "Boxed"
+msgstr "盒子"
+
+#: inc/options/general/posts-listing.php:60
+msgid "Card Type"
+msgstr "卡片类型"
+
+#: inc/options/general/posts-listing.php:1489
+#: inc/options/posts/woo-categories.php:97
+msgid "Cards Options"
+msgstr "卡片选项"
+
+#: inc/options/general/posts-listing.php:1345
+msgid "Grid"
+msgstr "网格"
+
+#: inc/options/general/meta.php:390 inc/options/general/posts-listing.php:66
+#: inc/options/general/posts-listing.php:394
+#: inc/options/general/posts-listing.php:1335
+#: inc/panel-builder/header/cart/options.php:917
+#: inc/panel-builder/header/menu/options.php:569
+#: inc/panel-builder/header/menu/options.php:599
+#: inc/panel-builder/header/mobile-menu/options.php:84
+#: inc/panel-builder/header/offcanvas/options.php:180
+#: inc/panel-builder/header/search/options.php:673
+#: inc/panel-builder/header/trigger/options.php:58
+msgid "Simple"
+msgstr "简单"
+
+#. translators: placeholder here means the actual structure title.
+#: inc/options/general/posts-listing.php:1313
+msgid "Set the %s entries default structure."
+msgstr "设置 %s 条目的默认结构。"
+
+#. translators: placeholder here means the actual structure title.
+#: inc/options/general/posts-listing.php:1308
+#: inc/options/posts/custom-post-type-single.php:34
+msgid "%s Structure"
+msgstr "%s 结构"
+
+#: inc/options/general/colors.php:879
+msgid "Site Background"
+msgstr "网站背景"
+
+#: inc/options/general/pagination.php:224
+#: inc/options/general/posts-listing.php:1051
+#: inc/panel-builder/header/button/options.php:462
+#: inc/panel-builder/header/button/options.php:491
+#: inc/panel-builder/header/button/options.php:521
+#: inc/panel-builder/header/button/options.php:549
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: inc/options/general/colors.php:620
+msgid "Global Colors"
+msgstr "全局颜色"
+
+#: inc/options/customizer.php:79 inc/options/general/form-elements.php:203
+#: inc/options/general/pagination.php:143
+msgid "Colors"
+msgstr "颜色"
+
+#: inc/options/general/form-elements.php:199
+msgid "Radio & Checkbox"
+msgstr "单选与复选框"
+
+#: inc/options/general/form-elements.php:224
+#: inc/options/general/form-elements.php:268
+#: inc/options/general/form-elements.php:298
+#: inc/options/posts/woo-general.php:417 inc/options/posts/woo-general.php:868
+#: inc/options/posts/woo-general.php:898
+#: inc/options/posts/woo-product-tabs.php:109
+#: inc/options/posts/woo-product-tabs.php:156
+#: inc/panel-builder/footer/menu/options.php:196
+#: inc/panel-builder/header/menu/options.php:235
+#: inc/panel-builder/header/menu/options.php:249
+#: inc/panel-builder/header/menu/options.php:297
+#: inc/panel-builder/header/menu/options.php:310
+#: inc/panel-builder/header/menu/options.php:358
+#: inc/panel-builder/header/menu/options.php:371
+#: inc/panel-builder/header/menu/options.php:429
+#: inc/panel-builder/header/menu/options.php:450
+#: inc/panel-builder/header/menu/options.php:470
+#: inc/panel-builder/header/menu/options.php:743
+#: inc/panel-builder/header/menu/options.php:782
+#: inc/panel-builder/header/menu/options.php:821
+#: inc/panel-builder/header/mobile-menu/options.php:229
+#: inc/panel-builder/header/mobile-menu/options.php:276
+#: inc/panel-builder/header/mobile-menu/options.php:417
+#: inc/panel-builder/header/mobile-menu/options.php:456
+#: inc/panel-builder/header/mobile-menu/options.php:495
+msgid "Active"
+msgstr "激活"
+
+#: inc/panel-builder/header/mobile-menu/options.php:245
+msgid "Dropdown Font Color"
+msgstr "下拉文本颜色"
+
+#: inc/options/general/form-elements.php:170
+msgid "Textarea Height"
+msgstr "文本区域高度"
+
+#: inc/options/general/form-elements.php:160
+msgid "Input Height"
+msgstr "输入高度"
+
+#: inc/options/general/form-elements.php:150
+msgid "Border Size"
+msgstr "边框大小"
+
+#: inc/options/general/buttons.php:80 inc/options/general/form-elements.php:119
+#: inc/options/general/form-elements.php:276
+#: inc/options/general/sidebar.php:385 inc/options/posts/woo-categories.php:695
+#: inc/options/posts/woo-general.php:85 inc/options/posts/woo-general.php:201
+#: inc/options/posts/woo-general.php:315
+#: inc/options/single-elements/author-box.php:424
+#: inc/options/single-elements/post-share-box.php:537
+#: inc/panel-builder/header/cart/options.php:744
+#: inc/panel-builder/header/cart/options.php:1000
+#: inc/panel-builder/header/offcanvas/options.php:266
+#: inc/panel-builder/header/search/options.php:756
+#: inc/panel-builder/header/trigger/options.php:410
+#: inc/panel-builder/header/trigger/options.php:452
+#: inc/panel-builder/header/trigger/options.php:492
+#: inc/panel-builder/header/trigger/options.php:530
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/BackgroundModal.js:145
+#: static/bundle/customizer-controls.js:14699 static/bundle/options.js:12803
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/options/general/form-elements.php:82
+msgid "Input & Textarea"
+msgstr "输入和文本区域"
+
+#: inc/options/general/form-elements.php:71
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/typography/FontOptions.js:29
+#: static/bundle/customizer-controls.js:28547 static/bundle/options.js:28536
+msgid "Font Size"
+msgstr "字体大小"
+
+#: inc/options/general/form-elements.php:63
+#: inc/options/general/form-elements.php:107
+#: inc/options/general/form-elements.php:140
+#: inc/panel-builder/header/search/options.php:549
+#: inc/panel-builder/header/search/options.php:579
+msgid "Focus"
+msgstr "焦点"
+
+#: inc/options/general/form-elements.php:33
+msgid "Modern"
+msgstr "现代"
+
+#: inc/options/general/form-elements.php:28
+#: inc/options/general/posts-listing.php:1340
+msgid "Classic"
+msgstr "经典"
+
+#: inc/options/general/form-elements.php:86
+#: inc/options/posts/woo-product-tabs.php:117
+#: inc/options/single-elements/author-box.php:391
+#: inc/panel-builder/header/cart/options.php:960
+#: inc/panel-builder/header/offcanvas/options.php:225
+#: inc/panel-builder/header/search/options.php:717
+#: inc/panel-builder/header/trigger/options.php:406
+#: inc/panel-builder/header/trigger/options.php:448
+#: inc/panel-builder/header/trigger/options.php:488
+#: inc/panel-builder/header/trigger/options.php:526
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: inc/options/general/back-to-top.php:246
+#: inc/options/general/back-to-top.php:276 inc/options/general/buttons.php:73
+#: inc/options/general/buttons.php:103 inc/options/general/colors.php:668
+#: inc/options/general/comments-single.php:168
+#: inc/options/general/page-title.php:963
+#: inc/options/general/page-title.php:999
+#: inc/options/general/page-title.php:1030
+#: inc/options/general/pagination.php:216
+#: inc/options/general/pagination.php:246
+#: inc/options/general/posts-listing.php:733
+#: inc/options/general/posts-listing.php:828
+#: inc/options/general/posts-listing.php:864
+#: inc/options/general/posts-listing.php:895
+#: inc/options/general/posts-listing.php:940
+#: inc/options/general/posts-listing.php:986
+#: inc/options/general/posts-listing.php:1032
+#: inc/options/general/posts-listing.php:1074
+#: inc/options/integrations/tutorlms-single.php:75
+#: inc/options/integrations/tutorlms-single.php:120
+#: inc/options/posts/woo-add-to-cart.php:58
+#: inc/options/posts/woo-add-to-cart.php:101
+#: inc/options/posts/woo-add-to-cart.php:153
+#: inc/options/posts/woo-add-to-cart.php:185
+#: inc/options/posts/woo-add-to-cart.php:226
+#: inc/options/posts/woo-add-to-cart.php:258
+#: inc/options/posts/woo-categories.php:368
+#: inc/options/posts/woo-categories.php:466
+#: inc/options/posts/woo-categories.php:507
+#: inc/options/posts/woo-categories.php:538
+#: inc/options/posts/woo-categories.php:579
+#: inc/options/posts/woo-gallery.php:177 inc/options/posts/woo-gallery.php:207
+#: inc/options/posts/woo-gallery.php:243 inc/options/posts/woo-gallery.php:273
+#: inc/options/posts/woo-general.php:77 inc/options/posts/woo-general.php:127
+#: inc/options/posts/woo-general.php:157 inc/options/posts/woo-general.php:193
+#: inc/options/posts/woo-general.php:243 inc/options/posts/woo-general.php:273
+#: inc/options/posts/woo-general.php:308 inc/options/posts/woo-general.php:356
+#: inc/options/posts/woo-general.php:384 inc/options/posts/woo-general.php:510
+#: inc/options/posts/woo-general.php:551
+#: inc/options/posts/woo-product-tabs.php:103
+#: inc/options/single-elements/author-box.php:340
+#: inc/options/single-elements/author-box.php:373
+#: inc/options/single-elements/post-nav.php:197
+#: inc/options/single-elements/post-nav.php:217
+#: inc/options/single-elements/post-share-box.php:472
+#: inc/options/single-elements/post-share-box.php:530
+#: inc/options/single-elements/post-share-box.php:559
+#: inc/options/single-elements/related-posts.php:550
+#: inc/options/single-elements/related-posts.php:581
+#: inc/panel-builder/footer/menu/options.php:190
+#: inc/panel-builder/footer/socials/options.php:288
+#: inc/panel-builder/footer/socials/options.php:327
+#: inc/panel-builder/footer/socials/options.php:375
+#: inc/panel-builder/header/button/options.php:337
+#: inc/panel-builder/header/button/options.php:350
+#: inc/panel-builder/header/button/options.php:388
+#: inc/panel-builder/header/button/options.php:400
+#: inc/panel-builder/header/button/options.php:438
+#: inc/panel-builder/header/button/options.php:450
+#: inc/panel-builder/header/button/options.php:513
+#: inc/panel-builder/header/button/options.php:542
+#: inc/panel-builder/header/button/options.php:570
+#: inc/panel-builder/header/cart/options.php:212
+#: inc/panel-builder/header/cart/options.php:242
+#: inc/panel-builder/header/cart/options.php:271
+#: inc/panel-builder/header/cart/options.php:337
+#: inc/panel-builder/header/cart/options.php:367
+#: inc/panel-builder/header/cart/options.php:396
+#: inc/panel-builder/header/cart/options.php:948
+#: inc/panel-builder/header/cart/options.php:984
+#: inc/panel-builder/header/cart/options.php:1024
+#: inc/panel-builder/header/logo/options.php:426
+#: inc/panel-builder/header/logo/options.php:457
+#: inc/panel-builder/header/logo/options.php:487
+#: inc/panel-builder/header/menu/options.php:228
+#: inc/panel-builder/header/menu/options.php:243
+#: inc/panel-builder/header/menu/options.php:291
+#: inc/panel-builder/header/menu/options.php:304
+#: inc/panel-builder/header/menu/options.php:352
+#: inc/panel-builder/header/menu/options.php:365
+#: inc/panel-builder/header/menu/options.php:531
+#: inc/panel-builder/header/menu/options.php:737
+#: inc/panel-builder/header/menu/options.php:777
+#: inc/panel-builder/header/menu/options.php:816
+#: inc/panel-builder/header/mobile-menu/options.php:223
+#: inc/panel-builder/header/mobile-menu/options.php:270
+#: inc/panel-builder/header/mobile-menu/options.php:411
+#: inc/panel-builder/header/mobile-menu/options.php:451
+#: inc/panel-builder/header/mobile-menu/options.php:490
+#: inc/panel-builder/header/offcanvas/options.php:212
+#: inc/panel-builder/header/offcanvas/options.php:250
+#: inc/panel-builder/header/offcanvas/options.php:291
+#: inc/panel-builder/header/search/options.php:194
+#: inc/panel-builder/header/search/options.php:224
+#: inc/panel-builder/header/search/options.php:253
+#: inc/panel-builder/header/search/options.php:320
+#: inc/panel-builder/header/search/options.php:351
+#: inc/panel-builder/header/search/options.php:381
+#: inc/panel-builder/header/search/options.php:519
+#: inc/panel-builder/header/search/options.php:610
+#: inc/panel-builder/header/search/options.php:641
+#: inc/panel-builder/header/search/options.php:704
+#: inc/panel-builder/header/search/options.php:740
+#: inc/panel-builder/header/search/options.php:779
+#: inc/panel-builder/header/socials/options.php:275
+#: inc/panel-builder/header/socials/options.php:305
+#: inc/panel-builder/header/socials/options.php:334
+#: inc/panel-builder/header/socials/options.php:404
+#: inc/panel-builder/header/socials/options.php:436
+#: inc/panel-builder/header/socials/options.php:467
+#: inc/panel-builder/header/socials/options.php:556
+#: inc/panel-builder/header/socials/options.php:595
+#: inc/panel-builder/header/socials/options.php:634
+#: inc/panel-builder/header/trigger/options.php:208
+#: inc/panel-builder/header/trigger/options.php:238
+#: inc/panel-builder/header/trigger/options.php:267
+#: inc/panel-builder/header/trigger/options.php:335
+#: inc/panel-builder/header/trigger/options.php:365
+#: inc/panel-builder/header/trigger/options.php:394
+#: inc/panel-builder/header/trigger/options.php:478
+#: inc/panel-builder/header/trigger/options.php:517
+#: inc/panel-builder/header/trigger/options.php:555
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/ct-border.js:115
+#: static/bundle/customizer-controls.js:15064 static/bundle/options.js:13168
+msgid "Hover"
+msgstr "悬停"
+
+#: inc/options/general/buttons.php:50
+#: inc/options/general/comments-single.php:146
+#: inc/options/general/form-elements.php:40
+#: inc/options/general/form-elements.php:246
+#: inc/options/general/pagination.php:194
+#: inc/options/posts/woo-product-tabs.php:78
+#: inc/options/posts/woo-single.php:87 inc/options/posts/woo-single.php:126
+#: inc/options/single-elements/post-nav.php:177
+#: inc/panel-builder/footer/copyright/options.php:105
+#: inc/panel-builder/footer/menu/options.php:164
+#: inc/panel-builder/footer/socials/options.php:265
+#: inc/panel-builder/footer/widget-area-1/options.php:62
+#: inc/panel-builder/header/button/options.php:276
+#: inc/panel-builder/header/button/options.php:306
+#: inc/panel-builder/header/button/options.php:358
+#: inc/panel-builder/header/button/options.php:408
+#: inc/panel-builder/header/cart/options.php:189
+#: inc/panel-builder/header/cart/options.php:220
+#: inc/panel-builder/header/cart/options.php:249
+#: inc/panel-builder/header/cart/options.php:685
+#: inc/panel-builder/header/menu/options.php:165
+#: inc/panel-builder/header/menu/options.php:194
+#: inc/panel-builder/header/menu/options.php:257
+#: inc/panel-builder/header/menu/options.php:318
+#: inc/panel-builder/header/menu/options.php:680
+#: inc/panel-builder/header/menu/options.php:710
+#: inc/panel-builder/header/menu/options.php:751
+#: inc/panel-builder/header/menu/options.php:790
+#: inc/panel-builder/header/mobile-menu/options.php:198
+#: inc/panel-builder/header/mobile-menu/options.php:356
+#: inc/panel-builder/header/mobile-menu/options.php:385
+#: inc/panel-builder/header/mobile-menu/options.php:425
+#: inc/panel-builder/header/mobile-menu/options.php:464
+#: inc/panel-builder/header/search/options.php:171
+#: inc/panel-builder/header/search/options.php:202
+#: inc/panel-builder/header/search/options.php:231
+#: inc/panel-builder/header/search/options.php:496
+#: inc/panel-builder/header/socials/options.php:252
+#: inc/panel-builder/header/socials/options.php:283
+#: inc/panel-builder/header/socials/options.php:312
+#: inc/panel-builder/header/text/options.php:166
+#: inc/panel-builder/header/text/options.php:195
+#: inc/panel-builder/header/text/options.php:237
+#: inc/panel-builder/header/text/options.php:276
+#: inc/panel-builder/header/trigger/options.php:185
+#: inc/panel-builder/header/trigger/options.php:216
+#: inc/panel-builder/header/trigger/options.php:245
+msgid "Font Color"
+msgstr "字体颜色"
+
+#: inc/options/general/back-to-top.php:219
+#: inc/options/general/breadcrumbs.php:134 inc/options/general/buttons.php:45
+#: inc/options/general/comments-single.php:141
+#: inc/options/general/page-title.php:1234
+#: inc/options/general/page-title.php:1325
+#: inc/options/general/pagination.php:131
+#: inc/options/general/posts-listing.php:661
+#: inc/options/general/posts-listing.php:1500
+#: inc/options/general/sidebar.php:266
+#: inc/options/integrations/tutorlms-archive.php:39
+#: inc/options/integrations/tutorlms-single.php:219
+#: inc/options/meta/default.php:161 inc/options/meta/page.php:159
+#: inc/options/meta/post.php:158 inc/options/pages/page.php:38
+#: inc/options/posts/custom-post-type-single.php:52
+#: inc/options/posts/post.php:27 inc/options/posts/woo-add-to-cart.php:31
+#: inc/options/posts/woo-categories.php:329
+#: inc/options/posts/woo-categories.php:878
+#: inc/options/posts/woo-gallery.php:150 inc/options/posts/woo-general.php:482
+#: inc/options/posts/woo-general.php:705 inc/options/posts/woo-general.php:841
+#: inc/options/posts/woo-general.php:1147
+#: inc/options/posts/woo-product-tabs.php:62
+#: inc/options/posts/woo-single.php:52
+#: inc/options/single-elements/author-box.php:203
+#: inc/options/single-elements/post-nav.php:172
+#: inc/options/single-elements/post-share-box.php:435
+#: inc/options/single-elements/related-posts.php:444
+#: inc/panel-builder/footer/copyright/options.php:89
+#: inc/panel-builder/footer/menu/options.php:147
+#: inc/panel-builder/footer/middle-row/options.php:473
+#: inc/panel-builder/footer/socials/options.php:234
+#: inc/panel-builder/footer/widget-area-1/options.php:57
+#: inc/panel-builder/header/button/options.php:270
+#: inc/panel-builder/header/cart/options.php:135
+#: inc/panel-builder/header/cart/options.php:675
+#: inc/panel-builder/header/logo/options.php:352
+#: inc/panel-builder/header/menu/options.php:142
+#: inc/panel-builder/header/menu/options.php:659
+#: inc/panel-builder/header/middle-row/options.php:116
+#: inc/panel-builder/header/mobile-menu/options.php:178
+#: inc/panel-builder/header/offcanvas-logo/options.php:32
+#: inc/panel-builder/header/offcanvas/options.php:98
+#: inc/panel-builder/header/search/options.php:116
+#: inc/panel-builder/header/search/options.php:480
+#: inc/panel-builder/header/socials/options.php:191
+#: inc/panel-builder/header/text/options.php:150
+#: inc/panel-builder/header/trigger/options.php:130
+msgid "Design"
+msgstr "设计"
+
+#: inc/options/general/pagination.php:118
+msgid "Pagination Top Spacing"
+msgstr "分页顶部间距"
+
+#: inc/options/general/pagination.php:39
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+#: inc/components/pagination.php:95 inc/options/general/pagination.php:38
+#: inc/options/general/pagination.php:61
+msgid "Load More"
+msgstr "加载更多"
+
+#: inc/options/general/pagination.php:37
+msgid "Next/Prev"
+msgstr "下一页/上一页"
+
+#: inc/options/general/pagination.php:36
+msgid "Standard"
+msgstr "标准"
+
+#: inc/options/general/pagination.php:29
+msgid "Pagination Type"
+msgstr "分页类型"
+
+#: inc/options/customizer.php:55 inc/options/customizer.php:161
+#: inc/options/general/back-to-top.php:26
+#: inc/options/general/breadcrumbs.php:45 inc/options/general/buttons.php:19
+#: inc/options/general/comments-single.php:25
+#: inc/options/general/page-title.php:1228
+#: inc/options/general/page-title.php:1298
+#: inc/options/general/pagination.php:24
+#: inc/options/general/posts-listing.php:29
+#: inc/options/general/posts-listing.php:1319
+#: inc/options/general/sidebar.php:17
+#: inc/options/integrations/tutorlms-archive.php:24
+#: inc/options/integrations/tutorlms-single.php:207
+#: inc/options/meta/default.php:29 inc/options/meta/page.php:27
+#: inc/options/meta/post.php:24 inc/options/pages/page.php:27
+#: inc/options/posts/custom-post-type-single.php:40
+#: inc/options/posts/post.php:17 inc/options/posts/woo-add-to-cart.php:11
+#: inc/options/posts/woo-categories.php:22
+#: inc/options/posts/woo-categories.php:104
+#: inc/options/posts/woo-gallery.php:10 inc/options/posts/woo-general.php:440
+#: inc/options/posts/woo-general.php:571 inc/options/posts/woo-general.php:786
+#: inc/options/posts/woo-general.php:1115
+#: inc/options/posts/woo-product-tabs.php:16
+#: inc/options/posts/woo-single.php:21
+#: inc/options/single-elements/author-box.php:21
+#: inc/options/single-elements/post-nav.php:29
+#: inc/options/single-elements/post-share-box.php:43
+#: inc/options/single-elements/related-posts.php:29
+#: inc/panel-builder/footer/copyright/options.php:5
+#: inc/panel-builder/footer/menu/options.php:33
+#: inc/panel-builder/footer/middle-row/options.php:23
+#: inc/panel-builder/footer/socials/options.php:5
+#: inc/panel-builder/footer/widget-area-1/options.php:9
+#: inc/panel-builder/header/button/options.php:5
+#: inc/panel-builder/header/cart/options.php:11
+#: inc/panel-builder/header/cart/options.php:567
+#: inc/panel-builder/header/logo/options.php:5
+#: inc/panel-builder/header/menu/options.php:34
+#: inc/panel-builder/header/menu/options.php:519
+#: inc/panel-builder/header/middle-row/options.php:27
+#: inc/panel-builder/header/mobile-menu/options.php:25
+#: inc/panel-builder/header/offcanvas-logo/options.php:6
+#: inc/panel-builder/header/offcanvas/options.php:5
+#: inc/panel-builder/header/search/options.php:37
+#: inc/panel-builder/header/search/options.php:409
+#: inc/panel-builder/header/socials/options.php:5
+#: inc/panel-builder/header/text/options.php:5
+#: inc/panel-builder/header/trigger/options.php:5
+msgid "General"
+msgstr "常规"
+
+#: inc/options/general/back-to-top.php:241
+#: inc/options/general/back-to-top.php:270 inc/options/general/buttons.php:68
+#: inc/options/general/buttons.php:98 inc/options/general/colors.php:638
+#: inc/options/general/colors.php:663 inc/options/general/colors.php:718
+#: inc/options/general/colors.php:740 inc/options/general/colors.php:761
+#: inc/options/general/colors.php:783 inc/options/general/colors.php:805
+#: inc/options/general/colors.php:827 inc/options/general/colors.php:849
+#: inc/options/general/colors.php:871
+#: inc/options/general/comments-single.php:162
+#: inc/options/general/form-elements.php:57
+#: inc/options/general/form-elements.php:102
+#: inc/options/general/form-elements.php:135
+#: inc/options/general/form-elements.php:219
+#: inc/options/general/form-elements.php:262
+#: inc/options/general/form-elements.php:292 inc/options/general/general.php:65
+#: inc/options/general/page-title.php:872
+#: inc/options/general/page-title.php:957
+#: inc/options/general/page-title.php:993
+#: inc/options/general/page-title.php:1024
+#: inc/options/general/page-title.php:1086
+#: inc/options/general/pagination.php:210
+#: inc/options/general/pagination.php:240
+#: inc/options/general/posts-listing.php:703
+#: inc/options/general/posts-listing.php:775
+#: inc/options/general/posts-listing.php:822
+#: inc/options/general/posts-listing.php:858
+#: inc/options/general/posts-listing.php:889
+#: inc/options/general/posts-listing.php:934
+#: inc/options/general/posts-listing.php:980
+#: inc/options/general/posts-listing.php:1026
+#: inc/options/general/posts-listing.php:1068
+#: inc/options/general/sidebar.php:294 inc/options/general/sidebar.php:398
+#: inc/options/integrations/tutorlms-single.php:30
+#: inc/options/integrations/tutorlms-single.php:69
+#: inc/options/integrations/tutorlms-single.php:114
+#: inc/options/integrations/tutorlms-single.php:154
+#: inc/options/integrations/tutorlms-single.php:176
+#: inc/options/posts/woo-add-to-cart.php:52
+#: inc/options/posts/woo-add-to-cart.php:86
+#: inc/options/posts/woo-add-to-cart.php:94
+#: inc/options/posts/woo-add-to-cart.php:147
+#: inc/options/posts/woo-add-to-cart.php:179
+#: inc/options/posts/woo-add-to-cart.php:220
+#: inc/options/posts/woo-add-to-cart.php:252
+#: inc/options/posts/woo-categories.php:362
+#: inc/options/posts/woo-categories.php:403
+#: inc/options/posts/woo-categories.php:429
+#: inc/options/posts/woo-categories.php:461
+#: inc/options/posts/woo-categories.php:501
+#: inc/options/posts/woo-categories.php:532
+#: inc/options/posts/woo-categories.php:574
+#: inc/options/posts/woo-categories.php:600
+#: inc/options/posts/woo-categories.php:681
+#: inc/options/posts/woo-categories.php:713
+#: inc/options/posts/woo-categories.php:755
+#: inc/options/posts/woo-categories.php:786
+#: inc/options/posts/woo-categories.php:807
+#: inc/options/posts/woo-gallery.php:171 inc/options/posts/woo-gallery.php:201
+#: inc/options/posts/woo-gallery.php:237 inc/options/posts/woo-gallery.php:267
+#: inc/options/posts/woo-general.php:71 inc/options/posts/woo-general.php:98
+#: inc/options/posts/woo-general.php:121 inc/options/posts/woo-general.php:151
+#: inc/options/posts/woo-general.php:187 inc/options/posts/woo-general.php:214
+#: inc/options/posts/woo-general.php:237 inc/options/posts/woo-general.php:267
+#: inc/options/posts/woo-general.php:303 inc/options/posts/woo-general.php:328
+#: inc/options/posts/woo-general.php:351 inc/options/posts/woo-general.php:379
+#: inc/options/posts/woo-general.php:503 inc/options/posts/woo-general.php:538
+#: inc/options/posts/woo-general.php:545 inc/options/posts/woo-general.php:862
+#: inc/options/posts/woo-general.php:892 inc/options/posts/woo-general.php:918
+#: inc/options/posts/woo-general.php:1167
+#: inc/options/posts/woo-general.php:1188
+#: inc/options/posts/woo-product-tabs.php:98
+#: inc/options/posts/woo-product-tabs.php:130
+#: inc/options/posts/woo-single.php:100 inc/options/posts/woo-single.php:139
+#: inc/options/single-elements/author-box.php:229
+#: inc/options/single-elements/author-box.php:334
+#: inc/options/single-elements/author-box.php:367
+#: inc/options/single-elements/author-box.php:406
+#: inc/options/single-elements/post-nav.php:192
+#: inc/options/single-elements/post-share-box.php:466
+#: inc/options/single-elements/post-share-box.php:525
+#: inc/options/single-elements/post-share-box.php:554
+#: inc/options/single-elements/related-posts.php:462
+#: inc/options/single-elements/related-posts.php:516
+#: inc/options/single-elements/related-posts.php:575
+#: inc/panel-builder/footer/copyright/options.php:127
+#: inc/panel-builder/footer/menu/options.php:185
+#: inc/panel-builder/footer/middle-row/options.php:505
+#: inc/panel-builder/footer/socials/options.php:282
+#: inc/panel-builder/footer/socials/options.php:321
+#: inc/panel-builder/footer/socials/options.php:370
+#: inc/panel-builder/footer/widget-area-1/options.php:84
+#: inc/panel-builder/header/button/options.php:330
+#: inc/panel-builder/header/button/options.php:344
+#: inc/panel-builder/header/button/options.php:382
+#: inc/panel-builder/header/button/options.php:394
+#: inc/panel-builder/header/button/options.php:432
+#: inc/panel-builder/header/button/options.php:444
+#: inc/panel-builder/header/button/options.php:507
+#: inc/panel-builder/header/button/options.php:537
+#: inc/panel-builder/header/button/options.php:565
+#: inc/panel-builder/header/cart/options.php:206
+#: inc/panel-builder/header/cart/options.php:237
+#: inc/panel-builder/header/cart/options.php:266
+#: inc/panel-builder/header/cart/options.php:332
+#: inc/panel-builder/header/cart/options.php:362
+#: inc/panel-builder/header/cart/options.php:391
+#: inc/panel-builder/header/cart/options.php:737
+#: inc/panel-builder/header/cart/options.php:758
+#: inc/panel-builder/header/cart/options.php:943
+#: inc/panel-builder/header/cart/options.php:978
+#: inc/panel-builder/header/cart/options.php:1018
+#: inc/panel-builder/header/logo/options.php:421
+#: inc/panel-builder/header/logo/options.php:452
+#: inc/panel-builder/header/logo/options.php:482
+#: inc/panel-builder/header/logo/options.php:563
+#: inc/panel-builder/header/logo/options.php:585
+#: inc/panel-builder/header/logo/options.php:606
+#: inc/panel-builder/header/menu/options.php:223
+#: inc/panel-builder/header/menu/options.php:286
+#: inc/panel-builder/header/menu/options.php:347
+#: inc/panel-builder/header/menu/options.php:732
+#: inc/panel-builder/header/menu/options.php:772
+#: inc/panel-builder/header/menu/options.php:811
+#: inc/panel-builder/header/menu/options.php:881
+#: inc/panel-builder/header/menu/options.php:913
+#: inc/panel-builder/header/menu/options.php:943
+#: inc/panel-builder/header/mobile-menu/options.php:218
+#: inc/panel-builder/header/mobile-menu/options.php:265
+#: inc/panel-builder/header/mobile-menu/options.php:406
+#: inc/panel-builder/header/mobile-menu/options.php:446
+#: inc/panel-builder/header/mobile-menu/options.php:485
+#: inc/panel-builder/header/offcanvas/options.php:206
+#: inc/panel-builder/header/offcanvas/options.php:244
+#: inc/panel-builder/header/offcanvas/options.php:285
+#: inc/panel-builder/header/search/options.php:188
+#: inc/panel-builder/header/search/options.php:219
+#: inc/panel-builder/header/search/options.php:248
+#: inc/panel-builder/header/search/options.php:314
+#: inc/panel-builder/header/search/options.php:346
+#: inc/panel-builder/header/search/options.php:376
+#: inc/panel-builder/header/search/options.php:514
+#: inc/panel-builder/header/search/options.php:544
+#: inc/panel-builder/header/search/options.php:574
+#: inc/panel-builder/header/search/options.php:604
+#: inc/panel-builder/header/search/options.php:635
+#: inc/panel-builder/header/search/options.php:698
+#: inc/panel-builder/header/search/options.php:734
+#: inc/panel-builder/header/search/options.php:773
+#: inc/panel-builder/header/socials/options.php:269
+#: inc/panel-builder/header/socials/options.php:300
+#: inc/panel-builder/header/socials/options.php:329
+#: inc/panel-builder/header/socials/options.php:398
+#: inc/panel-builder/header/socials/options.php:431
+#: inc/panel-builder/header/socials/options.php:462
+#: inc/panel-builder/header/socials/options.php:551
+#: inc/panel-builder/header/socials/options.php:590
+#: inc/panel-builder/header/socials/options.php:629
+#: inc/panel-builder/header/trigger/options.php:202
+#: inc/panel-builder/header/trigger/options.php:233
+#: inc/panel-builder/header/trigger/options.php:262
+#: inc/panel-builder/header/trigger/options.php:329
+#: inc/panel-builder/header/trigger/options.php:360
+#: inc/panel-builder/header/trigger/options.php:389
+#: inc/panel-builder/header/trigger/options.php:472
+#: inc/panel-builder/header/trigger/options.php:512
+#: inc/panel-builder/header/trigger/options.php:550
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/BackgroundModal.js:155
+#: static/js/options/options/background/ImagePicker.js:189
+#: static/js/options/options/background/PatternPicker.js:170
+#: static/js/options/options/ct-border.js:94
+#: static/bundle/customizer-controls.js:14264
+#: static/bundle/customizer-controls.js:14474
+#: static/bundle/customizer-controls.js:14709
+#: static/bundle/customizer-controls.js:15043 static/bundle/options.js:12368
+#: static/bundle/options.js:12578 static/bundle/options.js:12813
+#: static/bundle/options.js:13147
+msgid "Initial"
+msgstr "初始"
+
+#: inc/options/general/cards-reveal-effect.php:13
+msgid "Cards Reveal Effect"
+msgstr "卡片显示效果"
+
+#: inc/options/general/performance.php:34
+msgid "Lazy Load Images"
+msgstr "延迟加载图像"
+
+#: inc/options/general/page-title.php:15
+#: inc/options/general/page-title.php:1302 inc/options/meta/page.php:8
+msgid "Page Title"
+msgstr "页面标题"
+
+#: inc/options/general/sidebar-particular.php:44
+#: inc/options/meta/default.php:65 inc/options/meta/page.php:64
+#: inc/options/meta/post.php:60 inc/options/single-elements/structure.php:47
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: inc/options/general/sidebar-particular.php:39
+#: inc/options/meta/default.php:60 inc/options/meta/page.php:59
+#: inc/options/meta/post.php:55 inc/options/single-elements/structure.php:42
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: inc/options/meta/default.php:55 inc/options/meta/page.php:54
+#: inc/options/meta/post.php:50 inc/options/single-elements/structure.php:37
+msgid "Normal Width"
+msgstr "正常宽度"
+
+#: inc/options/meta/default.php:50 inc/options/meta/page.php:49
+#: inc/options/meta/post.php:45 inc/options/single-elements/structure.php:32
+msgid "Narrow Width"
+msgstr "狭窄宽度"
+
+#: inc/options/meta/default.php:45 inc/options/meta/page.php:44
+#: inc/options/meta/post.php:40
+msgid "Inherit from customizer"
+msgstr "从编辑器继承"
+
+#: inc/options/meta/page.php:23 inc/options/pages/page.php:22
+#: inc/options/posts/woo-single.php:17
+msgid "Page Structure"
+msgstr "页面结构"
+
+#: inc/integrations/beaver-themer.php:8 inc/options/customizer.php:61
+msgid "Header"
+msgstr "页眉"
+
+#: inc/components/back-to-top.php:52
+msgid "Go to top"
+msgstr "转到顶部"
+
+#: inc/options/single-elements/post-share-box.php:180
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/options/general/page-title.php:325
+#: inc/options/general/page-title.php:358
+#: inc/options/general/posts-listing.php:217
+msgid "Title"
+msgstr "标题"
+
+#. Translators: %s is the theme name.
+#: admin/helpers/meta-boxes.php:142
+msgid "%s Settings"
+msgstr "%s 设置"
+
+#: inc/components/pagination.php:38
+msgid "No more posts to load"
+msgstr "没有更多的文章加载"
+
+#: inc/options/single-elements/post-share-box.php:150
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/options/single-elements/post-share-box.php:160
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/single/comments.php:136
+msgid "Website"
+msgstr "站点"
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr "搜索产品 &hellip;"
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr "搜索:"
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:157
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/cart/mini-cart.php:111
+msgid "No products in the cart."
+msgstr "购物车里没有产品。"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:179
+msgid "Subtotal"
+msgstr "小计"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search"
+msgstr "搜索"
+
+#: template-parts/404.php:11
+msgid "It looks like nothing was found at this location. Maybe try to search for something else?"
+msgstr "看起来在这个地方什么也没找到。也许试着搜索其他东西?"
+
+#: template-parts/404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "哎呀! 不能找到该网页。"
+
+#: admin/notices/templates.php:43
+msgid "This way you will have access to custom extensions, demo templates and many other awesome features"
+msgstr "这样你就可以使用自定义扩展, 演示模板和许多其他很棒的功能"
+
+#: admin/notices/templates.php:41 admin/dashboard/static/bundle/main.js:2
+#: admin/dashboard/static/js/screens/Home.js:196
+#: admin/dashboard/static/bundle/main.js:4319
+msgid "Blocksy Companion"
+msgstr "Blocksy Companion"
+
+#: admin/dashboard/core.php:188
+msgid "You do not have sufficient permissions to access this page."
+msgstr "你没有足够的权限访问此页面。"
+
+#: inc/options/general/page-title.php:1271
+#: inc/options/general/page-title.php:1312 inc/options/meta/default.php:142
+#: inc/options/meta/page.php:141 inc/options/meta/post.php:140
+#: inc/options/single-elements/structure.php:113
+#: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
+#: static/js/options/options/background/ImagePicker.js:150
+#: static/bundle/customizer-controls.js:14435 static/bundle/options.js:12539
+msgid "Disabled"
+msgstr "禁止"
+
+#: inc/archive/archive-card.php:240 inc/options/general/posts-listing.php:408
+msgid "Read More"
+msgstr "继续阅读"
+
+#. Theme Name of the theme
+#. Translators: %s is the theme name.
+#: admin/helpers/meta-boxes.php:143
+msgid "Blocksy"
+msgstr "Blocksy"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://creativethemes.com"
+msgstr "https://creativethemes.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "CreativeThemes"
+msgstr "CreativeThemes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://creativethemes.com/blocksy/"
+msgstr "https://creativethemes.com/blocksy/"
