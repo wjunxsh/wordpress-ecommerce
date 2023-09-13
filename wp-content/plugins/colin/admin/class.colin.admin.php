@@ -6,7 +6,7 @@ class ColinAdmin {
     }
     public static function wporg_options_page() {
         add_menu_page(
-           'WPOrg',
+           'Colin test',
            'WPOrg Options',
            'manage_options',
            'wporg',
