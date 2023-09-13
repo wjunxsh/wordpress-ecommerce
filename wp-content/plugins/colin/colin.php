@@ -25,23 +25,14 @@ You should have received a copy of the GNU General Public License
 along with {Plugin Name}. If not, see {URI to Plugin License}.
 
 */
-
-function pluginprefix_install() {
-
+define( 'COLIN_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+require_once( COLIN_PLUGIN_DIR . 'class.akismet.php' );
+if ( is_admin() ) {
+    require_once( COLIN_PLUGIN_DIR . 'admin/class.colin.admin.php' );
+	add_action( 'init', array( 'Akismet_Admin', 'init' ) );
 }
-function pluginprefix_deactivation() {}
-
-function wporg_custom() {
-    // 执行某些操作
-}
-add_action('init', 'wporg_custom');
-
-function wporg_filter_title($title) {
-    return '文章：' . $title . '已被修改。';
-}
-add_filter('the_title', 'wporg_filter_title');
 
 //初始化插件,激活
-register_activation_hook( __FILE__, 'pluginprefix_install' );
+register_activation_hook( __FILE__, array( 'Colin', 'plugin_activation' ) );
 //撤销激活
-register_deactivation_hook( __FILE__, 'pluginprefix_deactivation' );
+register_deactivation_hook( __FILE__, array( 'Colin', 'plugin_deactivation' ) );
