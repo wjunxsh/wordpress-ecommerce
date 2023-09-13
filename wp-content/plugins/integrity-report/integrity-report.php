@@ -51,6 +51,8 @@ function integrity_report_form() {
         }
         
     }
+    $error = get_query_var('error');
+    echo $error;
     echo '<p>Error:===========sdfasdfafafafafd</p>'.$_GET['error'];
     ob_start(); // start print
     
