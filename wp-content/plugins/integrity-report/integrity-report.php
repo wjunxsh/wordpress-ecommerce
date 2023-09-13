@@ -172,6 +172,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
     (function() {
       'use strict';
       window.addEventListener('load', function() {
+        console.log('sdfafasf--------');
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
       var forms = document.getElementsByClassName('needs-validation');
       // Loop over them and prevent submission
