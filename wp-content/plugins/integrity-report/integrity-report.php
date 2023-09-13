@@ -137,6 +137,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
       </div>
     </div>
     <div style="margin-top: 30px; text-align: center;">
+    <div class="g-recaptcha" data-sitekey="6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></div>
       <button
 		class="g-recaptcha btn btn-primary"
 		data-sitekey="6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"
@@ -146,14 +147,6 @@ If the format or size of the uploaded attachment does not meet the requirements,
     </div>
     </form>
     <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></script>
-    <script>
-function onClick(e) {
-  e.preventDefault();
-  grecaptcha.enterprise.ready(async () => {
-    const token = await grecaptcha.enterprise.execute('6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR', {action: 'LOGIN'});
-  });
-}
-</script>
     <script>
     document.getElementById('reporter-realname').addEventListener('click', function(e) {
       document.getElementById('reporter-fields').style.display = 'block';
