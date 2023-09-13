@@ -45,6 +45,7 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 function integrity_report_form() {
     ob_start(); // start print
     ?>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></script>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
     
@@ -137,16 +138,15 @@ If the format or size of the uploaded attachment does not meet the requirements,
       </div>
     </div>
     <div style="margin-top: 30px; text-align: center;">
-    <div class="g-recaptcha" data-sitekey="6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"></div>
       <button
 		class="g-recaptcha btn btn-primary"
-		data-sitekey="6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"
+		data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
     </div>
     </form>
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"></script>
+    
     <script>
     document.getElementById('reporter-realname').addEventListener('click', function(e) {
       document.getElementById('reporter-fields').style.display = 'block';
