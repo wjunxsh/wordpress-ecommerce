@@ -43,6 +43,15 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 
 // Integrity Report Form
 function integrity_report_form() {
+    if (isset($_GET['error'])) {
+        if ($_GET['error'] === 'nonce_failed') {
+            echo '<p>Error: Nonce check failed.</p>';
+        } elseif ($_GET['error'] === 'invalid_data') {
+            echo '<p>Error: Invalid data.</p>';
+        }
+        
+    }
+    echo '<p>Error:===========sdfasdfafafafafd</p>'.$_GET['error'];
     ob_start(); // start print
     
     ?>
@@ -50,14 +59,8 @@ function integrity_report_form() {
         <input type="hidden" name="action" value="integrity_report_form">
     <?php
      wp_nonce_field('integrity_report_form_nonce');
-     if (isset($_GET['error'])) {
-        if ($_GET['error'] === 'nonce_failed') {
-            echo '<p>Error: Nonce check failed.</p>';
-        } elseif ($_GET['error'] === 'invalid_data') {
-            echo '<p>Error: Invalid data.</p>';
-        }
-    }
-       echo '<p>Error:===========sdfasdfafafafafd</p>'.$_GET['error'];
+     
+       
     ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
     <div class="form-check form-check-inline" id="reporter-realname">
