@@ -57,7 +57,7 @@ function integrity_report_form() {
             echo '<p>Error: Invalid data.</p>';
         }
     }
-       echo '<p>Error:===========sdfasdfafafafafd</p>';
+       echo '<p>Error:===========sdfasdfafafafafd</p>'.$_GET['error'];
     ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
     <div class="form-check form-check-inline" id="reporter-realname">
