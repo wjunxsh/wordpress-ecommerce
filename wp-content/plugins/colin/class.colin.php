@@ -8,6 +8,7 @@ Class Colin {
         self::initTable();
     }
     public static function plugin_deactivation() {
+        echo "test---------卸载";
         global $wpdb;
         $table_name = $wpdb->prefix . 'colin_test'; // 你的表格名
         $sql = "DROP TABLE $table_name;";
