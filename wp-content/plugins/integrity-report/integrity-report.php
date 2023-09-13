@@ -45,7 +45,7 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 function integrity_report_form() {
     ob_start(); // start print
     ?>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></script>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
     
@@ -140,7 +140,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
     <div style="margin-top: 30px; text-align: center;">
       <button
 		class="g-recaptcha btn btn-primary"
-		data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"
+		data-sitekey="6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
