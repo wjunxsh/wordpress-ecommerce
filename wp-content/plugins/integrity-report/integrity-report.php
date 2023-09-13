@@ -146,7 +146,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
 		style="min-width: 180px;">Submit</button>
     </div>
     </form>
-    <script src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></script>
     <script>
     document.getElementById('reporter-realname').addEventListener('click', function(e) {
       document.getElementById('reporter-fields').style.display = 'block';
