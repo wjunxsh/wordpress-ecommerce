@@ -44,6 +44,15 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 // Integrity Report Form
 function integrity_report_form() {
     ob_start(); // start print
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        if (is_wp_error($result)) {
+            // 显示错误消息
+            echo '<p>Error: ' . $result->get_error_message() . '</p>';
+        } else {
+            // 显示成功消息
+            echo '<p>Form submitted successfully.</p>';
+        }
+    }
     ?>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
