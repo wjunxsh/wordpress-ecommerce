@@ -31,6 +31,6 @@ Class Colin {
         $table_name = $wpdb->prefix . 'colin_test'; // 你的表格名
         $sql = "DROP TABLE $table_name;";
         require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-        $wpdb->query($sql)
+        $wpdb->query($sql);
     }
 }
