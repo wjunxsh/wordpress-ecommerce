@@ -245,6 +245,7 @@ function integrity_report_handle_form_submit() {
 
     if (true == $result['success']) {
         wp_mail($to, $subject, $message, $headers);
+        return new WP_Error( 'invalid_data', 'Google Auth failed.' );
     } else {
         return new WP_Error( 'invalid_data', 'Google Auth failed.' );
     }
