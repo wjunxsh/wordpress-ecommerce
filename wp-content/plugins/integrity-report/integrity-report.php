@@ -137,16 +137,16 @@ If the format or size of the uploaded attachment does not meet the requirements,
       </div>
     </div>
     <div style="margin-top: 30px; text-align: center;">
-    <div class="g-recaptcha" data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></div>
+    <div class="g-recaptcha" data-sitekey="6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"></div>
       <button
 		class="g-recaptcha btn btn-primary"
-		data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"
+		data-sitekey="6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
     </div>
     </form>
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lcn4B8oAAAAAK8MG3hj0ySFMWP8IfriBePS4aOn"></script>
     <script>
     document.getElementById('reporter-realname').addEventListener('click', function(e) {
       document.getElementById('reporter-fields').style.display = 'block';
