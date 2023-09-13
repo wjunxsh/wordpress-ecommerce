@@ -9,6 +9,12 @@ Author: Anker DTC IT
 // Integrity Report Agree Bar
 function integrity_report_bar() {
   ob_start();
+  if (isset($_SESSION['my_form_error'])) {
+    echo '<p>Error: ' . $_SESSION['my_form_error'] . '</p>';
+
+    // 清除错误消息
+    unset($_SESSION['my_form_error']);
+   }
   ?>
   <div class="integrity_report_bar">
     <span id="statement_span">
@@ -44,15 +50,6 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 // Integrity Report Form
 function integrity_report_form() {
     ob_start(); // start print
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if (is_wp_error($result)) {
-            // 显示错误消息
-            echo '<p>Error: ' . $result->get_error_message() . '</p>';
-        } else {
-            // 显示成功消息
-            echo '<p>Form submitted successfully.</p>';
-        }
-    }
     ?>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
@@ -254,9 +251,13 @@ function integrity_report_handle_form_submit() {
 
     if (true == $result['success']) {
         wp_mail($to, $subject, $message, $headers);
-        return new WP_Error( 'invalid_data', 'Google Auth failed.' );
     } else {
-        return new WP_Error( 'invalid_data', 'Google Auth failed.' );
+        $error = new WP_Error('invalid_data', 'The data provided is invalid.');
+
+        if (is_wp_error($error)) {
+            // 将错误消息保存到会话中
+            $_SESSION['my_form_error'] = $error->get_error_message();
+        }
     }
     
     // back to original url
