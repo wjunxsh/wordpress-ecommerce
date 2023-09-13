@@ -46,7 +46,7 @@ function integrity_report_form() {
     ob_start(); // start print
     ?>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></script>
-    <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
+    <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" id='colin-test' class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
     
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
@@ -174,18 +174,16 @@ If the format or size of the uploaded attachment does not meet the requirements,
       window.addEventListener('load', function() {
         console.log('sdfafasf--------');
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation');
+      var form = document.getElementById('colin-test');
       // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
-            console.log('出发了 submit------');
+      form.addEventListener('submit', function(event) {
+        console.log('出发了 submit------');
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
         }
         form.classList.add('was-validated');
         }, false);
-      });
       }, false);
     })();
     function onSubmit(token) {
