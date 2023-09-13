@@ -139,12 +139,21 @@ If the format or size of the uploaded attachment does not meet the requirements,
     <div style="margin-top: 30px; text-align: center;">
       <button
 		class="g-recaptcha btn btn-primary"
-		data-sitekey="6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh"
+		data-sitekey="6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
     </div>
     </form>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></script>
+    <script>
+function onClick(e) {
+  e.preventDefault();
+  grecaptcha.enterprise.ready(async () => {
+    const token = await grecaptcha.enterprise.execute('6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR', {action: 'LOGIN'});
+  });
+}
+</script>
     <script>
     document.getElementById('reporter-realname').addEventListener('click', function(e) {
       document.getElementById('reporter-fields').style.display = 'block';
@@ -218,7 +227,7 @@ function integrity_report_handle_form_submit() {
     // send email
     $to = '1053249119@qq.com';
     $subject = 'Integrity Reporting';
-    $message = 'Form data: ' . print_r($_POST, true);
+    $message = 'Form data: ' . $report_description;
     $headers = array('Content-Type: text/html; charset=UTF-8');
     wp_mail($to, $subject, $message, $headers);
     
