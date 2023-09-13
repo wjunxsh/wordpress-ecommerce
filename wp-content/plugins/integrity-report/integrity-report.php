@@ -56,6 +56,7 @@ function integrity_report_form() {
         // 清除错误消息
         unset($_SESSION['my_form_error']);
        }
+       echo '<p>Error:===========sdfasdfafafafafd</p>';
     ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
     <div class="form-check form-check-inline" id="reporter-realname">
