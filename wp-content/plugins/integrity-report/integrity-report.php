@@ -47,7 +47,9 @@ function integrity_report_form() {
     ?>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
-    
+    <?php
+     wp_nonce_field('integrity_report_form_nonce');
+    ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
     <div class="form-check form-check-inline" id="reporter-realname">
       <input class="form-check-input" type="radio" name="anonymous" id="realname" checked>
@@ -226,7 +228,7 @@ function integrity_report_handle_form_submit() {
     $message = 'Form data: daf-----';
     $headers = array('Content-Type: text/html; charset=UTF-8');
     //wp_mail($to, $subject, $message, $headers);
-    check_admin_referer('my_recaptcha_form_nonce');
+    check_admin_referer('integrity_report_form_nonce');
 
     $recaptcha_response = sanitize_text_field($_POST['g-recaptcha-response']);
 
