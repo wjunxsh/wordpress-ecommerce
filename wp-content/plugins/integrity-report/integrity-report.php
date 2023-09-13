@@ -50,12 +50,13 @@ function integrity_report_form() {
         <input type="hidden" name="action" value="integrity_report_form">
     <?php
      wp_nonce_field('integrity_report_form_nonce');
-     if (isset($_SESSION['my_form_error'])) {
-        echo '<p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p>';
-    
-        // 清除错误消息
-        unset($_SESSION['my_form_error']);
-       }
+     if (isset($_GET['error'])) {
+        if ($_GET['error'] === 'nonce_failed') {
+            echo '<p>Error: Nonce check failed.</p>';
+        } elseif ($_GET['error'] === 'invalid_data') {
+            echo '<p>Error: Invalid data.</p>';
+        }
+    }
        echo '<p>Error:===========sdfasdfafafafafd</p>';
     ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
@@ -253,13 +254,13 @@ function integrity_report_handle_form_submit() {
 
     if (true == $result['success']) {
         wp_mail($to, $subject, $message, $headers);
-        $_SESSION['my_form_error'] = 'hahahaha ahahaa a=====';
+        wp_safe_redirect(add_query_arg('error', 'invalid_data', $_SERVER['HTTP_REFERER']));
     } else {
-        $_SESSION['my_form_error'] = 'hahahaha ahahaa asss=====';
+        wp_safe_redirect(add_query_arg('error', 'invalid_data', $_SERVER['HTTP_REFERER']));
     }
     
     // back to original url
-    wp_redirect($_SERVER['HTTP_REFERER']);
+    wp_safe_redirect($_SERVER['HTTP_REFERER']);
     exit;
     
 }
