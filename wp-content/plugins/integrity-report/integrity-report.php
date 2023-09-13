@@ -189,7 +189,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
     function onSubmit(token) {
         console.log('safa--ffffff');
         event.preventDefault();
-        //document.getElementsByClassName('needs-validation')[0].submit();
+        document.getElementsByClassName('needs-validation')[0].submit();
     }
     </script>
   <style>
