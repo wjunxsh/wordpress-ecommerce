@@ -253,19 +253,9 @@ function integrity_report_handle_form_submit() {
 
     if (true == $result['success']) {
         wp_mail($to, $subject, $message, $headers);
-        $error = new WP_Error('invalid_data', 'The data provided is invalid.');
-
-        if (is_wp_error($error)) {
-            // 将错误消息保存到会话中
-            $_SESSION['my_form_error'] = $error->get_error_message();
-        }
+        $_SESSION['my_form_error'] = 'hahahaha ahahaa a=====';
     } else {
-        $error = new WP_Error('invalid_data', 'The data provided is invalid.');
-
-        if (is_wp_error($error)) {
-            // 将错误消息保存到会话中
-            $_SESSION['my_form_error'] = $error->get_error_message();
-        }
+        $_SESSION['my_form_error'] = 'hahahaha ahahaa asss=====';
     }
     
     // back to original url
