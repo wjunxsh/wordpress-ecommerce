@@ -29,7 +29,7 @@ define( 'COLIN_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 require_once( COLIN_PLUGIN_DIR . 'class.akismet.php' );
 if ( is_admin() ) {
     require_once( COLIN_PLUGIN_DIR . 'admin/class.colin.admin.php' );
-	add_action( 'init', array( 'Akismet_Admin', 'init' ) );
+	add_action( 'init', array( 'ColinAdmin', 'init' ) );
 }
 
 //初始化插件,激活

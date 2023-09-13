@@ -10,7 +10,7 @@ class ColinAdmin {
            'WPOrg Options',
            'manage_options',
            'wporg',
-           'wporg_options_page_html',
+           array('ColinAdmin','wporg_options_page_html'),
            plugin_dir_url(__FILE__) . 'images/colin.icon.jpeg',
            20
         );
