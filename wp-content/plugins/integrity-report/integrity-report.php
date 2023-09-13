@@ -216,7 +216,7 @@ function integrity_report_handle_form_submit() {
     $attachment = $_FILES['report_attachment'];
 
     // send email
-    $to = 'shady.duan@anker-in.com';
+    $to = '1053249119@qq.com';
     $subject = 'Integrity Reporting';
     $message = 'Form data: ' . print_r($_POST, true);
     $headers = array('Content-Type: text/html; charset=UTF-8');
