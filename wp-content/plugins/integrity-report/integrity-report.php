@@ -140,6 +140,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
     <div class="g-recaptcha" data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"></div>
       <button
 		class="g-recaptcha btn btn-primary"
+		data-sitekey="6LdaBSAoAAAAAM1Uh7KlrYTVp8fh6RuchR6XTtdo"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
