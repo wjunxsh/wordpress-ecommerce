@@ -248,14 +248,14 @@ function integrity_report_handle_form_submit() {
 
     $response_body = wp_remote_retrieve_body($response);
     $result = json_decode($response_body, true);
-
+    echo 'sdfasfdasdfas';
+    exit;
     if (true == $result['success']) {
         wp_mail($to, $subject, $message, $headers);
         wp_safe_redirect(add_query_arg('error', 'invalid_data', $_SERVER['HTTP_REFERER']));
         exit;
     } else {
-        wp_safe_redirect(add_query_arg('error', 'invalid_data', $_SERVER['HTTP_REFERER']));
-        exit;
+       
     }
     
     // back to original url
