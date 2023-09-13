@@ -177,6 +177,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
       // Loop over them and prevent submission
       var validation = Array.prototype.filter.call(forms, function(form) {
         form.addEventListener('submit', function(event) {
+            console.log('出发了 submit------');
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
@@ -186,6 +187,10 @@ If the format or size of the uploaded attachment does not meet the requirements,
       });
       }, false);
     })();
+    function onSubmit(token) {
+        console.log('safa--ffffff');
+        document.getElementsByClassName('needs-validation').submit();
+    }
     </script>
   <style>
     #addmore, #remove { margin-top: 39px; }
