@@ -44,17 +44,18 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 // Integrity Report Form
 function integrity_report_form() {
     ob_start(); // start print
-    if (isset($_SESSION['my_form_error'])) {
-        echo '<p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p>';
     
-        // 清除错误消息
-        unset($_SESSION['my_form_error']);
-       }
     ?>
     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
     <?php
      wp_nonce_field('integrity_report_form_nonce');
+     if (isset($_SESSION['my_form_error'])) {
+        echo '<p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p><p>Error: ' . $_SESSION['my_form_error'] . '</p>';
+    
+        // 清除错误消息
+        unset($_SESSION['my_form_error']);
+       }
     ?>
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
     <div class="form-check form-check-inline" id="reporter-realname">
