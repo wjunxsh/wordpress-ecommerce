@@ -45,8 +45,7 @@ add_shortcode('integrity_report_bar', 'integrity_report_bar');
 function integrity_report_form() {
     ob_start(); // start print
     ?>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"></script>
-    <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" id='colin-test' class="needs-validation" novalidate>
+    <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
         <input type="hidden" name="action" value="integrity_report_form">
     
     <h3 style="margin-top: 30px;">Basic information of reportor</h3>
@@ -140,7 +139,7 @@ If the format or size of the uploaded attachment does not meet the requirements,
     <div style="margin-top: 30px; text-align: center;">
       <button
 		class="g-recaptcha btn btn-primary"
-		data-sitekey="6Lemeh8oAAAAAA3VGSIqTEB2rn47oG-yQWJmFicR"
+		data-sitekey="6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3"
 		data-callback="onSubmit"
 		data-action="submit"
 		style="min-width: 180px;">Submit</button>
@@ -172,24 +171,23 @@ If the format or size of the uploaded attachment does not meet the requirements,
     (function() {
       'use strict';
       window.addEventListener('load', function() {
-        console.log('sdfafasf--------');
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var form = document.getElementById('colin-test');
+      var forms = document.getElementsByClassName('needs-validation');
       // Loop over them and prevent submission
-      form.addEventListener('submit', function(event) {
-        console.log('出发了 submit------');
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
         }
         form.classList.add('was-validated');
         }, false);
+      });
       }, false);
     })();
     function onSubmit(token) {
-        console.log('safa--ffffff');
         event.preventDefault();
-        //document.getElementsByClassName('needs-validation')[0].submit();
+        document.getElementsByClassName('needs-validation')[0].submit();
     }
     </script>
   <style>
@@ -225,13 +223,39 @@ function integrity_report_handle_form_submit() {
     // send email
     $to = '1053249119@qq.com';
     $subject = 'Integrity Reporting';
-    $message = 'Form data: ' . $report_description;
+    $message = 'Form data: daf-----';
     $headers = array('Content-Type: text/html; charset=UTF-8');
-    wp_mail($to, $subject, $message, $headers);
+    //wp_mail($to, $subject, $message, $headers);
+    check_admin_referer('my_recaptcha_form_nonce');
+
+    $recaptcha_response = sanitize_text_field($_POST['g-recaptcha-response']);
+
+    $response = wp_remote_post('https://www.google.com/recaptcha/api/siteverify', [
+        'body' => [
+            'secret'   => '6LfBRSAoAAAAAFoenTzFYE9KXJeDAwFg1DAAFZi_',
+            'response' => $recaptcha_response,
+            'remoteip' => $_SERVER['REMOTE_ADDR']
+        ]
+    ]);
+
+    $response_body = wp_remote_retrieve_body($response);
+    $result = json_decode($response_body, true);
+
+    if (true == $result['success']) {
+        wp_mail($to, $subject, $message, $headers);
+    } else {
+        return new WP_Error( 'invalid_data', 'Google Auth failed.' );
+    }
     
     // back to original url
     wp_redirect($_SERVER['HTTP_REFERER']);
     exit;
+   
 }
 add_action('admin_post_nopriv_integrity_report_form', 'integrity_report_handle_form_submit');
 add_action('admin_post_integrity_report_form', 'integrity_report_handle_form_submit');
+add_action('wp_enqueue_scripts', 'my_recaptcha_script');
+
+function my_recaptcha_script() {
+    wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3', [], null, true);
+}
