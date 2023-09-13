@@ -261,8 +261,14 @@ function integrity_report_handle_form_submit() {
     // back to original url
     wp_redirect($_SERVER['HTTP_REFERER']);
     exit;
-   
+    
 }
+function start_session() {
+    if (!session_id()) {
+        session_start();
+    }
+}
+add_action('init', 'start_session', 1);
 add_action('admin_post_nopriv_integrity_report_form', 'integrity_report_handle_form_submit');
 add_action('admin_post_integrity_report_form', 'integrity_report_handle_form_submit');
 add_action('wp_enqueue_scripts', 'my_recaptcha_script');
