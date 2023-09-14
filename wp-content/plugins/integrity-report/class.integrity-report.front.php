@@ -1,8 +1,9 @@
 <?php
 class IntegrityReportFront {
     public static function init() {
+      add_shortcode('integrity_report_bar', array('IntegrityReportFront','integrity_report_bar'));
         add_shortcode('integrity_report_form', array('IntegrityReportFront','integrity_report_form'));
-        add_shortcode('integrity_report_bar', array('IntegrityReportFront','integrity_report_bar'));
+       
         self::my_recaptcha_script();
     }
     public static function integrity_report_bar() {
@@ -197,7 +198,7 @@ class IntegrityReportFront {
         return ob_get_clean(); // 清理缓冲区并返回内容
     }
 
-    function my_recaptcha_script() {
+    public static function my_recaptcha_script() {
         wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3', [], null, true);
     }
 }

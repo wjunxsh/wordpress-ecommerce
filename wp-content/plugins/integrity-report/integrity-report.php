@@ -10,7 +10,7 @@ Author: Anker DTC IT
 
 // process submit form
 define( 'INTEGRITY_REPORT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-require_once( INTEGRITY_REPORT_PLUGIN_DIR . 'class.integrity-report.backend.php' );
+require_once( INTEGRITY_REPORT_PLUGIN_DIR . 'claaa.integrity-report.backend.php' );
 require_once( INTEGRITY_REPORT_PLUGIN_DIR . 'class.integrity-report.front.php' );
 IntegrityReportBackend::init();
 IntegrityReportFront::init();
