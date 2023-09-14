@@ -9,7 +9,6 @@ class IntegrityReportFront {
     public static function integrity_report_bar() {
         ob_start();
         ?>
-        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
         <div class="integrity_report_bar">
           <span id="statement_span">
             <input type="checkbox" id="statement_checkbox" />
@@ -44,6 +43,8 @@ class IntegrityReportFront {
         ob_start(); // start print
         
         ?>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
+        
         <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
             <input type="hidden" name="action" value="integrity_report_form">
         <?php
