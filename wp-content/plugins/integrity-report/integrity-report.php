@@ -2,7 +2,7 @@
 /*
 Plugin Name: Integrity Report
 Description: This is a plugin that show a integrity report form and sends data to pr via SMTP.
-Version: 1.0
+Version: 1.0.2
 Author: Anker DTC IT
 */
 
