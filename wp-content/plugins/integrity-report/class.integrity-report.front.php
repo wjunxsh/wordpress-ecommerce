@@ -4,11 +4,12 @@ class IntegrityReportFront {
       add_shortcode('integrity_report_bar', array('IntegrityReportFront','integrity_report_bar'));
         add_shortcode('integrity_report_form', array('IntegrityReportFront','integrity_report_form'));
        
-        self::my_recaptcha_script();
+        //self::my_recaptcha_script();
     }
     public static function integrity_report_bar() {
         ob_start();
         ?>
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
         <div class="integrity_report_bar">
           <span id="statement_span">
             <input type="checkbox" id="statement_checkbox" />
@@ -187,7 +188,9 @@ class IntegrityReportFront {
         })();
         function onSubmit(token) {
             event.preventDefault();
-            document.getElementsByClassName('needs-validation')[0].submit();
+            event.stopPropagation();
+            let form = document.getElementsByClassName('needs-validation')[0];
+
         }
         </script>
       <style>
@@ -198,7 +201,7 @@ class IntegrityReportFront {
         return ob_get_clean(); // 清理缓冲区并返回内容
     }
 
-    public static function my_recaptcha_script() {
-        wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh', [], null, true);
-    }
+    // public static function my_recaptcha_script() {
+    //     wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh', [], '1.0.0', []);
+    // }
 }
