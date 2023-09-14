@@ -39,9 +39,10 @@ class IntegrityReportShortcode {
 
     public static function integrity_report_form() {
         ob_start(); // start print
-        
+        //6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3
+        //线上  
         ?>
-        <script type="text/javascript" src="https://www.recaptcha.net/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
+        <script type="text/javascript" src="https://www.recaptcha.net/recaptcha/api.js?render=6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3" async defer></script>
         <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
             <input type="hidden" name="action" value="integrity_report_form">
         <?php
