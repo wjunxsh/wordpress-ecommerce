@@ -139,7 +139,7 @@ class IntegrityReportFront {
         <div style="margin-top: 30px; text-align: center;">
           <button
             class="g-recaptcha btn btn-primary"
-            data-sitekey="6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3"
+            data-sitekey="6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh"
             data-callback="onSubmit"
             data-action="submit"
             style="min-width: 180px;">Submit</button>
@@ -199,6 +199,6 @@ class IntegrityReportFront {
     }
 
     public static function my_recaptcha_script() {
-        wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LfBRSAoAAAAAHaaD8l0UJkepX90x4Fi5pKMpcD3', [], null, true);
+        wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh', [], null, true);
     }
 }

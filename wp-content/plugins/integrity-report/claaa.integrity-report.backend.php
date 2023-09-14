@@ -37,7 +37,7 @@ class IntegrityReportBackend {
 
     $response = wp_remote_post('https://www.google.com/recaptcha/api/siteverify', [
         'body' => [
-            'secret'   => '6LfBRSAoAAAAAFoenTzFYE9KXJeDAwFg1DAAFZi_',
+            'secret'   => '6LcoVRwoAAAAAEgoFUp9nrnvVzIK6WixzS1Ljs2t',
             'response' => $recaptcha_response,
             'remoteip' => $_SERVER['REMOTE_ADDR']
         ]
