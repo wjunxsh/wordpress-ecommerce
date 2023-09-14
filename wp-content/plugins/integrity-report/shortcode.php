@@ -1,10 +1,8 @@
 <?php
-class IntegrityReportFront {
+class IntegrityReportShortcode {
     public static function init() {
-      add_shortcode('integrity_report_bar', array('IntegrityReportFront','integrity_report_bar'));
-        add_shortcode('integrity_report_form', array('IntegrityReportFront','integrity_report_form'));
-       
-        //self::my_recaptcha_script();
+      add_shortcode('integrity_report_bar', array('IntegrityReportShortcode','integrity_report_bar'));
+      add_shortcode('integrity_report_form', array('IntegrityReportShortcode','integrity_report_form'));
     }
     public static function integrity_report_bar() {
         ob_start();
@@ -43,8 +41,7 @@ class IntegrityReportFront {
         ob_start(); // start print
         
         ?>
-        <script src="https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
-        
+        <script type="text/javascript" src="https://www.recaptcha.net/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh" async defer></script>
         <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data" class="needs-validation" novalidate>
             <input type="hidden" name="action" value="integrity_report_form">
         <?php
@@ -64,7 +61,7 @@ class IntegrityReportFront {
             <div class="form-row">
               <div class="form-group col-md-4 required">
                 <label for="reporter_name" class="required">Name</label>
-                <input type="text" class="form-control" id="reporter_name" required>
+                <input type="text" name="reporter-name" class="form-control" id="reporter_name" required>
                 <div class="invalid-feedback">Please input your name.</div>
               </div>
             </div>
@@ -72,17 +69,17 @@ class IntegrityReportFront {
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="reporter_email">Email</label>
-                <input type="email" class="form-control" id="reporter_email">
+                <input type="email" name="reporter-email" class="form-control" id="reporter_email">
               </div>
               <div class="form-group col-md-4">
                 <label for="reporter_phone">TEL</label>
-                <input type="phone" class="form-control" id="reporter_phone">
+                <input type="phone" name="reporter-phone" class="form-control" id="reporter_phone">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-4">
                 <lable for="reporter_im">Other contacts information</label>
-                <input type="other" class="form-control" id="reporter_im" placeholder="(whatapp etc)">
+                <input type="other" name="reporter-im" class="form-control" id="reporter_im" placeholder="(whatapp etc)">
               </div>
             </div>
           </div>
@@ -95,19 +92,19 @@ class IntegrityReportFront {
               <div class="form-row">
                 <div class="form-group col-md-4">
                   <label for="stuff_name[]">Staff name</label>
-                  <input type="text" class="form-control" id="stuff_name[]">
+                  <input type="text" name="stuff-name[]" class="form-control" id="stuff_name[]">
                 </div>
                 <div class="form-group col-md-4">
                   <label for="stuff_number[]">Staff number</label>
-                  <input type="text" class="form-control" id="stuff_number[]">
+                  <input type="text" name="stuff-number[]" class="form-control" id="stuff_number[]">
                 </div>
                 <div class="form-group col-md-4">
                   <label for="stuff_email[]">Staff email address</label>
-                  <input type="text" class="form-control" id="stuff_email[]">
+                  <input type="text" name="stuff-email[]" class="form-control" id="stuff_email[]">
                 </div>
                 <div class="form-group col-md-4">
                   <label for="stuff_department[]">Staff department</label>
-                  <input type="text" class="form-control" id="stuff_department[]">
+                  <input type="text" name="stuff-department[]" class="form-control" id="stuff_department[]">
                 </div>
                 <div class="form-group col-md-4">
                   <button type="button" class="btn btn-light" id="addmore">Add more</button>
@@ -122,18 +119,18 @@ class IntegrityReportFront {
           <div class="card-body">
             <div class="form-group">
               <label for="report_title" class="required">Reporting title</label>
-              <input type="text" class="form-control" id="report_title" required>
+              <input type="text" name="report-title" class="form-control" id="report_title" required>
               <div class="invalid-feedback">Please input the report title.</div>
             </div>
             <div class="form-group">
-              <label for="report_content" class="required">Reporting details</label>
-              <textarea type="text" class="form-control" id="report_content" rows="3" required></textarea>
+              <label for="report_details" class="required">Reporting details</label>
+              <textarea type="text" name="report-details" class="form-control" id="report_details" rows="3" required></textarea>
               <div class="invalid-feedback">Please input the report details.</div>
             </div>
             <div class="form-group">
               <label for="report_attachment">Supporting documents</label>
-              <input type="file" class="form-control" id="report_attachment" aria-describedby="attachmentHelp">
-              <small id="attachmentHelp" class="form-text text-muted">（The maximum attachment size is <red>50M</red>, and the acceptable formats are gif, jpg, png, jpeg, bmp, doc, ppt, xls, xlsx, docx, pptx, zip, rar, pdf.
+              <input type="file" name="report-attachment" class="form-control" id="report_attachment" aria-describedby="attachmentHelp">
+              <small id="attachmentHelp" class="form-text text-mutebood">（The maximum attachment size is <red>50M</red>, and the acceptable formats are gif, jpg, png, jpeg, bmp, doc, ppt, xls, xlsx, docx, pptx, zip, rar, pdf.
     If the format or size of the uploaded attachment does not meet the requirements, you can send the attachment to <a href="mailto: jubao@anker.com">jubao@anker.com</a>.）</small>
             </div>
           </div>
@@ -159,10 +156,10 @@ class IntegrityReportFront {
           if (e.target.id === 'addmore') {
             var div = document.createElement('div');
             div.className = 'form-row';
-            div.innerHTML = '<div class="form-group col-md-4"><label for="stuff_name[]">Stuff name</label><input type="text" class="form-control" id="stuff_name[]"></div>' +
-                '<div class="form-group col-md-4"><label for="stuff_number[]">Staff number</label><input type="text" class="form-control" id="stuff_number[]"></div>' +
-                '<div class="form-group col-md-4"><label for="stuff_email[]">Staff email address</label><input type="text" class="form-control" id="stuff_email[]"></div>' +
-                '<div class="form-group col-md-4"><label for="stuff_department[]">Staff department</label><input type="text" class="form-control" id="stuff_department[]"></div>' +
+            div.innerHTML = '<div class="form-group col-md-4"><label for="stuff_name[]">Stuff name</label><input type="text" id="stuff-name[]" class="form-control" id="stuff_name[]"></div>' +
+                '<div class="form-group col-md-4"><label for="stuff_number[]">Staff number</label><input type="text" id="stuff-number[]" class="form-control" id="stuff_number[]"></div>' +
+                '<div class="form-group col-md-4"><label for="stuff_email[]">Staff email address</label><input type="text" id="stuff-email[]" class="form-control" id="stuff_email[]"></div>' +
+                '<div class="form-group col-md-4"><label for="stuff_department[]">Staff department</label><input type="text" id="stuff-department[]" class="form-control" id="stuff_department[]"></div>' +
               '<div class="form-group col-md-4"><button type="button" class="btn btn-dark" id="remove">Remove</button></div>';
             document.getElementById('reported_person').appendChild(div);
           }
@@ -170,28 +167,16 @@ class IntegrityReportFront {
             e.target.parentNode.parentNode.remove();
           }
         });
-        (function() {
-          'use strict';
-          window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-            }, false);
-          });
-          }, false);
-        })();
         function onSubmit(token) {
             event.preventDefault();
             event.stopPropagation();
             let form = document.getElementsByClassName('needs-validation')[0];
-
+			if (form.checkValidity()) {
+				form.submit();
+			} else {
+				$('html, body').scrollTop($(".form-control:invalid").first().offset().top - 300);
+			}
+			form.classList.add('was-validated');
         }
         </script>
       <style>
@@ -201,8 +186,4 @@ class IntegrityReportFront {
         <?php
         return ob_get_clean(); // 清理缓冲区并返回内容
     }
-
-    // public static function my_recaptcha_script() {
-    //     wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js?render=6LcoVRwoAAAAACzZKSjLMwj7edwH02_Z7_bzF3Wh', [], '1.0.0', []);
-    // }
 }

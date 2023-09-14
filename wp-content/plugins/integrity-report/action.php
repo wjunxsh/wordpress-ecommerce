@@ -1,9 +1,9 @@
 <?php
 
-class IntegrityReportBackend {
+class IntegrityReportAction {
     public static function init() {
-        add_action('admin_post_nopriv_integrity_report_form', array('IntegrityReportBackend','integrity_report_handle_form_submit'));
-        add_action('admin_post_integrity_report_form', array('IntegrityReportBackend','integrity_report_handle_form_submit'));
+        add_action('admin_post_nopriv_integrity_report_form', array('IntegrityReportAction','integrity_report_handle_form_submit'));
+        add_action('admin_post_integrity_report_form', array('IntegrityReportAction','integrity_report_handle_form_submit'));
     }
     public static function integrity_report_handle_form_submit(){
         // reporter
